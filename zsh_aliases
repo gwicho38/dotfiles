@@ -1,7 +1,11 @@
 alias repos='cd ~/repos';
 alias sz='source ~/.zshrc';
-alias dots='cd ~/.dotfiles'
+alias dot='cd ~/.dotfiles'
 alias ekitty='nvim ~/.dotfiles/config/kitty/kitty.conf'
 alias ez='nvim ~/.zshrc'
-alias ea='nvim ~/.zsh_aliases'
+alias ealias='nvim ~/.zsh_aliases'
 alias etmux='nvim ~/.tmux.conf'
+alias p='lsd'
+alias e='nvim'
+alias pl='lsd -lrt'
+alias p.='lsd -d .*'
