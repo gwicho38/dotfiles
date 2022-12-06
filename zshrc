@@ -3,6 +3,10 @@ source ~/repos/zsh-snap/znap.zsh
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Load only special config aliases
+alias ll='colorls -lA --sd --gs --group-directories-first'
+alias ls='colorls --group-directories-first'
+
 # Load depdencies
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -111,6 +115,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# adding special sourcing configs
+source $(dirname $(gem which colorls))/tab_complete.sh
 znap source marlonrichert/zsh-autocomplete
 source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 source /home/lefv/repos/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
