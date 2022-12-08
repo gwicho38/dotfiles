@@ -4,8 +4,9 @@ source ~/repos/zsh-snap/znap.zsh
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Load only special config aliases
-alias ll='colorls -lA --sd --gs --group-directories-first'
-alias ls='colorls --group-directories-first'
+alias ls=lsd
+# alias ll='colorls -lA --sd --gs --group-directories-first'
+# alias ls='colorls --group-directories-first'
 
 # Load depdencies
 # Path to your oh-my-zsh installation.
@@ -14,7 +15,8 @@ export ZSH="$HOME/.oh-my-zsh"
 source ~/.zsh_aliases
 # Path to zsh functions
 source ~/.zsh_functions
-
+# Path to zsh utilities
+source ~/.zsh/zsh_utilities/zoxide
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME

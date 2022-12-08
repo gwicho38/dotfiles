@@ -4,13 +4,11 @@ require('legendary').setup({
     -- map keys to a command
     { '<leader>ff', ':Telescope find_files <CR>', description = 'Find files' },
     { '<leader>ll', ':Legendary <CR>', description = 'Legendary menu' },
-    { '<leader>lk', ':Legendary keymaps <CR>', description = 'Legendary key map' },
+    { '<leader>tk', ':Telescope keymaps <CR>', description = 'Legendary key map' },
     { '<leader>lc', ':Legendary commands <CR>', description = 'Legendary commands' },
     { '<leader>lf', ':Legendary functions <CR>', description = 'Legendary functions' },
     { '<leader>la', ':Telescope autocmds <CR>', description = 'Legendary autocmds' },
     { '<leader>ps', ':PackerSync <CR>', description = 'Legendary autocmds' },
-    { '<leader>nt', ':Neotree <CR>', description = 'Legendary autocmds' },
-    { '<leader>se', ':Sexplore <CR>', description = 'Legendary autocmds' },
   }
     -- map keys to a function
   --   { '<leader>h', function() print('hello world!') end, description = 'Say hello' },
@@ -20,7 +18,7 @@ require('legendary').setup({
   --   {
   --     '<leader>c',
   --     { n = ':LinewiseCommentToggle<CR>', x = ":'<,'>BlockwiseCommentToggle<CR>" },
-  --     description = 'Toggle comment'
+  --     description =\ 'Toggle comment'
   --   },
   --   -- create item groups to create sub-menus in the finder
   --   -- note that only keymaps, commands, and functions
