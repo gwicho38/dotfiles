@@ -3,11 +3,6 @@ source ~/repos/zsh-snap/znap.zsh
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Load only special config aliases
-alias ls=lsd
-# alias ll='colorls -lA --sd --gs --group-directories-first'
-# alias ls='colorls --group-directories-first'
-
 # Load depdencies
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -122,3 +117,4 @@ source $(dirname $(gem which colorls))/tab_complete.sh
 znap source marlonrichert/zsh-autocomplete
 source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 source /home/lefv/repos/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fpath+=${ZDOTDIR:-~}/.zsh_functions

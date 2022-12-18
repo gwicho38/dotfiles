@@ -1,14 +1,17 @@
--- More info -- see docs -- https://github.com/mrjones2014/legendary.nvim
 require('legendary').setup({
   keymaps = {
     -- map keys to a command
-    { '<leader>ff', ':Telescope find_files <CR>', description = 'Find files' },
     { '<leader>ll', ':Legendary <CR>', description = 'Legendary menu' },
     { '<leader>tk', ':Telescope keymaps <CR>', description = 'Legendary key map' },
     { '<leader>lc', ':Legendary commands <CR>', description = 'Legendary commands' },
     { '<leader>lf', ':Legendary functions <CR>', description = 'Legendary functions' },
-    { '<leader>la', ':Telescope autocmds <CR>', description = 'Legendary autocmds' },
-    { '<leader>ps', ':PackerSync <CR>', description = 'Legendary autocmds' },
+    { '<leader>tt', ':Telescope  <CR>', description = 'Telescope' },
+    { '<leader>tc', ':Telescope commands <CR>', description = 'Telescope commands' },
+    { '<leader>tk', ':Telescope keymaps  <CR>', description = 'Telescope keymaps' },
+    { '<leader>tf', ':Telescope find_files  <CR>', description = 'Telescope fin_files' },
+    { '<leader>ps', ':PackerSync <CR>', description = 'PackerSync' },
+    { '<leader>dn', ':Neotree <CR>', description = 'Neotree' },
+    
   }
     -- map keys to a function
   --   { '<leader>h', function() print('hello world!') end, description = 'Say hello' },
