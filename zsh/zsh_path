@@ -1,0 +1,3 @@
+fpath+=${ZDOTDIR:-~}/.zsh_functions
+path+=/home/lefv/.cargo/bin
+path+=/home/lefv/.local/share/neovim/bin

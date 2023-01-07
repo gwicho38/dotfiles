@@ -1,0 +1,34 @@
+function ca () {
+  echo "alias $1='$2'" >> ~/.zsh/zsh_aliases;
+  sortalias;
+  sz;
+}
+
+function keysoup () {
+  sudo systemctl restart keyd && sudo systemctl enable keyd && sudo systemctl start keyd && setxkbmap -option compose:menu
+}
+
+function sortalias() {
+  sort ~/.zsh/zsh_aliases --unique --output ~/.zsh_aliases;
+}
+
+function addgroup() {
+  sudo groupadd docker;
+  sudo gpasswd -a ${USER} docker;
+  sudo systemctl restart docker;
+  newgrp docker;
+}
+
+function cat() {
+  bat $1;
+}
+
+function createcd() {
+  chdman createcd -o $1.chd -i $1.iso;
+}
+
+function batch_unzip() {
+  find *.7z | while read -r name ; do
+    7za x $name
+  done
+}
