@@ -1,9 +1,0 @@
-[init]
-	defaultBranch = main
-[user]
-	email = luis@lefv.info
-	name = Luis E. Fernandez de la Vara.
-[maintenance]
-	repo = /home/lefv/repos/zsh-snap
-	repo = /home/lefv/repos/zsh-snap/.git
-	repo = /home/lefv/repos/zsh-snap/zsh-autocomplete
