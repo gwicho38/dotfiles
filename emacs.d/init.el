@@ -235,12 +235,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; 65 Shells
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(defun my-shell-mode-hook ()
-  (process-send-string (get-buffer-process (current-buffer))
-                       "export PAGER=cat\n")
-  (process-send-string (get-buffer-process (current-buffer))
-                       "uprompt\n\n\n"))
-(add-hook 'shell-mode-hook 'my-shell-mode-hook)
 
 ;; Excellent shell where just about everything works like in a regular
 ;; terminal.
