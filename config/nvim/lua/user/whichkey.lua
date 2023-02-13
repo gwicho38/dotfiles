@@ -55,7 +55,7 @@ local setup = {
     spacing = 3, -- spacing between columns
     align = "left", -- align columns left, center or right
   },
-  ignore_missing = true, -- enable this to hide mappings for which you didn't specify a label
+  ignore_missing = false, -- enable this to hide mappings for which you didn't specify a label
   hidden = { "<silent>", "<cmd>", "<Cmd>", "<CR>", "call", "lua", "^:", "^ " }, -- hide mapping boilerplate
   show_help = true, -- show help message on the command line when the popup is visible
   triggers = "auto", -- automatically setup triggers
@@ -181,6 +181,11 @@ local mappings = {
     h = { "<cmd>ToggleTerm size=10 direction=horizontal<cr>", "Horizontal" },
     v = { "<cmd>ToggleTerm size=80 direction=vertical<cr>", "Vertical" },
   },
+
+  ["/"] = {
+    name = "Comment",
+    ["l"] = { "gcc", "Line" }
+  }
 }
 
 which_key.setup(setup)

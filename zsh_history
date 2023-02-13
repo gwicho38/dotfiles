@@ -4882,3 +4882,17 @@ nvim +PackerSync
 : 1673134099:0;p.
 : 1673134127:0;mkrc .config/nvim/*
 : 1673134159:0;tmux
+: 1673146171:14;git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+: 1673146224:0;cp .zshrc .zshrc_bak
+: 1673146229:0;rm .zshrc
+: 1673146282:0;cp .zlogin .zlogin_bak
+: 1673146289:0;cp .zlogout .zlogout_bak
+: 1673146307:0;setopt EXTENDED_GLOB\
+for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do\
+ ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"\
+done
+: 1673146330:0;clear
+: 1673146331:0;ls
+: 1673146333:0;ez
+: 1673146350:0;ls
+: 1673146351:0;exit
