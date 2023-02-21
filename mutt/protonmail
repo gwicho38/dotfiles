@@ -1,9 +1,10 @@
-# set starttls = yes
-set ssl_force_tls = yes
+set ssl_starttls=no
+set ssl_force_tls=no
 set send_charset = "us-ascii:utf-8"
 set imap_pass = "4DOBAWFbMAR5Z2gU9FDLJQ"
 set imap_user = "luis@lefv.io"
-set smtp_url = "smtp://luis@lefv.io:4DOBAWFbMAR5Z2gU9FDLJQ@localhost:1025"
+set smtp_pass = "4DOBAWFbMAR5Z2gU9FDLJQ"
+set smtp_url = "smtp://$imap_user:$smtp_pass@localhost:1025"
 set folder = "imap://localhost:1143"
 set spoolfile = "imap://localhost:1143/INBOX"
 set postponed = "imap://localhost:1143/[Protonmail]/Drafts"
@@ -13,6 +14,6 @@ set message_cachedir = "~/.mutt/cache/bodies"
 set certificate_file = "~/.mutt/certificates"
 set smtp_authenticators = "gssapi:login"
 set imap_keepalive = 900
-set from = ""
+set from = "luis@lefv.io"
 set use_from = yes
 unset use_domain

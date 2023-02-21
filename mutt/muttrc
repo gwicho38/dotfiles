@@ -1,28 +1,43 @@
-set realname = "Luis E. Fernandez de la Vara"
-set pgp_default_key = "<gpg key identifier>"
+# https://neomutt.org/feature/sidebar
+
+# set pgp_default_key = "Default"
+
+# Source Dependencies
+source ~/.mutt/keybindings.conf
 
 # macros
 # Sidebar Navigation ---------------------------------
-bind index CP sidebar-prev
-bind index CN sidebar-next
-bind index CO sidebar-open
-bind pager CP sidebar-prev
-bind pager CN sidebar-next
-bind pager CO sidebar-open
+#bind index,pager \Cj sidebar-prev
+#bind index,pager \Ck sidebar-next
+#bind index,pager \Cl sidebar-open
 macro index b '<enter-command>toggle sidebar_visible<enter>'
 macro pager b '<enter-command>toggle sidebar_visible<enter>'
-bind index B bounce-message
+#bind index B bounce-message
 
-# message-hook '!(~g|~G) ~b"^-----BEGIN\ PGP\ (SIGNED\ )?MESSAGE"' "exec check-traditional-pgp"
+# Pager defs
+# bind pager h exit
+#bind pager gg top
+bind pager G bottom
+#bind pager k next-line
+#bind pager j previous-line
+
+message-hook '!(~g|~G) ~b"^-----BEGIN\ PGP\ (SIGNED\ )?MESSAGE"' "exec check-traditional-pgp"
 
 # Other bindings
-bind index M display-message
+#bind index M display-message
 
 #####################################################################
-# colors
+# ui
 ###
 
 source ~/.mutt/colors
+
+set markers          # mark wrapped lines of text in the pager with a +
+set smart_wrap       # Don't wrap mid-word
+set pager_context=5  # Retain 5 lines of previous page when scrolling.
+set pager_index_lines = 10
+set status_on_top    # Status bar on top.
+push <show-version>  # Shows mutt version at startup
 
 # Sidebar Patch --------------------------------------
 set sidebar_visible = yes
@@ -41,8 +56,15 @@ unhdr_order *                           # some distros order things by default
 hdr_order from: to: cc: date: subject:  # and in this order
 
 # Use mouse wheel
-bind pager <down> next-line
-bind pager <up> previous-line
+#bind pager <down> next-line
+#bind pager <up> previous-line
+
+# enconding
+set use_from            = yes
+set envelope_from       = yes
+set rfc2047_parameters  = yes # encode =?iso-8858....?= filenames
+
+set pipe_decode         = yes # encode stuff to urlview (to help...)
 
 # Don't add a + to urls that wrap
 # unset markers
@@ -69,6 +91,11 @@ set sort = reverse-threads
 
 # Keep a list of contacts (aliases)
 set alias_file = ~/.mutt/alias
+set sort_alias          = alias                # sort by alias ( or address, unsorted)
+set reverse_alias       = yes
+source $alias_file
+
+set query_command       = "abook --mutt-query '%s'"  # address book
 
 # Import SMTP and IMAP credentials
 source "gpg -dq ~/.mutt/protonmail.gpg |"
@@ -83,10 +110,6 @@ source "gpg -dq ~/.mutt/protonmail.gpg |"
 
 # Consult mime.types for determining types of attachments
 mime_lookup applications/octet-stream
-
-### Message composition
-set smtp_url = ""
-set smtp_pass = "SECRET"
 
 ### Other
 set indent_string = ">"
@@ -106,7 +129,6 @@ set ssl_verify_host
 set to_chars=" +TCF"
 push <show-version>
 set copy = no
-set pgp_sign_as = "Luis E. Fernandez de la Vara"
 set pgp_use_gpg_agent
 set pgp_timeout = 1800
 set crypt_autosign
@@ -127,4 +149,20 @@ set signature= "~/.mutt/signature"
 # Open HTML in Mutt client
 auto_view text/html
 alternative_order text/enriched text/plain text/html text
+auto_view text/html      # text/enriched and text/plain support are builtins
+                         # how to auto_view text/html takes mutt from  mailcap files:
+                         # ~/.mailcap  then /etc/mailcap or so
+                         # (settings with 'needsterminal' option or so)
+                         # I have in my ~/.mailcap for that purpose:
+                         # text/html; elinks -dump -force-html %s; needsterminal; copiousoutput;
 set mailcap_path = ~/.mutt/mailcap
+
+#####################################################################
+# how to edit messages
+###
+
+set editor              = "nvim -c 'set tw=70 et' '+/^$' "
+#set editor="emacs -nw --no-init-file"
+set edit_headers            # put headers in editor when composing messages
+                            # additioally I have a some setting in vim for
+                            # my convenience (lazyness)
