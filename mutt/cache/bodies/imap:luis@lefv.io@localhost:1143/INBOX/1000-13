@@ -1,0 +1,153 @@
+X-Pm-Gluon-Id: 0b62f1da-6b1d-43f7-8a8c-47de3a8a0b10
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+References: <lece2ju2rtz5xm@piazza.com>
+ <gn8rYZDGMFqPHb3oo9HMsY6-I9MwNjqIao_uF-XFI1lST2k2jiJ_Su652bGoeHfohhtfwhAodsV-N7PcPHqdOw==@protonmail.internalid>
+X-Pm-Date: Mon, 20 Feb 2023 05:40:28 +0000
+X-Pm-External-Id: <f8e7deacab4d4c3cabf7d32f804084e0@BY5PR11MB3976.namprd11.prod.outlook.com>
+X-Pm-Internal-Id: gn8rYZDGMFqPHb3oo9HMsY6-I9MwNjqIao_uF-XFI1lST2k2jiJ_Su652bGoeHfohhtfwhAodsV-N7PcPHqdOw==
+To: "Fernandez De La Vara, Luis Ernesto" <luisef2@illinois.edu>
+Reply-To: "CS 441 on Piazza" <no-reply@piazza.com>
+From: "CS 441 on Piazza" <no-reply@piazza.com>
+Subject: HW 5 Task 1 Assertion Error
+X-Spam-Origsender: luisef2@illinois.edu
+X-Spam-Origsender: bounces+5126-150d-luisef2=illinois.edu@send.piazza.com
+Resent-From: <luisef2@illinois.edu>
+In-Reply-To: <lece2ju2rtz5xm@piazza.com>
+X-Ms-Exchange-Inbox-Rules-Loop: luisef2@illinois.edu
+X-Pm-Origin: external
+X-Proofpoint-Orig-Guid: fzCRNggkYpBgWQX0NhUmd7RSNn0lXDme
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=piazza.com; h=from:in-reply-to:references:subject:mime-version:to:content-type:cc: content-type:from:subject:to;	s=s1; bh=iegeg9nguTRUJXrlqN2PEQuJ6vH6klgea9mq+2olJ34=; b=NtuMAazx1fI0+htxrwHx14XHAWdHlnD+bgcBKLJMrB6Q0KG6hdIJlKcms5DCOr6tzBB6 8baw0ma0rfa6Cm6wwixo/JBzbYDYA+8zMQoZJgqHxelouIPkAnYg+Fq8qXjl3fYX57L41H jAomkSP5BpPGFY9OsqID89ZR2aNpXxsadxBm6y6O7A/QRLDrlSK3cemHIhvMb9WbDZtS36 bGEz810kPToXQ/yTE72+78ybFw5sn0CwhJtFvTEtJl5YJdiHX+fY+uAR+Z1Z6CA/eMsc7M OlOFPiHvG2bOaQiU51zd58ghuQ9iyBj4lkTsxro9qdc747w7xiQui+q3WvfVDIkg==
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=uillinoisedu.onmicrosoft.com; s=selector2-uillinoisedu-onmicrosoft-com; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck; bh=HQmzzRL8AoxtyDGWQtLJ6FcZDK3dlHQsIp2dd7Njd5E=; b=M7tGjjhl5in6Dv5YxP6dlbEO9bE1O7Wr/C7afuO21PRdb8n4R/BL9SweiqUtFeTu9ocjxqEZnfIoriVxwL71Z29AvUux5reZl0fdltTehtxndSs5DJcK4V+gX00wb4CleHOHMZm2WdRFKhmLKj+9C33CEw6sATxvePdLP/zSQ10=
+X-Ms-Exchange-Antispam-Relay: 0
+Auto-Submitted: auto-generated
+X-Rspamd-Queue-Id: 4PKrvT0DPYz3Y
+X-Ms-Exchange-Processed-By-Bccfoldering: 15.20.6111.019
+X-Rspamd-Server: cp10-mailin-045.plabs.ch
+X-Ms-Exchange-Senderadcheck: 0
+X-Ms-Exchange-Crosstenant-Authas: Anonymous
+X-Ms-Exchange-Crosstenant-Authas: Anonymous
+X-Eopattributedmessage: 0
+X-Pm-Spamscore: 0
+Resent-Message-Id: <202302200543.31K3JpEa030440@mx0b-00007101.pphosted.com>
+Message-Id: <f8e7deacab4d4c3cabf7d32f804084e0@BY5PR11MB3976.namprd11.prod.outlook.com>
+X-Ms-Exchange-Antispam-Messagedata-Chunkcount: 1
+Thread-Topic: HW 5 Task 1 Assertion Error
+X-Ms-Office365-Filtering-Correlation-Id: bf9d3485-372a-405e-cafa-08db1304fc09
+X-Forefront-Antispam-Report: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BY5PR11MB3976.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230025)(136003)(39860400002)(346002)(396003)(376002)(451199018)(55016003)(75432002)(6862004)(8936002)(83380400001)(4744005)(5660300002)(41300700001)(2906002)(7696005)(71200400001)(966005)(6666004)(9686003)(186003)(6506007)(108616005)(24736004)(42882007)(786003)(316002)(70586007)(66946007)(66556008)(66476007)(66446008)(64756008)(8676002)(478600001)(41320700001)(166002)(83170400001)(37630700001)(76236004)(122000001)(66899018);DIR:OUT;SFP:1101;
+Arc-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass smtp.mailfrom=illinois.edu; dmarc=none; dkim=none; arc=none
+X-Ms-Office365-Filtering-Correlation-Id-Prvs: fd4ec13d-cff1-47e6-9813-08db1304faaa
+X-Spam-Details: rule=cautious_plus_nq_notspam policy=cautious_plus_nq score=0 bulkscore=0 phishscore=0 mlxscore=0 clxscore=1031 lowpriorityscore=0 priorityscore=1501 impostorscore=0 spamscore=0 adultscore=0 suspectscore=0 mlxlogscore=894 malwarescore=0 classifier=spam adjust=0 reason=mlx scancount=1 engine=8.12.0-2212070000 definitions=main-2302200052
+X-Spam-Details: rule=cautious_plus_nq_notspam policy=cautious_plus_nq score=0 bulkscore=0 phishscore=0 mlxscore=0 clxscore=370 lowpriorityscore=0 priorityscore=503 impostorscore=0 spamscore=0 adultscore=0 suspectscore=0 mlxlogscore=572 malwarescore=0 classifier=spam adjust=0 reason=mlx scancount=1 engine=8.12.0-2212070000 definitions=main-2302200051 domainage_hfrom=7743
+X-Ms-Exchange-Transport-Crosstenantheadersstamped: DM4PR11MB5278
+X-Ms-Exchange-Transport-Crosstenantheadersstamped: DS7PR11MB7835
+Return-Path: <luisef2@illinois.edu>
+X-Ms-Exchange-Transport-Endtoendlatency: 00:00:01.5360517
+Authentication-Results-Original: ppops.net;	spf=pass smtp.mailfrom=bounces+5126-150d-luisef2=illinois.edu@send.piazza.com; dkim=pass header.d=piazza.com header.s=s1;	dmarc=none
+X-Ms-Exchange-Crosstenant-Id: 44467e6f-462c-4ea2-823f-7800de5434e3
+X-Ms-Exchange-Crosstenant-Id: 44467e6f-462c-4ea2-823f-7800de5434e3
+X-Pm-Content-Encryption: on-delivery
+X-Ms-Exchange-Atpmessageproperties: SA
+X-Pm-Spam: 0yezJI6cihyJeYR3pi42biOpJJvbmsCIeI1msjN3X3blJp7IjBlNIIojwsMjLlITJ oxIjsjULIBlSiQ0TiOy0wiMCPFJUR9FQEVkUUSUN9OSUwjoILJCfiVGZWdfd5maW6yIbeJyQE9kU jI7pBfInh3BcbIS6w4CMDM4AMzNj5zkMOQD30kDOTO3AJtLCl2Rbb9FpigHZjO9B0sfXynNIaQWi 2IiO2MzYhhMDljBNZMDzkFzYmMyMYxYmiWEMfwSiiE2cnOisNfaXh3BcbIS6iwCM2cvNUicmsjAO INnjlJ3bCZ6I4zMCyCJLZBXviQncnOisBGU1F0hXT9EfO9kTSR6IAuWzsF0MIhkFFRUQlUG99NUk J0RXRZkFOVkUFVE91BT0TU5SIpjby4CMSXiwBGU1B1BXUM1itslOCMw4wiXSNFRST9FNTNVRUQFd pbIjwC4MXwSiJtERVTT9dOSUiUQROslwdFjLCLEJlNS0B1ZXTlEEbpjITLuA19MVfX0=
+X-Entity-Id: JNW8vgYghlSXf2j+L819xA==
+X-Spamd-Result: default: False [1.50 / 25.00]; PHISHING(2.00)[piazza.com->urldefense.com]; ARC_ALLOW(-1.00)[microsoft.com:s=arcselector9901:i=1]; URI_COUNT_ODD(1.00)[13]; R_SPF_ALLOW(-0.20)[+ip4:148.163.139.28]; R_DKIM_ALLOW(-0.20)[uillinoisedu.onmicrosoft.com:s=selector2-uillinoisedu-onmicrosoft-com]; MIME_GOOD(-0.10)[multipart/alternative,text/plain]; BAYES_HAM(-0.00)[31.14%]; RCVD_TLS_LAST(0.00)[]; MIME_TRACE(0.00)[0:+,1:+,2:~]; ASN(0.00)[asn:22843, ipnet:148.163.139.0/24, country:US]; NEURAL_HAM(-0.00)[-0.994]; FROM_NEQ_ENVFROM(0.00)[no-reply@piazza.com,luisef2@illinois.edu]; DKIM_TRACE(0.00)[uillinoisedu.onmicrosoft.com:+,piazza.com:-]; RCPT_COUNT_ONE(0.00)[1]; DKIM_MIXED(0.00)[]; FROM_HAS_DN(0.00)[]; TO_DN_ALL(0.00)[]; R_DKIM_REJECT(0.00)[piazza.com:s=s1]; DMARC_NA(0.00)[piazza.com]; RCVD_COUNT_FIVE(0.00)[5]
+X-Ms-Exchange-Crosstenant-Fromentityheader: Hosted
+X-Ms-Exchange-Crosstenant-Fromentityheader: Internet
+X-Ms-Exchange-Antispam-Messagedata-0: ps+Q7Lcna/MSCUtAJhMRZ79L4QKWKCEL1dK2Hh0YtFC7m4+Zg7o0erEa87qdLroYihHgfm3TNIx9Iz+dked0V+wKTOK2PY7jLRdcga0MJimt4NVHfHt6rFTPHn9MTfiA8ydQ8fxxJXVDpeKzlroHqp/kTgYQEGV+oZJ5/UFDFDd0GFki65WE2la4ocp0DysouTFOmLSaRsOzHZihsjTAzFntHIrTKXmVCp+6+9LydTLQHOW/sIf9CBQvcr8BCSETv7lSpnP80blBZZYaLGi/5LmeLV4weSAOYyVxHpx98B3nppNPVFTSdjySwFXCzOef
+X-Originatororg: illinois.edu
+X-Ms-Exchange-Crosstenant-Authsource: CY4PEPF0000C97D.namprd02.prod.outlook.com
+X-Ms-Exchange-Crosstenant-Authsource: CY4PEPF0000C97D.namprd02.prod.outlook.com
+X-Eoptenantattributedmessage: 44467e6f-462c-4ea2-823f-7800de5434e3:0
+X-Spam-Score: 0
+X-Spam-Score: 0
+X-Proofpoint-Guid: fzCRNggkYpBgWQX0NhUmd7RSNn0lXDme
+X-Ms-Traffictypediagnostic: CY4PEPF0000C97D:EE_|DS7PR11MB7835:EE_|BY5PR11MB3976:EE_|DM4PR11MB5278:EE_
+Authentication-Results: mailin045.protonmail.ch; dkim=pass (1024-bit key) header.d=uillinoisedu.onmicrosoft.com header.i=@uillinoisedu.onmicrosoft.com header.b="M7tGjjhl"; dkim=fail reason="signature verification failed" (2048-bit key) header.d=piazza.com header.i=@piazza.com header.b="NtuMAazx"
+Authentication-Results: mailin045.protonmail.ch; arc=fail smtp.remote-ip=148.163.139.28
+Authentication-Results: mailin045.protonmail.ch; spf=pass smtp.mailfrom=illinois.edu
+Authentication-Results: mailin045.protonmail.ch; dmarc=none (p=none dis=none) header.from=piazza.com
+Authentication-Results: mailin045.protonmail.ch; dkim=pass (Good 1024    bit rsa-sha256 signature) header.d=uillinoisedu.onmicrosoft.com    header.a=rsa-sha256; dkim=fail (body hash mismatch (got    b'HQmzzRL8AoxtyDGWQtLJ6FcZDK3dlHQsIp2dd7Njd5E=', expected    b'iegeg9nguTRUJXrlqN2PEQuJ6vH6klgea9mq+2olJ34=')) header.d=piazza.com    header.a=rsa-sha256
+X-Ms-Exchange-Generated-Message-Source: Mailbox Rules Agent
+X-Sg-Eid: Kv8GJvhlMypTC4d0CNEwKWrpfsCtUtZkuPDJFDFaKX8Nu0wG+oZM2V8d3yZjheeR0dm1zPduf+n0FRQ9BT9yvN0KTu/t7RI9EP6xx7mmUtsYXqGbMWzkPiSxv4csShABJhmZ3WD9Gs7LqD82kEM/G5DxcOj0QKwD1zUtMTC7yZvUkyul/tIlvZrC3eUTsqQ2g+lq89lDs84hExPgEp6JHHHq8yInS9YFZTMimIxmcBdaYlgIX6V+Q19dhPBR6ljQ
+X-Ms-Publictraffictype: Email
+X-Rspamd-Action: no action
+Mime-Version: 1.0
+X-Pm-Transfer-Encryption: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)
+Resent-Date: Mon, 20 Feb 2023 05:43:58 GMT
+Thread-Index: AQHZRO3ZD/5AFwRQRESPMgcLdPkw4Q==
+Arc-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none; b=Tfv3ynJZrweRqBmUDipiLUWuZsyO6kFDrc8og6r0i1Rr/LofASXfXmRtdhKdCIF+KdgeO25LMBo8nRZvxm1INpgblpzofFlrVYWZkQwHRC/OQJNZ1eX+AkZvaa1W19CDQVoC9NPgKx+xfZ1OOr62LeDkhUXx5VSGWUvHidnatA8sR5DdsVr9KnfRfwluFQQOM+lyhLM0OHwEMY0RzmPcoLz3CfTx7H3GucDV88ajFwJJ6iCAxNulsLg/0Z8tS1M0vUb52phrASqBX9V9QSiRsQpepXbtperIUweC+ylsKU4dA24pB97cSEaeYVL4rJY7Ry79h2r/+3ggbm8766J84g==
+X-Ms-Exchange-Crosstenant-Originalarrivaltime: 20 Feb 2023 05:40:33.1573 (UTC)
+X-Ms-Exchange-Crosstenant-Originalarrivaltime: 20 Feb 2023 05:40:30.7463 (UTC)
+X-Microsoft-Antispam-Message-Info: oFMvutKleyBWgYKKQg6ODX9lSPMLbkJxup1gfa5bXmf0qxUhoXcGCoxyb9SyvoOuQv3vvYALgNWnQOwLeiZ+fwSkQ7X3+STt990vXMyyWwS9l+N7Y2FfwIP7s76qq9wnJYKOftf27E4nSJcLG6scYH54UBjOepVZwPi5RmgfRQpQoAicUxvDT7blxMK9B+HmGABxHUsRVNLwGCDYFMw53iEBopIZArWBf/pNFSzHcfvBlsQrYlAhVon8q1kQ3xzVgG3aNbyN86oAxVN9/fiCmV/7SxwaF9Eq3o6taBGL9Op7SMbL9gkeKyWV4al4paa2UDGKpWC+EDE87rKhoqpepxeGltMtqsfaQeSj2DnfWtSVlLHXnSds8jRJgjaB/V6d7pOi+QUscNY2th8P+gUVtYbfZ/R9w3JLT1elm6DWwW9p/hCW0ZwB/T8CHV/w+dfhML+j1U4kmnX7tb00gnRSxQ+b9Zog/QXrgdTuqX3j13zA+MtKXkUoi+wN8FGlSgb8m9nqxffZ7yjdnZvn/CvKSNLUgsIVWmq+OVUqeXBlBqHLkJvc/6VUFZdS7cqOiu6w57tiVW9jXgFjgHNA36ZItw==
+X-Original-To: luis@lefv.io
+Received: from BY5PR11MB3976.namprd11.prod.outlook.com ([::1]) by BY5PR11MB3976.namprd11.prod.outlook.com ([fe80::a567:23f0:953d:4d72%4]) with Microsoft SMTP Server id 15.20.6111.019; Mon, 20 Feb 2023 05:40:33 +0000
+Received: from BY5PR11MB3976.namprd11.prod.outlook.com (2603:10b6:a03:187::14) by DM4PR11MB5278.namprd11.prod.outlook.com (2603:10b6:5:389::19) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6111.20; Mon, 20 Feb 2023 05:40:33 +0000
+Received: from nam10-mw2-obe.outbound.protection.outlook.com (mail-mw2nam10lp2109.outbound.protection.outlook.com [104.47.55.109]) by mx0b-00007101.pphosted.com (PPS) with ESMTPS id 3ntn1ter9m-1 (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT) for <luis@lefv.io>; Mon, 20 Feb 2023 05:43:57 +0000
+Received: from pps.filterd (m0166258.ppops.net [127.0.0.1]) by mx0b-00007101.pphosted.com (8.17.1.19/8.17.1.19) with ESMTP id 31K3JpEa030440 for <luis@lefv.io>; Mon, 20 Feb 2023 05:43:58 GMT
+Received: from mx0b-00007101.pphosted.com (mx0b-00007101.pphosted.com [148.163.139.28]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by mailin045.protonmail.ch (Postfix) with ESMTPS id 4PKrvT0DPYz3Y for <luis@lefv.io>; Mon, 20 Feb 2023 05:44:04 +0000 (UTC)
+Received-Spf: Fail (protection.outlook.com: domain of send.piazza.com does not designate 148.163.139.28 as permitted sender) receiver=protection.outlook.com; client-ip=148.163.139.28; helo=mx0b-00007101.pphosted.com;
+Arc-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com; s=arcselector9901; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1; bh=HQmzzRL8AoxtyDGWQtLJ6FcZDK3dlHQsIp2dd7Njd5E=; b=LpvJAAiKicoTzuIYeLj6/+otn9TVfRlMUz2JKPYhcvINKJadezRoH/FI/1vbktFprsr0vqjioigm7BDqIESalmBucsqXarzBNhuSSPtZYxza7xTR1rSfxjM1YP9YwkjYirIs088XOQOj/4VPPrOWqJZ/x9pcCmeclfLe0DaDlk92fI1BAYFMNM4IbnR+/HTsZjVbQRBysUerMtXMaRHQF/P8tzCaSHeGBCaWg1lGooHlwdxNTjqXUr2ynsZMkvLBdr8Je8rJmrFDPPD/l2wUfRJemLwht6a6wSBwkbNQnZVzTvdl3Q1DINiMoAFhiat9i+F4qp0/pQkErCtgbPrRGw==
+X-Microsoft-Antispam: BCL:0;
+X-Ms-Exchange-Parent-Message-Id: <lece2ju2rtz5xm@piazza.com>
+Date: Mon, 20 Feb 2023 05:40:28 +0000
+X-Pm-Spam-Action: inbox
+Delivered-To: luis@lefv.io
+X-Ms-Exchange-Crosstenant-Network-Message-Id: bf9d3485-372a-405e-cafa-08db1304fc09
+X-Ms-Exchange-Crosstenant-Network-Message-Id: fd4ec13d-cff1-47e6-9813-08db1304faaa
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+</head>
+<body>
+Your classmate posted a new Question. <br>
+<br>
+<b>HW 5 Task 1 Assertion Error</b><br>
+<br>
+<p>Hi,&nbsp;</p>
+<p></p>
+<p>I incorporated all the suggestions in the comments, but still getting as=
+serting error for test 2 and 3. Can you please look at my lab and see what =
+can be causing it? Thank you!</p>
+<p></p>
+<p>LabID: ohxzdnnxlham</p>
+<br>
+<br>
+<a href=3D"https://urldefense.com/v3/__https://piazza.com/class?cid=3Dlece2=
+ju2rtz5xm&amp;nid=3Dld0r20dr5zm6d6&amp;token=3D32h66HOnXnD__;!!DZ3fjg!862dW=
+R5eRAizdTCnrNllPV8UGoDOUxOD1tOTVwkm8b-Sm2oOk7-Nnzt88detAGu60l8jZ1sj3lbiy5x8=
+78z-$">Click here</a> to view. Search or link to
+ this question with @198. <a href=3D"https://urldefense.com/v3/__https://pi=
+azza.com/follow/lece2ju2rtz5xm/32h66HOnXnD/0e5c8445__;!!DZ3fjg!862dWR5eRAiz=
+dTCnrNllPV8UGoDOUxOD1tOTVwkm8b-Sm2oOk7-Nnzt88detAGu60l8jZ1sj3lbiy17cVnNR$">
+Follow it</a> to get notified when a response comes in. <br>
+<br>
+Sign up for more classes at <a href=3D"https://urldefense.com/v3/__http://p=
+iazza.com/illinois__;!!DZ3fjg!862dWR5eRAizdTCnrNllPV8UGoDOUxOD1tOTVwkm8b-Sm=
+2oOk7-Nnzt88detAGu60l8jZ1sj3lbiy_8c2LR4$">
+http://piazza.com/illinois</a>.<br>
+<br>
+<br>
+<br>
+Thanks,<br>
+The Piazza Team<br>
+--<br>
+Contact us at team@piazza.com<br>
+<br>
+<br>
+<font size=3D"-2">You're receiving this email because luisef2@illinois.edu =
+is enrolled in CS 441 at University of Illinois at Urbana-Champaign. Click
+<a href=3D"https://urldefense.com/v3/__https://piazza.com/unsubscribe/ld0sl=
+cbmi0b3q4/ld0r20dr5zm6d6__;!!DZ3fjg!862dWR5eRAizdTCnrNllPV8UGoDOUxOD1tOTVwk=
+m8b-Sm2oOk7-Nnzt88detAGu60l8jZ1sj3lbiy4CZaor2$">
+here</a> to unsubscribe from digest emails. Or, <a href=3D"https://urldefen=
+se.com/v3/__https://piazza.com/login__;!!DZ3fjg!862dWR5eRAizdTCnrNllPV8UGoD=
+OUxOD1tOTVwkm8b-Sm2oOk7-Nnzt88detAGu60l8jZ1sj3lbiy91nhQa7$">
+sign in</a> to manage your email preferences or <a href=3D"https://urldefen=
+se.com/v3/__https://piazza.com/remove/32h66HOnXnD/ld0r20dr5zm6d6__;!!DZ3fjg=
+!862dWR5eRAizdTCnrNllPV8UGoDOUxOD1tOTVwkm8b-Sm2oOk7-Nnzt88detAGu60l8jZ1sj3l=
+biyx6m6Vb3$">
+un-enroll</a> from this class.</font>
+</body>
+</html>

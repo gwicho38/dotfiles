@@ -1,0 +1,158 @@
+X-Pm-Gluon-Id: a1622fe5-3ac4-40fa-8999-345fbf7a48ab
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+References: <20230220200542.1c91996d596693a1@mg.therapyappointment.com>
+ <g65-5o8qLZRIXAOdWenFsnYeEQTwqC0mH-u1hlZoNJWCFne2GxhKjnmMGKllaldn23_xxvzI9rNlY0_FGUByPQ==@protonmail.internalid>
+X-Pm-Date: Mon, 20 Feb 2023 20:05:45 +0000
+X-Pm-External-Id: <864fcc6b197b4008b4db7155dd2c1e69@SA1PR12MB6702.namprd12.prod.outlook.com>
+X-Pm-Internal-Id: g65-5o8qLZRIXAOdWenFsnYeEQTwqC0mH-u1hlZoNJWCFne2GxhKjnmMGKllaldn23_xxvzI9rNlY0_FGUByPQ==
+To: "luis@lefv.io" <luis@lefv.io>
+Reply-To: "Luis Fernandez de la Vara" <luisfdzdelavara@outlook.com>
+From: "Luis Fernandez de la Vara" <luisfdzdelavara@outlook.com>
+Subject: FW: A new billing statement is available
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com; s=selector1; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck; bh=cCetw002tMXRIZPdk6hIddfEgfFDdS7LSqb7n1OK3gM=; b=J1REB8Df1faVSv5BEonseps3Ram17VrJ4W3gu6NKalmPpXslhZVeuL7OJb3ampABWlnRGcVJ+wD++EeLo7VcElRVy8fi73xZXJYyeSaRyiRzGvw+FTs1izdd4+BOZkmm99qOqBNgVmR6Z1/hOLmbzqLx8PMO140kvH8d6hsyGKEvZOChMJlbBHHjCwyrpWzs8qKF9g4QaLWVmTdsHjAWRGgiyG7JB+qfZcD7dEoz3VOSRHnjll+PZq0QTYxatDONGw25XjhMr4KRJFSHTyBqgpvuY4s1nrvkRtiScOPRrVTZWK8U0moK9U4Z393KHH8rSz2HxT+gYZJLfVGxzNlesw==
+X-Microsoft-Antispam-Message-Info: WB8+n5oXhzpdZ4Lov9Lft0ybxKrDre2ag0BslIbgMzesohOYGGKY+NBgygip/GZarN0ZJZRpHnvkYE0ArlTOMqp/YS6IUYxRb7z8XwW25Ea37jhHuwB94MFv4YyhqMPSZfxJO/yqglNwFdVu7D2EC43tAj+lN/Hw5eODlDIIhzPXQk3X6I34tjOfiHk1SiAdZqJSOKFWZFX4T6JQpVVT9IGuzUXe75d+CB0OJB4rlDBfbGX5ZMbpFkzA4dn4OrRE1rNOpVaTTcZjr/m7L7WHTXXNGSwnGjchg/dpGvQTBPE2+q1mPwrjeCXn92BfJ/mnq1/PHLVnKlvNMYx2c72ynZM3nTHnS2S8R4xU1ny7AobGNDtpiXFWl8XGqoNKpkdv8La66TWTgzNx8QvcmzwrMJTt3a+yHvaE7tpTGikkjfEKjxPGxC0Hr0PcbK2QLVC60dT5h6yQbQMVwfs2wbwqHOV0viiQNFTNMUWLmgAIh2wQKpSBI/Bu0FO0Cf4qfbqjkVjSbOvclFB+KJ/XdsmwCEzQutl7ToRDhylKBAbhi1VsGF9nFvnhoNJrY9ciIiWSPJ6merurJ6S58Tx4k7uchggj+6nk4OLAkYNskkkPZj5MvN90b0UO+v0kETUqDEt6nNLNUax4U2ziu8qX0CpaCm7fT5t7HLVJEFUgay2I66A=
+Authentication-Results: mailin014.protonmail.ch; dkim=pass (2048-bit key) header.d=outlook.com header.i=@outlook.com header.b="J1REB8Df"
+Authentication-Results: mailin014.protonmail.ch; arc=fail smtp.remote-ip=40.92.18.54
+Authentication-Results: mailin014.protonmail.ch; spf=pass smtp.mailfrom=outlook.com
+Authentication-Results: mailin014.protonmail.ch; dmarc=pass (p=none dis=none) header.from=outlook.com
+Authentication-Results: mailin014.protonmail.ch; dkim=pass (Good 2048    bit rsa-sha256 signature) header.d=outlook.com header.a=rsa-sha256
+X-Pm-Spamscore: 0
+X-Ms-Exchange-Generated-Message-Source: Mailbox Rules Agent
+Auto-Submitted: auto-generated
+X-Pm-Origin: external
+X-Ms-Traffictypediagnostic: SA1PR12MB6702:EE_|SJ1PR12MB6097:EE_
+Message-Id: <864fcc6b197b4008b4db7155dd2c1e69@SA1PR12MB6702.namprd12.prod.outlook.com>
+Delivered-To: luis@lefv.io
+X-Ms-Exchange-Crosstenant-Authsource: SA1PR12MB6702.namprd12.prod.outlook.com
+Arc-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none; dkim=none; arc=none
+X-Pm-Transfer-Encryption: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)
+X-Pm-Spam: 0yezJI6cihyJeYR3pi42biOpJJvbmsCIeI1msjN3X3blJp7IjBlNIIojwsgjLlITJ otIjyS4MOwSiPJFUCR6IIwLTQCJLU9kESB1XURJRRJQ1i04TOAjsk9lIWZ1J9pZ1vmZbIpj7SBlI 0TiQsiOnzF9ccFGtwojIjLwAA5MTzjkMMAj3wYDMTN1QgsNjvm1IZVGskl2XCe6I19MHiSwfcJ3p 6ICZjIzYNkZjkjlMYgz5wImYTOllA5Mj0mENNJy9zJCLSY6IJpeyz19ccFGtwojICLzJ9yY26SIZ MwCivN2cmckVowIjsjgLIJnly9GcCd6IJCeyFVlQU81y6ICMzWuAwiNSv2NccUm6uADIDM3kJdOC TCJLUZEfTFEUyU6I0wWydjBLLJCGFVkUUTJF9GTFNk9UIpjbw4CMCLsJlzdW6mRZZVGshZXYmcbF RdYX03Vbb9Gvj5ya2bi0wiXSG1BUXh0Ff9ETEUTFI6Uywy0WLBjdIJCLEVM1lNX0FUdQX90OflFT zMiIswOldjVLLJCIM1EV0XF1NBU1i0UROslwdBjLCLEJlNS0B1ZXTlEEGV0XjIbpAuLTsV0MIRkL f1USkVMFRfSUiVUQOsltx4CMSXiwtJREWV9TQxUJ6ICRyWw0FdLjECJLSl0NJN1X0RF5I6RCuzAW M1V9fX0=========
+X-Ms-Exchange-Crosstenant-Rms-Persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-Ms-Exchange-Crosstenant-Rms-Persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-Ms-Exchange-Inbox-Rules-Loop: luis@lefv.info
+X-Ms-Exchange-Crosstenant-Originalarrivaltime: 20 Feb 2023 20:05:45.6561 (UTC)
+X-Originatororg: outlook.com
+X-Original-To: luis@lefv.io
+X-Ms-Exchange-Crosstenant-Fromentityheader: Hosted
+X-Ms-Exchange-Crosstenant-Network-Message-Id: f9c30c0a-1a39-4a31-91bf-08db137dda40
+X-Ms-Exchange-Crosstenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+Arc-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com; s=arcselector9901; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1; bh=cCetw002tMXRIZPdk6hIddfEgfFDdS7LSqb7n1OK3gM=; b=NgeAKJNW2h85XoIi0JBjO7PDJ7Rg9cdtpvnNLMHKvlMWqDxFZaySrfYWFc+dgHkiXSvSkgir1i+g0eSrzsi40YgH3zaQcjvZ4Csa2phbtcUtOu1XKAw9blSU7JlAHRpMTm18rQ3cB+mXTHu5gJSHlJzAHjZ1Xcaod2FRnhzQShnCs6jVi72nolQim6tsr2dK7qkCpu/lcLkk6mA1RQWnzQJEypYQu0FyxKBLm+pY6evRNwlEwGiQRjsDJMtDIKlgX4lv9cNb1Ous6lX/7sz7NB870LPqNRa2V0CL0G/WlVlisVcwXSfZcSDWwvvjbAJvizlAY0tX6dv/HkIy4idwjQ==
+X-Ms-Office365-Filtering-Correlation-Id: f9c30c0a-1a39-4a31-91bf-08db137dda40
+Thread-Index: AQHZRWa3NbqO9d+BikWYPfGvC11FU67YQqJI
+Thread-Topic: A new billing statement is available
+X-Ms-Exchange-Crosstenant-Authas: Internal
+X-Ms-Exchange-Parent-Message-Id: <20230220200542.1c91996d596693a1@mg.therapyappointment.com>
+Received: from SA1PR12MB6702.namprd12.prod.outlook.com ([::1]) by SA1PR12MB6702.namprd12.prod.outlook.com ([fe80::44f2:8e0:9d58:9759%5]) with Microsoft SMTP Server id 15.20.6111.020; Mon, 20 Feb 2023 20:05:45 +0000
+Received: from SA1PR12MB6702.namprd12.prod.outlook.com (2603:10b6:806:252::22) by SJ1PR12MB6097.namprd12.prod.outlook.com (2603:10b6:a03:488::6) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6111.18; Mon, 20 Feb 2023 20:05:45 +0000
+Received: from NAM11-CO1-obe.outbound.protection.outlook.com (mail-co1nam11olkn2054.outbound.protection.outlook.com [40.92.18.54]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by mailin014.protonmail.ch (Postfix) with ESMTPS id 4PLD1m3b52z7QQ5m for <luis@lefv.io>; Mon, 20 Feb 2023 20:05:48 +0000 (UTC)
+X-Ms-Exchange-Antispam-Messagedata-0: wAPQ4mEkiZ5vfvgrbIm4BqV68+Q0epzw3NwOiakSlYAyK9Z0JvGedsBjagP5peC6lWY+/rpPqnOq3eQBQw5cZPLGi4L5P7VdMM8Ejh1+3wvkR1jjmrkPmNIH7MggN2BuW1VZZQ5r7vQdbFzU7OVhT3O7T4zCn6O5W1dnzq6LzNSdwi4P9STmYFicG07asCaxFdp1mpB4eEjMZal++D1wbLpRT32bmUQN6Bexydr9d1tTUi1wct7OLQvXGa9srUW+poOSSlq7WmQBtVRY1lfQ4EhPXy5F0KKZdIsxLfoX1Jmrr3DF/DX1qGjX8eHndgJZ
+X-Spamd-Result: default: False [-1.29 / 25.00]; URI_COUNT_ODD(1.00)[3]; ARC_ALLOW(-1.00)[microsoft.com:s=arcselector9901:i=1]; DMARC_POLICY_ALLOW(-0.50)[outlook.com,none]; BAYES_HAM(-0.29)[74.71%]; R_DKIM_ALLOW(-0.20)[outlook.com:s=selector1]; R_SPF_ALLOW(-0.20)[+ip4:40.92.0.0/15]; MIME_GOOD(-0.10)[multipart/alternative,text/plain]; MIME_TRACE(0.00)[0:+,1:+,2:~]; ASN(0.00)[asn:8075, ipnet:40.80.0.0/12, country:US]; FROM_EQ_ENVFROM(0.00)[]; TO_DN_EQ_ADDR_ALL(0.00)[]; RCVD_TLS_LAST(0.00)[]; NEURAL_HAM(-0.00)[-0.808]; TO_MATCH_ENVRCPT_ALL(0.00)[]; RCPT_COUNT_ONE(0.00)[1]; FROM_HAS_DN(0.00)[]; RCVD_COUNT_THREE(0.00)[3]; MID_RHS_MATCH_FROMTLD(0.00)[]; DKIM_TRACE(0.00)[outlook.com:+]
+X-Pm-Spam-Action: inbox
+Return-Path: <luisfdzdelavara@outlook.com>
+X-Microsoft-Antispam: BCL:0;
+X-Ms-Publictraffictype: Email
+X-Rspamd-Server: cp4-mailin-014.plabs.ch
+Date: Mon, 20 Feb 2023 20:05:45 +0000
+In-Reply-To: <20230220200542.1c91996d596693a1@mg.therapyappointment.com>
+Mime-Version: 1.0
+X-Pm-Content-Encryption: on-delivery
+Arc-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none; b=DCaF3einZrkN/v1PPuboLZZgXXn1uxwAlBhW97bvb+ln9aPTizjYexWkzLlhVTIGi3uTpV5WeaTpeC3ayY318vCmrDyPCyskbrpzTrTA/Rwtgr3Q9xzCuay9hAwYOGh58k7NzxpbYXqm7EiUtnvN6BTguaO1QM6pTQ1QCMGvd+eiqeIJ0VuRr2HehFMtFfPShzYDKA5inHOVCDvLH57VgvpWmLRTpMRzg3h0VdT0wTedUNwCfBXougMPQtNkmKEHzCcgLUnydD1DzQ/mq/6yOLauhbGTtbzetXpOmSVAW0Q4bnRB+EUnRZLgfPD6JEvpdDMEE3oM+OwFgHVhVTtc5g==
+X-Ms-Exchange-Antispam-Messagedata-Chunkcount: 1
+X-Ms-Exchange-Transport-Crosstenantheadersstamped: SJ1PR12MB6097
+X-Rspamd-Queue-Id: 4PLD1m3b52z7QQ5m
+
+<html lang=3D"en">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+</head>
+<body style=3D"background-color:#f5f5f5; font-family:Ubuntu,verdana,arial,s=
+ans-serif; width:100%; padding:10px 0px">
+<strong>
+<div><font face=3D"Tahoma" color=3D"#000000" size=3D"2">&nbsp;</font></div>
+</strong>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<font face=3D"Tahoma" size=3D"2"><b>From:</b> no-reply=3Dtherapyappointment=
+.com@mg.therapyappointment.com &lt;no-reply=3Dtherapyappointment.com@mg.the=
+rapyappointment.com&gt;On Behalf Ofno-reply@therapyappointment.com &lt;no-r=
+eply@therapyappointment.com&gt;<br>
+<b>Sent:</b> Monday, February 20, 2023 3:05:42 PM (UTC-05:00) Indiana (East=
+)<br>
+<b>To:</b> luis@lefv.info &lt;luis@lefv.info&gt;<br>
+<b>Subject:</b> A new billing statement is available<br>
+</font><br>
+<div></div>
+<div>
+<table style=3D"width:640px; margin:0px auto 10px auto; background-color:wh=
+ite; border-radius:4px">
+<tbody>
+<tr>
+<td style=3D"text-align:center"><img src=3D"https://api.portal.therapyappoi=
+ntment.com/static/images/logo-full-sm.png" width=3D"400px" alt=3D"TherapyAp=
+pointment"></td>
+</tr>
+</tbody>
+</table>
+<table style=3D"width:640px; margin:0px auto; padding:0px 20px; background-=
+color:white; border-collapse:separate; border-spacing:0 25px; border-radius=
+:4px">
+<tbody>
+<tr>
+<td style=3D"font-weight:400; font-size:24px">
+<p>New Statement Available</p>
+</td>
+</tr>
+<tr>
+<td>A new billing statement is available in your client portal.</td>
+</tr>
+<tr>
+<td style=3D"text-align:center"><a href=3D"https://portal.therapyappointmen=
+t.com/index.cfm/billing:main" target=3D"_blank" rel=3D"noopener noreferrer"=
+ style=3D"background-color:#0385da; font-size:20px; text-decoration:none; p=
+adding:14px 20px; color:#ffffff; border-radius:5px; display:inline-block"><=
+span style=3D""><span>View
+ Statement</span></span></a></td>
+</tr>
+<tr>
+<td>
+<p>Regards,</p>
+<p>TherapyAppointment</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table style=3D"width:640px; margin:0px auto; border-collapse:separate; bor=
+der-spacing:0 20px">
+<tbody style=3D"text-align:center; font-size:12px; color:#808080">
+<tr>
+<td><span>Questions? Please contact your provider.</span></td>
+</tr>
+<tr>
+<td>
+<p>=C2=A9 2023 TherapyAppointment</p>
+</td>
+</tr>
+<tr>
+<td><img src=3D"" width=3D"40px"></td>
+</tr>
+<tr>
+<td>
+<p>This Email is covered by the Electronic Communications Privacy Act, 18 U=
+.S.C. Sections 2510-2521 and is legally privileged. The information contain=
+ed in this Email is intended only for use of the individual or entity named=
+ above. If the reader of this message
+ is not the intended recipient, or the employee or agent responsible to del=
+iver it to the intended recipient, you are hereby notified that any dissemi=
+nation, distribution or copying of this communication is strictly prohibite=
+d. If you have received this communication
+ in error, please immediately notify us and destroy the original message. T=
+hank You!
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

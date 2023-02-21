@@ -1,0 +1,130 @@
+set realname = "Luis E. Fernandez de la Vara"
+set pgp_default_key = "<gpg key identifier>"
+
+# macros
+# Sidebar Navigation ---------------------------------
+bind index CP sidebar-prev
+bind index CN sidebar-next
+bind index CO sidebar-open
+bind pager CP sidebar-prev
+bind pager CN sidebar-next
+bind pager CO sidebar-open
+macro index b '<enter-command>toggle sidebar_visible<enter>'
+macro pager b '<enter-command>toggle sidebar_visible<enter>'
+bind index B bounce-message
+
+# message-hook '!(~g|~G) ~b"^-----BEGIN\ PGP\ (SIGNED\ )?MESSAGE"' "exec check-traditional-pgp"
+
+# Other bindings
+bind index M display-message
+
+#####################################################################
+# colors
+###
+
+source ~/.mutt/colors
+
+# Sidebar Patch --------------------------------------
+set sidebar_visible = yes
+set sidebar_width   = 24
+color sidebar_new yellow default
+
+# Status Bar -----------------------------------------
+set status_chars  = " *%A"
+set status_format = "───[ Folder: %f ]───[%r%m messages%?n? (%n new)?%?d? (%d to delete)?%?t? (%t tagged)? ]───%>─%?p?( %p postponed )?───"
+
+
+# Header Options -------------------------------------
+ignore *                                # ignore all headers
+unignore from: to: cc: date: subject:   # show only these
+unhdr_order *                           # some distros order things by default
+hdr_order from: to: cc: date: subject:  # and in this order
+
+# Use mouse wheel
+bind pager <down> next-line
+bind pager <up> previous-line
+
+# Don't add a + to urls that wrap
+# unset markers
+
+# Don't ask to confirm deletions
+# set delete = no
+
+# Don't move read mail to all mail
+set move = no
+
+# Don't show the help bar
+# set help = no
+
+#Don't wait to switch mailboxes
+set sleep_time = 0
+
+# Read top-down mail instead of bottom-up
+set sort = reverse-threads
+
+# Simplify UI
+# set status_format = "%f"
+# set date_format = "%m%d"
+# set index_format = "%Z %D %-15.15n %s"
+
+# Keep a list of contacts (aliases)
+set alias_file = ~/.mutt/alias
+
+# Import SMTP and IMAP credentials
+source "gpg -dq ~/.mutt/protonmail.gpg |"
+
+### Pager/
+# ignore *
+# unignore From Message-ID Date To Cc Bcc Subject
+# set pager_stop
+
+# Prefer plain text to html
+# alternative_order multipart/mixed multipart/related text/plain
+
+# Consult mime.types for determining types of attachments
+mime_lookup applications/octet-stream
+
+### Message composition
+set smtp_url = ""
+set smtp_pass = "SECRET"
+
+### Other
+set indent_string = ">"
+set reflow_wrap = 80
+set reflow_text
+unset reflow_space_quotes
+unset imap_passive
+set imap_check_subscribed
+set mail_check = 15
+set timeout = 15
+macro index b "<enter-command>toggle sidebar_visible<enter>"
+macro pager b "<enter-command>toggle sidebar_visible<enter>"
+unset ssl_use_sslv3
+unset ssl_use_tlsv1
+set ssl_verify_dates
+set ssl_verify_host
+set to_chars=" +TCF"
+push <show-version>
+set copy = no
+set pgp_sign_as = "Luis E. Fernandez de la Vara"
+set pgp_use_gpg_agent
+set pgp_timeout = 1800
+set crypt_autosign
+set crypt_replysign
+set crypt_replysignencrypted
+set check_new
+set editor = emacs
+#set mh_purge
+#unset confirmappend
+#unset confirmcreate
+set save_address
+set save_name
+set mark_old
+set smart_wrap
+set signature= "~/.mutt/signature"
+#set edit_hdrs
+
+# Open HTML in Mutt client
+auto_view text/html
+alternative_order text/enriched text/plain text/html text
+set mailcap_path = ~/.mutt/mailcap

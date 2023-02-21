@@ -1,0 +1,1026 @@
+X-Pm-Gluon-Id: be3fc88a-cf0a-419a-b8d7-5ff314339f6e
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+References: <zgXsYg1QY0fJfKi40WvK3YhK1fYqSAeHlki4blpcVNBW-b3K66ABYnDEWHW5vjuFO2pnBMxmseKSifmVgk-CNg==@protonmail.internalid>
+X-Pm-Date: Sat, 18 Feb 2023 18:57:18 +0000
+X-Pm-External-Id: <0102018665e344e4-b8e647da-928e-4f0e-b04b-f409d5ddce19-000000@eu-west-1.amazonses.com>
+X-Pm-Internal-Id: zgXsYg1QY0fJfKi40WvK3YhK1fYqSAeHlki4blpcVNBW-b3K66ABYnDEWHW5vjuFO2pnBMxmseKSifmVgk-CNg==
+To: <luis.e.fernandezdelavara@gmail.com>
+Reply-To: "Raspberry Pi Weekly" <weekly@raspberrypi.com>
+From: "Raspberry Pi Weekly" <weekly@raspberrypi.com>
+Subject: Raspberry Pi Weekly #426 - Find Raspberry Pi events near you
+X-Rspamd-Server: cp4-mailin-030.plabs.ch
+X-Pm-Content-Encryption: on-delivery
+X-Original-To: luis@lefv.io
+X-Pm-Spam-Action: inbox
+Date: Sat, 18 Feb 2023 18:57:18 +0000
+X-Email-Address: luis.e.fernandezdelavara@gmail.com
+X-Rspamd-Queue-Id: 4PJybh5pPMz7QQ5r
+Feedback-Id: 1.eu-west-1.NyAnctw5SqL+HJ70G2EonZPDtIrOlAesFRtAhuD6fyQ=:AmazonSES
+Delivered-To: luis@lefv.io
+X-Gm-Message-State: AO0yUKUY+InwMHBkiAyBQjBbjCDfqcxwwap1gaGlYg2f/uh9xGwxOKHZ JIBtiIwt4yFmVbxYqLw2RUwpOjBhyrfd4chpnoZy5HtQKGfl7ldMEw==
+X-Campaign-Id: bf3a2d9c-c8a9-4d4b-a117-283a5338e9f7
+X-Site-Id: 19924
+X-Google-Smtp-Source: AK7set9T1Sk58xkSvTEIuEBDqxvXLkXw5ocsiircLjPngyKLrANDu1Jv4shhKea+q2Ry8227nPc7
+Return-Path: <luis.e.fernandezdelavara+caf_=luis=lefv.io@gmail.com>
+Message-Id: <0102018665e344e4-b8e647da-928e-4f0e-b04b-f409d5ddce19-000000@eu-west-1.amazonses.com>
+Arc-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=feedback-id:mime-version:date:message-id:subject:reply-to:to:from         :dkim-signature:dkim-signature;        bh=FxMXrQh83tEGnd/K0AypfZdZVXzTqnfz2xvOQwC0dRw=;        b=PqwV/gyPl/B8xEBWREQbQELvIbRr+40SIPDvWKVbhuPa2oca0UubYZWTlFrsfNECL7         5cwKCGTB5zz2RIWqAbpc8hvxEKurkSrTwxPurPXgWTg+fDrfQPZwpz4yg79sYU2UcoIL         ZLKUgcHKq1GsOHFIJGmgfh94ztyjRD7PCgd5wFzaSMC7QNlyI8aJ3aeBpbYpwhZjwQVg         SiGqptb1dmtyYYgLWmx0B7DSV9R0YEGVc+Q2+0IOfOG27eSov5zzNSbmsaUX2CiOAmf1         Kzkr9TC5IwPQFWaUtljnVxgud5WT1lqBaUDbNWWJ/U0I0yOSu1iyChNmmMRIqleFLiCk         +agQ==
+X-Pm-Origin: external
+X-Pm-Spamscore: 0
+X-Forwarded-To: luis@lefv.io
+X-Spamd-Result: default: False [-1.95 / 25.00]; ARC_ALLOW(-1.00)[google.com:s=arc-20160816:i=1]; DMARC_POLICY_ALLOW(-0.50)[raspberrypi.com,quarantine]; R_SPF_ALLOW(-0.20)[+ip4:209.85.128.0/17:c]; R_DKIM_ALLOW(-0.20)[raspberrypi.com:s=4bruistfqocznwqt7wwqtghwl5cviwvk,amazonses.com:s=ihchhvubuqgjsxyuhssfvqohv7z3u4hn]; MIME_GOOD(-0.10)[multipart/alternative,text/plain]; MANY_INVISIBLE_PARTS(0.05)[1]; BAYES_HAM(-0.00)[43.21%]; RCVD_TLS_LAST(0.00)[]; TAGGED_FROM(0.00)[caf_=luis=lefvio]; MIME_TRACE(0.00)[0:+,1:+,2:~]; ASN(0.00)[asn:15169, ipnet:209.85.128.0/17, country:US]; NEURAL_HAM(-0.00)[-0.999]; DKIM_TRACE(0.00)[raspberrypi.com:+,amazonses.com:+]; RCPT_COUNT_ONE(0.00)[1]; FROM_NEQ_ENVFROM(0.00)[weekly@raspberrypi.com,luisefernandezdelavara@gmail.com]; FROM_HAS_DN(0.00)[]; REPLYTO_EQ_FROM(0.00)[]; RCVD_COUNT_THREE(0.00)[4]; FWD_GOOGLE(0.00)[luis.e.fernandezdelavara@gmail.com]; TO_DN_NONE(0.00)[]; TAGGED_RCPT(0.00)[]; HAS_REPLYTO(0.00)[weekly@raspberrypi.com]
+X-Google-Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20210112;        h=feedback-id:mime-version:date:message-id:subject:reply-to:to:from         :dkim-signature:dkim-signature:delivered-to:x-gm-message-state:from         :to:cc:subject:date:message-id:reply-to;        bh=FxMXrQh83tEGnd/K0AypfZdZVXzTqnfz2xvOQwC0dRw=;        b=UjbXfPZQFSCfibdjd7WdanRvdmOyIPQ2GPdPJ3t1geyGCecFK8AcPfZq7Z1BJm9AXw         gAF4OfDOAQaLWSdwjru+umJ3uas041cryL9WVxU8BVYPLR6kYBSPCCcMqeJBTymWTb7g         Bu+XerXRXxPWiiOahgWLDCCu3tjR0omU6OmtAX0HPL5UP1nqEWDA0OE/K2dT49n9HfMp         CgLlFzWANKbjBUoe033tO8Ws25Bn60Q48AnTEJUDKYZ/1KbH/eJS7GDnEfYEGoLQ4OWr         6ubtlovs7IPXq5MkeAHGCdRvpkAy0kVmCZMxk1/SM4edFP6l5H82AjG2wNVVfE0Rawgw         ifeA==
+X-Forwarded-For: luis.e.fernandezdelavara@gmail.com luis@lefv.io
+Arc-Seal: i=1; a=rsa-sha256; t=1676746638; cv=none;        d=google.com; s=arc-20160816;        b=vmt+sHlyiOveYbToY3i/YBgRXP3lPeepOyIYNN0s4iYyV/A552DFLpW4DJTtFf+FhP         BnYGxifZLs6CVHE375yk/tY35PGJRIDjd68xRvjMCTT0F5QJIFqnkNeE4aPtFRmhZRAW         l45nBfW0DoU6M1Tr5WHTCLGD/QPf4Z1CWsusi+IgIPjWyq4zgxYhIsmRnw3pCJUCK0MS         fbX5dL99movSHvG9LmhETjqkc3wOsFN6oMT2ocHKrqdmSuOpte/G3WRBUo5yLwPKJoij         GhPJZ82EQ2kY1/aNxQhZ5W4sozIsfXO4OSIPQV9bjRp2UdV/R0TjmB18wTJEGf/IdPhM         +mVA==
+Received: from a7-42.smtp-out.eu-west-1.amazonses.com (a7-42.smtp-out.eu-west-1.amazonses.com. [54.240.7.42])        by mx.google.com with ESMTPS id f21-20020a05600c44d500b003e205ee21c4si7030805wmo.73.2023.02.18.10.57.18        for <luis.e.fernandezdelavara@gmail.com>        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);        Sat, 18 Feb 2023 10:57:18 -0800 (PST)
+Received: by 2002:a05:640c:2c07:b0:1a6:de99:784a with SMTP id x7csp656049eit;        Sat, 18 Feb 2023 10:57:19 -0800 (PST)
+Received: by mail-ed1-f42.google.com with SMTP id t19so4103963edi.13        for <luis@lefv.io>; Sat, 18 Feb 2023 10:57:20 -0800 (PST)
+Received: from mail-ed1-f42.google.com (mail-ed1-f42.google.com [209.85.208.42]) (using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)  key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256) (No client certificate requested) by mailin030.protonmail.ch (Postfix) with ESMTPS id 4PJybh5pPMz7QQ5r for <luis@lefv.io>; Sat, 18 Feb 2023 18:57:20 +0000 (UTC)
+X-Pm-Transfer-Encryption: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+Received-Spf: pass (google.com: domain of 0102018665e344e4-b8e647da-928e-4f0e-b04b-f409d5ddce19-000000@bounce.raspberrypi.com designates 54.240.7.42 as permitted sender) client-ip=54.240.7.42;
+Dkim-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; s=ihchhvubuqgjsxyuhssfvqohv7z3u4hn; d=amazonses.com; t=1676746638; h=Content-Type:From:To:Reply-To:Subject:Message-ID:Date:MIME-Version:Feedback-ID; bh=s9OnFjSK7G63F+j0kfmmkDYeiFi06K47OOXHOCYS7Jk=; b=UH70PEWjzIvjqMfADfLffAKiLkme1boIv8W7BiFE77YBXMLnmKwPGGC3zhVYY92C f/AJLgzaTUmF1eGLAss9yN/TmteAQPALLvT6aflZnfdzwcdLO6k+u91L8YMg71WpGgW oBtwsYnSbq9B/jBFItdWuL0ZDLRUtFOZb8EYqy4s=
+Dkim-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; s=4bruistfqocznwqt7wwqtghwl5cviwvk; d=raspberrypi.com; t=1676746638; h=Content-Type:From:To:Reply-To:Subject:Message-ID:Date:MIME-Version; bh=s9OnFjSK7G63F+j0kfmmkDYeiFi06K47OOXHOCYS7Jk=; b=I8HVVUM1X8dwYNvmv4/x0WTDFjD4w9JwWUpm7RZ7a4rzGEL/7ipggr3WqiLUAnWc 0S2MJgbhCLXuhltw+1m5hqFrvdX+GipLLASzAKqhuPJBoat4U2HpPrBHal+RdfQQIvV uhBOqdfr+mjKnIpzQV/RNh/MlwfkfLOn5EGFv3785MpjG02Hd734Vw2ROHkEgF2RCU5 yzTlpWy4Bpf3PaDAllLQzBTHeOXuANa8h81ns9ZXe4xDqQPJk1V5rzyrvTl1N7GoNi6 TUGonlhmMF5YcSlAm1wHORQstB3VAQW/P9pk4GmVT2duKugMob0KbkD85um6iij+/Df F5eE+o3c3g==
+X-Email-Id: ed4fbdd1-9e9b-41cd-b709-c94ce5c413c1
+X-Ses-Outgoing: 2023.02.18-54.240.7.42
+X-Received: by 2002:a05:600c:2e8a:b0:3e0:fda8:7e26 with SMTP id p10-20020a05600c2e8a00b003e0fda87e26mr2967691wmn.33.1676746638987;        Sat, 18 Feb 2023 10:57:18 -0800 (PST)
+X-Received: by 2002:a50:d719:0:b0:4ad:6d57:4e16 with SMTP id t25-20020a50d719000000b004ad6d574e16mr502714edi.5.1676746640276;        Sat, 18 Feb 2023 10:57:20 -0800 (PST)
+X-Pm-Spam: 0yezJI6cihyJeYR3pi42biOpJJvbmsCIeI1msjN3X3blJp7IjBlNIIojwsIjLlITJ otIj5S4MNwSiPJFUCR6IIwLTQCJLU9kESB1XURJRRJQ1i04TOAjsk9lIWZ1J9pZ1vmZbIpj7SBlI 0TiQsiOnzF9ccFGtwojIjLwAYwMDxjINOkD55EzMDOyEYsNjvm1IZVGskl2XCe6I19MHiSwfcJ3p 6ICZjIzYExZjyjkZNF2m0QWM2NyYM3MjmTFOMJi9zJCLSY6IJpeyz19ccFGtwojICLzJ9yY26SIZ MwCivN2cmckVowIjsjILIJnly9GcCd6IJSeyE1ZQXl0OT10XEULl9IRV6iIMW0ywsAjLjIwI44OS yS4NMgDugIDNGbzlVkdGuGlIIdHsh1mLWazxlrcGuS5ZZQXiiwSX1UGBhFX0fE9TT9kO6ISRzWuA 0sMFFkhIQRUFG9lUkUN9RJX0FkZRUVkOE9FV0TB15TSUbjpIM4CyiwSX1UGBBBX1i1MUOsltw4CM SXiwRNSFGF9TT50UPx0X1VD95UT0TkFUVIC6uAzWFMs0hUIkfUxTTVUTHF0USR6IAuWzsF0MIhkU fxUTUSB1VfR0UkFUS9UfiQDMlOwsBdLjECJLSl0NBZ1XETElpbIjuTALM0VsLRkIUSf1FMVkfURS QUVitslOCMx4wiXSJEtRT9VTOdUSURiQswOldjFLLJCUBt0XVTI91MVEP0ZXTRlfW5USUQJxI6RC uzAWM1F9fX0=====
+Authentication-Results: mailin030.protonmail.ch; dkim=pass (2048-bit key) header.d=raspberrypi.com header.i=@raspberrypi.com header.b="I8HVVUM1"; dkim=pass (1024-bit key) header.d=amazonses.com header.i=@amazonses.com header.b="UH70PEWj"
+Authentication-Results: mailin030.protonmail.ch; arc=pass smtp.remote-ip=209.85.208.42 arc.chain=:google.com
+Authentication-Results: mailin030.protonmail.ch; spf=pass smtp.mailfrom=gmail.com
+Authentication-Results: mailin030.protonmail.ch; dmarc=pass (p=quarantine dis=none) header.from=raspberrypi.com
+Authentication-Results: mailin030.protonmail.ch; dkim=pass (Good 2048    bit rsa-sha256 signature) header.d=raspberrypi.com header.a=rsa-sha256;    dkim=pass (Good 1024 bit rsa-sha256 signature) header.d=amazonses.com    header.a=rsa-sha256
+Mime-Version: 1.0
+Arc-Authentication-Results: i=1; mx.google.com;       dkim=pass header.i=@raspberrypi.com header.s=4bruistfqocznwqt7wwqtghwl5cviwvk header.b=I8HVVUM1;       dkim=pass header.i=@amazonses.com header.s=ihchhvubuqgjsxyuhssfvqohv7z3u4hn header.b=UH70PEWj;       spf=pass (google.com: domain of 0102018665e344e4-b8e647da-928e-4f0e-b04b-f409d5ddce19-000000@bounce.raspberrypi.com designates 54.240.7.42 as permitted sender) smtp.mailfrom=0102018665e344e4-b8e647da-928e-4f0e-b04b-f409d5ddce19-000000@bounce.raspberrypi.com;       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=raspberrypi.com
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" style=3D"box-sizing: border-bo=
+x; font-family: sans-serif; line-height: 1.15; -webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; -ms-overflow-style: scrollbar; -webkit-tap-=
+highlight-color: transparent;">
+<head>
+    <title>weMail Email Campaign</title>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <!-- font-url -->
+    <!-- weMail styles -->
+<!--     <style>CUSTOMIZER_CSS</style> -->
+
+    <!-- litmus styles -->
+    <style type=3D"text/css">
+[tabindex=3D"-1"]:focus {
+  outline: none !important;
+}
+a:hover {
+  color: #003f5e;
+  text-decoration: underline;
+}
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+button::-moz-focus-inner,
+[type=3D"button"]::-moz-focus-inner,
+[type=3D"reset"]::-moz-focus-inner,
+[type=3D"submit"]::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+.empty-content-zone.hovering-content .content-dropzone-placeholder {
+  background: rgba(0, 115, 170, .2);
+  border: 1px dashed #0073aa;
+}
+.responsive-table > tbody > tr > td .control-buttons i.disabled i:hover {
+  background-color: #23282d;
+}
+.responsive-table > tbody > tr > td .control-buttons i:hover {
+  background-color: #0073aa;
+}
+.responsive-table > tbody > tr > td:hover .control-buttons {
+  display: block;
+}
+@media screen and (max-width: 525px) {
+  .wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .wemail-content-image {
+    margin: 0!important;
+  }
+
+  .wemail-content-button {
+    margin-bottom: 10px;
+  }
+
+  .content-text-extra-padding {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .mobile-hide {
+    display: none !important;
+  }
+
+  .img-max {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .responsive-table {
+    width: 100% !important;
+  }
+
+  .section.section-top .wemail-content-text,
+.section.section-top .wemail-content-text p {
+    text-align: center !important;
+  }
+}
+</style>
+
+    <style type=3D"text/css">a{ color:#1955ae;text-decoration:underline;}</=
+style>
+</head>
+<body style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; font-family: Arial, sans-serif; font-size: 0.875rem=
+; font-weight: normal; line-height: 1.5; color: #23282d; text-align: left; =
+background-color: #fff; height: 100%; width: 100%; margin: 0; padding: 0;">
+    <!-- HIDDEN PREHEADER TEXT -->
+    <div style=3D"box-sizing: border-box; display: none; font-size: 1px; co=
+lor: #fefefe; line-height: 1px; font-family: Helvetica, Arial, sans-serif; =
+max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+        Find cool things to do and like-minded tinkerers all over the world=
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nb=
+sp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;=
+&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zw=
+nj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;=
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nb=
+sp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;=
+&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zw=
+nj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;=
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nb=
+sp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;=
+&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zw=
+nj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;=
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nb=
+sp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;=
+&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zw=
+nj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+    </div>
+
+    <div id=3D"wemail-customizer" data-server-rendered=3D"true" style=3D"bo=
+x-sizing: border-box; position: relative; padding-top: 0px; padding-bottom:=
+ 0px; background-color: #f5f6f9;"><table border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" width=3D"100%" style=3D"box-sizing: border-box; -webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt; border-top-style: solid; background-color: #f5f6f9; padd=
+ing-bottom: 0px; font-family: -apple-system, BlinkMacSystemFont, &quot; und=
+efined: SegoeUI&quot; undefined: ,Roboto,Helvetica,Arial,sans-serif,&quot; =
+undefined: AppleColorEmoji&quot; undefined: ,&quot; undefined: SegoeUIEmoji=
+&quot; undefined: ,&quot; undefined: SegoeUISymbol; color: #333333; border-=
+top-width: 0px; font-size: 18px; padding-top: 0px; border-top-color: #0073a=
+a; border-collapse: collapse;" bgcolor=3D"#f5f6f9"><tr class=3D"section sec=
+tion-top" style=3D"box-sizing: border-box;"><td align=3D"center" style=3D"b=
+ox-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"responsive-tabl=
+e section-wrapper" style=3D"box-sizing: border-box; -webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt; background-color: transparent; color: inherit; border-top-color: #1=
+e73be; border-top-style: solid; border-bottom-color: #1e73be; border-left: =
+0; font-family: inherit; padding-bottom: 0px; border-top-width: 0px; border=
+-right: 0; border-bottom-style: solid; font-size: inherit; margin-bottom: 0=
+px; padding-top: 0px; border-bottom-width: 0px; max-width: 600px; border-co=
+llapse: collapse;" bgcolor=3D"transparent"><tbody data-section-index=3D"0" =
+style=3D"box-sizing: border-box;"><tr data-source=3D"iframe" data-content-t=
+ype=3D"image" data-section-index=3D"0" data-content-index=3D"0" class=3D"co=
+ntent-wrapper" style=3D"box-sizing: border-box;"><td style=3D"box-sizing: b=
+order-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt; position: relative;"><table align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+ style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width:=
+ 600px; margin-bottom: 0px; border-collapse: collapse;"><tr style=3D"box-si=
+zing: border-box;"><td align=3D"center" valign=3D"top" style=3D"box-sizing:=
+ border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 0; background-color:=
+ #ffffff;" bgcolor=3D"#ffffff"><table align=3D"left" border=3D"0" width=3D"=
+100%" cellpadding=3D"0" cellspacing=3D"0" class=3D"wrapper" style=3D"box-si=
+zing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;=
+"><tr style=3D"box-sizing: border-box;"><td align=3D"center" width=3D"100%"=
+ valign=3D"top" class=3D"columns" style=3D"box-sizing: border-box; -webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;"><div class=3D"wemail-content-image" style=3D"box-si=
+zing: border-box; background-color: #ffffff; border-color: #e5e5e5; padding=
+-bottom: 0px; text-align: center; border-width: 0px; padding-right: 40px; m=
+argin-bottom: 0px; padding-top: 25px; border-style: solid; padding-left: 10=
+px;"><div style=3D"box-sizing: border-box;"><img width=3D"1405" height=3D"4=
+50" src=3D"https://www.raspberrypi.com/app/uploads/2023/01/Pi-Weekly-wordma=
+rk-LARGE-RESCALE-01.png" alt=3D"Raspberry Pi Weekly" style=3D"box-sizing: b=
+order-box; -ms-interpolation-mode: bicubic; border: 0; line-height: 100%; o=
+utline: none; text-decoration: none; vertical-align: middle; border-style: =
+none; max-width: 100%; height: auto;"></div></div></td></tr></table></td></=
+tr></table></td></tr><tr data-source=3D"iframe" data-content-type=3D"divide=
+r" data-section-index=3D"0" data-content-index=3D"1" class=3D"content-wrapp=
+er" style=3D"box-sizing: border-box;"><td style=3D"box-sizing: border-box; =
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt; position: relative;"><table align=3D"center"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"b=
+ox-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 600px; mar=
+gin-bottom: 0px; border-collapse: collapse;"><tr style=3D"box-sizing: borde=
+r-box;"><td align=3D"center" valign=3D"top" style=3D"box-sizing: border-box=
+; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt; font-size: 0;"><div class=3D"wrapper" styl=
+e=3D"box-sizing: border-box; display: inline-block; vertical-align: top; wi=
+dth: 100%;"><table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"100%" style=3D"box-sizing: border-box; -webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt; border-collapse: collapse;"><tr style=3D"box-sizing: border-box=
+;"><td align=3D"center" valign=3D"top" style=3D"box-sizing: border-box; -we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"100%" class=3D"wrapperInner" style=3D"box-sizing: border=
+-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr style=
+=3D"box-sizing: border-box;"><td style=3D"box-sizing: border-box; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; padding: 20px; background-color: #ffffff; line-height=
+: 0;" bgcolor=3D"#ffffff"><table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" width=3D"100%" style=3D"box-sizing: border-box; -webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; border-collapse: collapse;"><tr style=3D"box-sizing: border-box;=
+"><td valign=3D"middle" style=3D"box-sizing: border-box; -webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; font-size: 18px;"><div class=3D"wemail-content-divider" style=
+=3D"box-sizing: border-box;"><div style=3D"box-sizing: border-box; width: 9=
+5%; border-top-style: solid; margin: 0 auto; border-top-width: 2px; border-=
+top-color: #e5e5e5;">=C2=A0</div></div></td></tr></table></td></tr></table>=
+</td></tr></table></div></td></tr></table></td></tr><tr data-source=3D"ifra=
+me" data-content-type=3D"text" data-section-index=3D"0" data-content-index=
+=3D"2" class=3D"content-wrapper" style=3D"box-sizing: border-box;"><td styl=
+e=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; position: relat=
+ive;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%" style=3D"box-sizing: border-box; -webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt; max-width: 600px; margin-bottom: 0px; border-collapse: collapse;"><=
+tr style=3D"box-sizing: border-box;"><td align=3D"center" valign=3D"top" st=
+yle=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 0;=
+ background-color: #ffffff;" bgcolor=3D"#ffffff"><div class=3D"wrapper" sty=
+le=3D"box-sizing: border-box; display: inline-block; width: 100%; vertical-=
+align: top;"><table align=3D"left" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"100%" style=3D"box-sizing: border-box; -webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; border-collapse: collapse;"><tr style=3D"box-sizing: border-bo=
+x;"><td align=3D"center" valign=3D"top" class=3D"content-text-extra-padding=
+" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-r=
+ight: 0;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+100%" class=3D"wrapperInner" style=3D"box-sizing: border-box; -webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt; border-collapse: collapse;"><tr style=3D"box-sizing: bord=
+er-box;"><td style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; padding-top: 20px; padding-right: 36px; padding-bottom: 20px; padding-lef=
+t: 36px; border-width: 0px; border-style: solid; border-color: #e5e5e5;"><t=
+able cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" style=
+=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse:=
+ collapse;"><tr style=3D"box-sizing: border-box;"><td align=3D"left" valign=
+=3D"middle" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ font-size: 18px;"><div class=3D"wemail-content-text" style=3D"box-sizing: =
+border-box;"><p style=3D"box-sizing: border-box; margin-top: 0; margin-bott=
+om: 1rem; text-align: left;"><span style=3D"box-sizing: border-box; margin-=
+bottom: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Robo=
+to, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'S=
+egoe UI Symbol'; font-size: 16px; color: #333333;">Howdy,</span></p>
+<p style=3D"box-sizing: border-box; margin-top: 0; margin-bottom: 1rem; tex=
+t-align: left;"><span style=3D"box-sizing: border-box; margin-bottom: 0; co=
+lor: #333333; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', R=
+oboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol'; font-size: 16px;">We've brought back our <a href=3D"htt=
+ps://api.getwemail.io/redirect-to/bf3a2d9c-c8a9-4d4b-a117-283a5338e9f7:16c9=
+7f9d70b071d9cf85da475e4a1439/ee279659b78a79de6dc7e36b5c59822c?email_id=3Ded=
+4fbdd1-9e9b-41cd-b709-c94ce5c413c1" style=3D"box-sizing: border-box; -webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: tra=
+nsparent; -webkit-text-decoration-skip: objects; -ms-touch-action: manipula=
+tion; touch-action: manipulation; color: #1955ae; text-decoration: underlin=
+e; margin-bottom: 0;">events page</a> to help you find cool things to do an=
+d like-minded tinkerers near you, as well as events where you can meet the =
+Raspberry Pi team.</span></p>
+<p style=3D"box-sizing: border-box; margin-top: 0; margin-bottom: 1rem; tex=
+t-align: left;"><span style=3D"box-sizing: border-box; margin-bottom: 0; co=
+lor: #333333; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', R=
+oboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol'; font-size: 16px;">We'd also like to hear about things y=
+ou're planning yourself. Whether it's a regular makerspace meet-up, an onli=
+ne event, or a good old Raspberry Jam, <a href=3D"https://api.getwemail.io/=
+redirect-to/bf3a2d9c-c8a9-4d4b-a117-283a5338e9f7:58088f6dd0276f4e383ee1180f=
+f03e54/ee279659b78a79de6dc7e36b5c59822c?email_id=3Ded4fbdd1-9e9b-41cd-b709-=
+c94ce5c413c1" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; background-color: transparent; -webkit-text=
+-decoration-skip: objects; -ms-touch-action: manipulation; touch-action: ma=
+nipulation; color: #1955ae; text-decoration: underline; margin-bottom: 0;">=
+tell us</a> so we can post it on our events page and let other Pi people kn=
+ow.</span></p>
+<p style=3D"box-sizing: border-box; margin-top: 0; margin-bottom: 1rem; tex=
+t-align: left;"><span style=3D"box-sizing: border-box; margin-bottom: 0; fo=
+nt-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica=
+, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbo=
+l'; font-size: 16px; color: #333333;">Peace,</span></p>
+<p style=3D"box-sizing: border-box; margin-top: 0; margin-bottom: 0; text-a=
+lign: left;"><span style=3D"box-sizing: border-box; margin-bottom: 0; font-=
+family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, A=
+rial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';=
+ font-size: 16px; color: #333333;">Ashley</span></p></div></td></tr></table=
+></td></tr></table></td></tr></table></div> <!----></td></tr></table></td><=
+/tr><tr data-source=3D"iframe" data-content-type=3D"divider" data-section-i=
+ndex=3D"0" data-content-index=3D"3" class=3D"content-wrapper" style=3D"box-=
+sizing: border-box;"><td style=3D"box-sizing: border-box; -webkit-text-size=
+-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table=
+-rspace: 0pt; position: relative;"><table align=3D"center" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"box-sizing: border=
+-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; max-width: 600px; margin-bottom: 0px; =
+border-collapse: collapse;"><tr style=3D"box-sizing: border-box;"><td align=
+=3D"center" valign=3D"top" style=3D"box-sizing: border-box; -webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt; font-size: 0;"><div class=3D"wrapper" style=3D"box-sizing: =
+border-box; display: inline-block; vertical-align: top; width: 100%;"><tabl=
+e align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+100%" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; borde=
+r-collapse: collapse;"><tr style=3D"box-sizing: border-box;"><td align=3D"c=
+enter" valign=3D"top" style=3D"box-sizing: border-box; -webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" class=3D"wrapperInner" style=3D"box-sizing: border-box; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; border-collapse: collapse;"><tr style=3D"box-sizing: =
+border-box;"><td style=3D"box-sizing: border-box; -webkit-text-size-adjust:=
+ 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt; padding: 20px; background-color: #ffffff; line-height: 0;" bgcolor=3D=
+"#ffffff"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"=
+100%" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; borde=
+r-collapse: collapse;"><tr style=3D"box-sizing: border-box;"><td valign=3D"=
+middle" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -m=
+s-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; fon=
+t-size: 18px;"><div class=3D"wemail-content-divider" style=3D"box-sizing: b=
+order-box;"><div style=3D"box-sizing: border-box; width: 95%; border-top-st=
+yle: solid; margin: 0 auto; border-top-width: 2px; border-top-color: #e5e5e=
+5;">=C2=A0</div></div></td></tr></table></td></tr></table></td></tr></table=
+></div></td></tr></table></td></tr></tbody></table></td></tr><tr class=3D"s=
+ection section-body" style=3D"box-sizing: border-box;"><td align=3D"center"=
+ style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><table bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"resp=
+onsive-table section-wrapper" style=3D"box-sizing: border-box; -webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt; background-color: transparent; color: inherit; border-to=
+p-color: #1e73be; border-top-style: solid; border-bottom-color: #1e73be; bo=
+rder-left: 0; font-family: inherit; padding-bottom: 0px; border-top-width: =
+0px; border-right: 0; border-bottom-style: solid; font-size: inherit; margi=
+n-bottom: 0px; padding-top: 0px; border-bottom-width: 0px; max-width: 600px=
+; border-collapse: collapse;" bgcolor=3D"transparent"><tbody data-section-i=
+ndex=3D"1" style=3D"box-sizing: border-box;"><tr data-source=3D"iframe" dat=
+a-content-type=3D"wpPosts" data-section-index=3D"1" data-content-index=3D"0=
+" class=3D"content-wrapper" style=3D"box-sizing: border-box;"><td style=3D"=
+box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; position: relative;"=
+><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" cla=
+ss=3D"content" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt; border-top-style: solid; background-color: #f5f6f9; padding-bottom: 0px=
+; font-family: -apple-system, BlinkMacSystemFont, &quot; undefined: SegoeUI=
+&quot; undefined: ,Roboto,Helvetica,Arial,sans-serif,&quot; undefined: Appl=
+eColorEmoji&quot; undefined: ,&quot; undefined: SegoeUIEmoji&quot; undefine=
+d: ,&quot; undefined: SegoeUISymbol; color: #333333; border-top-width: 0px;=
+ font-size: 18px; padding-top: 0px; border-top-color: #0073aa; border-colla=
+pse: collapse;" bgcolor=3D"#f5f6f9"><tr style=3D"box-sizing: border-box;"><=
+td style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding:=
+ 36px; margin-bottom: 0px; background-color: #ffffff;" bgcolor=3D"#ffffff">=
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse=
+: separate;"><tr style=3D"box-sizing: border-box;"><td align=3D"left" valig=
+n=3D"top" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">=
+<div style=3D"box-sizing: border-box; text-align: left;"><img src=3D"https:=
+//www.raspberrypi.com/app/uploads/2023/02/Screenshot-2023-02-16-at-06.32.47=
+.png" alt=3D"Find us and your fellow Raspberry Pi enthusiasts at an event n=
+ear you" style=3D"box-sizing: border-box; -ms-interpolation-mode: bicubic; =
+border: 0; height: auto; line-height: 100%; outline: none; text-decoration:=
+ none; vertical-align: middle; margin-right: 0px; padding: 0px; border-colo=
+r: #cccccc; background-color: #ffffff; max-width: 100%; border-width: 0px; =
+margin-bottom: 20px; float: none; border-style: solid; margin-top: 0px; mar=
+gin-left: 0px;"></div> <h2 style=3D"box-sizing: border-box; margin-top: 0; =
+font-family: inherit; color: #333333; text-align: left; font-size: 18px; li=
+ne-height: 24px; margin-bottom: 20px; font-weight: bold; text-transform: no=
+ne;">Find us and your fellow Raspberry Pi enthusiasts at an event near you<=
+/h2> <p style=3D"box-sizing: border-box; margin-top: 0; font-size: 16px; li=
+ne-height: 24px; margin-bottom: 20px; color: #333333; text-align: left;">
+                                        For many years, Raspberry Pi enthus=
+iasts have gathered in person to meet each other, show off their projects, =
+share knowledge, and learn new skills. To support these gatherings, we=E2=
+=80=99ve brought back our event listings website so that you can locate Ras=
+pberry Pi community events all over the world.
+                                    </p> <!----> <div style=3D"box-sizing: =
+border-box; text-align: center;"><a href=3D"https://api.getwemail.io/redire=
+ct-to/bf3a2d9c-c8a9-4d4b-a117-283a5338e9f7:799905522704285023167c9cc7c756c5=
+/ee279659b78a79de6dc7e36b5c59822c?email_id=3Ded4fbdd1-9e9b-41cd-b709-c94ce5=
+c413c1" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -m=
+s-text-size-adjust: 100%; -webkit-text-decoration-skip: objects; -ms-touch-=
+action: manipulation; touch-action: manipulation; background-color: #1955ae=
+; border-color: #e5e5e5; color: #fff; display: inline-block; padding-right:=
+ 20px; text-decoration: none; padding-bottom: 10px; border-radius: 100px; b=
+order-width: 0px; font-size: 18px; line-height: 1; margin-bottom: 64px; pad=
+ding-top: 10px; border-style: solid; padding-left: 20px; font-weight: norma=
+l; text-transform: none;">Read more</a></div></td></tr><tr style=3D"box-siz=
+ing: border-box;"><td align=3D"left" valign=3D"top" style=3D"box-sizing: bo=
+rder-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;"><div style=3D"box-sizing: border-=
+box; text-align: left;"><img src=3D"https://www.raspberrypi.com/app/uploads=
+/2023/02/Screenshot-2023-02-15-at-10.24.44.png" alt=3D"Stare down your gami=
+ng opponent with this dual-screen Raspberry Pi 400-powered console" style=
+=3D"box-sizing: border-box; -ms-interpolation-mode: bicubic; border: 0; hei=
+ght: auto; line-height: 100%; outline: none; text-decoration: none; vertica=
+l-align: middle; margin-right: 0px; padding: 0px; border-color: #cccccc; ba=
+ckground-color: #ffffff; max-width: 100%; border-width: 0px; margin-bottom:=
+ 20px; float: none; border-style: solid; margin-top: 0px; margin-left: 0px;=
+"></div> <h2 style=3D"box-sizing: border-box; margin-top: 0; font-family: i=
+nherit; color: #333333; text-align: left; font-size: 18px; line-height: 24p=
+x; margin-bottom: 20px; font-weight: bold; text-transform: none;">Stare dow=
+n your gaming opponent with this dual-screen Raspberry Pi 400-powered conso=
+le</h2> <p style=3D"box-sizing: border-box; margin-top: 0; font-size: 16px;=
+ line-height: 24px; margin-bottom: 20px; color: #333333; text-align: left;"=
+>
+                                        This gorgeous dual-screen tabletop =
+arcade lets you stare down your opponent as your on-screen alter ego Hadouk=
+ens them.
+                                    </p> <!----> <div style=3D"box-sizing: =
+border-box; text-align: center;"><a href=3D"https://api.getwemail.io/redire=
+ct-to/bf3a2d9c-c8a9-4d4b-a117-283a5338e9f7:11d1c01fd237b532d6fa1a94224d9765=
+/ee279659b78a79de6dc7e36b5c59822c?email_id=3Ded4fbdd1-9e9b-41cd-b709-c94ce5=
+c413c1" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -m=
+s-text-size-adjust: 100%; -webkit-text-decoration-skip: objects; -ms-touch-=
+action: manipulation; touch-action: manipulation; background-color: #1955ae=
+; border-color: #e5e5e5; color: #fff; display: inline-block; padding-right:=
+ 20px; text-decoration: none; padding-bottom: 10px; border-radius: 100px; b=
+order-width: 0px; font-size: 18px; line-height: 1; margin-bottom: 64px; pad=
+ding-top: 10px; border-style: solid; padding-left: 20px; font-weight: norma=
+l; text-transform: none;">Read more</a></div></td></tr><tr style=3D"box-siz=
+ing: border-box;"><td align=3D"left" valign=3D"top" style=3D"box-sizing: bo=
+rder-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;"><div style=3D"box-sizing: border-=
+box; text-align: left;"><img src=3D"https://www.raspberrypi.com/app/uploads=
+/2023/02/Screenshot-2023-02-14-at-09.47.35.png" alt=3D"Raspberry Pi runs Ap=
+ollo Guidance Computer code in this homemade DSKY" style=3D"box-sizing: bor=
+der-box; -ms-interpolation-mode: bicubic; border: 0; height: auto; line-hei=
+ght: 100%; outline: none; text-decoration: none; vertical-align: middle; ma=
+rgin-right: 0px; padding: 0px; border-color: #cccccc; background-color: #ff=
+ffff; max-width: 100%; border-width: 0px; margin-bottom: 20px; float: none;=
+ border-style: solid; margin-top: 0px; margin-left: 0px;"></div> <h2 style=
+=3D"box-sizing: border-box; margin-top: 0; font-family: inherit; color: #33=
+3333; text-align: left; font-size: 18px; line-height: 24px; margin-bottom: =
+20px; font-weight: bold; text-transform: none;">Raspberry Pi runs Apollo Gu=
+idance Computer code in this homemade DSKY</h2> <p style=3D"box-sizing: bor=
+der-box; margin-top: 0; font-size: 16px; line-height: 24px; margin-bottom: =
+20px; color: #333333; text-align: left;">
+                                        Feel like you're running mission co=
+ntrol with a homemade DSKY. This build runs the Colossus=C2=A0code - the pr=
+ogram that ran on the=C2=A0actual Apollo=C2=A0Guidance Computer.
+                                    </p> <!----> <div style=3D"box-sizing: =
+border-box; text-align: center;"><a href=3D"https://api.getwemail.io/redire=
+ct-to/bf3a2d9c-c8a9-4d4b-a117-283a5338e9f7:145192cda681f75182fd7db4fa9e915c=
+/ee279659b78a79de6dc7e36b5c59822c?email_id=3Ded4fbdd1-9e9b-41cd-b709-c94ce5=
+c413c1" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -m=
+s-text-size-adjust: 100%; -webkit-text-decoration-skip: objects; -ms-touch-=
+action: manipulation; touch-action: manipulation; background-color: #1955ae=
+; border-color: #e5e5e5; color: #fff; display: inline-block; padding-right:=
+ 20px; text-decoration: none; padding-bottom: 10px; border-radius: 100px; b=
+order-width: 0px; font-size: 18px; line-height: 1; margin-bottom: 64px; pad=
+ding-top: 10px; border-style: solid; padding-left: 20px; font-weight: norma=
+l; text-transform: none;">Read more</a></div></td></tr><tr style=3D"box-siz=
+ing: border-box;"><td align=3D"left" valign=3D"top" style=3D"box-sizing: bo=
+rder-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;"><div style=3D"box-sizing: border-=
+box; text-align: left;"><img src=3D"https://www.raspberrypi.com/app/uploads=
+/2023/02/Screenshot-2023-02-13-at-12.16.30.png" alt=3D"Make a Tide Tracker =
+with APIs and an e-ink display" style=3D"box-sizing: border-box; -ms-interp=
+olation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline:=
+ none; text-decoration: none; vertical-align: middle; margin-right: 0px; pa=
+dding: 0px; border-color: #cccccc; background-color: #ffffff; max-width: 10=
+0%; border-width: 0px; margin-bottom: 20px; float: none; border-style: soli=
+d; margin-top: 0px; margin-left: 0px;"></div> <h2 style=3D"box-sizing: bord=
+er-box; margin-top: 0; font-family: inherit; color: #333333; text-align: le=
+ft; font-size: 18px; line-height: 24px; margin-bottom: 20px; font-weight: b=
+old; text-transform: none;">Make a Tide Tracker with APIs and an e-ink disp=
+lay</h2> <p style=3D"box-sizing: border-box; margin-top: 0; font-size: 16px=
+; line-height: 24px; margin-bottom: 20px; color: #333333; text-align: left;=
+">
+                                        Surf=E2=80=99s up, or is it? Save y=
+ourself a wasted trip to the beach with The MagPi's handy tide tracker.
+                                    </p> <!----> <div style=3D"box-sizing: =
+border-box; text-align: center;"><a href=3D"https://api.getwemail.io/redire=
+ct-to/bf3a2d9c-c8a9-4d4b-a117-283a5338e9f7:f843543f664fe4a31583a3d10e6272aa=
+/ee279659b78a79de6dc7e36b5c59822c?email_id=3Ded4fbdd1-9e9b-41cd-b709-c94ce5=
+c413c1" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -m=
+s-text-size-adjust: 100%; -webkit-text-decoration-skip: objects; -ms-touch-=
+action: manipulation; touch-action: manipulation; background-color: #1955ae=
+; border-color: #e5e5e5; color: #fff; display: inline-block; padding-right:=
+ 20px; text-decoration: none; padding-bottom: 10px; border-radius: 100px; b=
+order-width: 0px; font-size: 18px; line-height: 1; margin-bottom: 64px; pad=
+ding-top: 10px; border-style: solid; padding-left: 20px; font-weight: norma=
+l; text-transform: none;">Read more</a></div></td></tr><tr style=3D"box-siz=
+ing: border-box;"><td align=3D"left" valign=3D"top" style=3D"box-sizing: bo=
+rder-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;"><div style=3D"box-sizing: border-=
+box; text-align: left;"><img src=3D"https://www.raspberrypi.com/app/uploads=
+/2023/02/for-beginners.webp" alt=3D"Raspberry Pi Camera Module 3 review | H=
+ackSpace #64" style=3D"box-sizing: border-box; -ms-interpolation-mode: bicu=
+bic; border: 0; height: auto; line-height: 100%; outline: none; text-decora=
+tion: none; vertical-align: middle; margin-right: 0px; padding: 0px; border=
+-color: #cccccc; background-color: #ffffff; max-width: 100%; border-width: =
+0px; margin-bottom: 20px; float: none; border-style: solid; margin-top: 0px=
+; margin-left: 0px;"></div> <h2 style=3D"box-sizing: border-box; margin-top=
+: 0; font-family: inherit; color: #333333; text-align: left; font-size: 18p=
+x; line-height: 24px; margin-bottom: 20px; font-weight: bold; text-transfor=
+m: none;">Raspberry Pi Camera Module 3 review | HackSpace #64</h2> <p style=
+=3D"box-sizing: border-box; margin-top: 0; font-size: 16px; line-height: 24=
+px; margin-bottom: 20px; color: #333333; text-align: left;">
+                                        The headline feature of almost any =
+digital camera is the number of pixels, and all versions of the Raspberry P=
+i Camera Module 3 have 12-megapixel sensors =E2=80=93 a 50% increase from t=
+he 8MP sensor on the Camera Module 2.
+                                    </p> <!----> <div style=3D"box-sizing: =
+border-box; text-align: center;"><a href=3D"https://api.getwemail.io/redire=
+ct-to/bf3a2d9c-c8a9-4d4b-a117-283a5338e9f7:709009b45f7abf75eb34a373532ec8b6=
+/ee279659b78a79de6dc7e36b5c59822c?email_id=3Ded4fbdd1-9e9b-41cd-b709-c94ce5=
+c413c1" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -m=
+s-text-size-adjust: 100%; -webkit-text-decoration-skip: objects; -ms-touch-=
+action: manipulation; touch-action: manipulation; background-color: #1955ae=
+; border-color: #e5e5e5; color: #fff; display: inline-block; padding-right:=
+ 20px; text-decoration: none; padding-bottom: 10px; border-radius: 100px; b=
+order-width: 0px; font-size: 18px; line-height: 1; margin-bottom: 64px; pad=
+ding-top: 10px; border-style: solid; padding-left: 20px; font-weight: norma=
+l; text-transform: none;">Read more</a></div></td></tr></table></td></tr></=
+table></td></tr><tr data-source=3D"iframe" data-content-type=3D"video" data=
+-section-index=3D"1" data-content-index=3D"1" class=3D"content-wrapper" sty=
+le=3D"box-sizing: border-box;"><td style=3D"box-sizing: border-box; -webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt; position: relative;"><table width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"content" style=3D"box-s=
+izing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse=
+;"><tr style=3D"box-sizing: border-box;"><td align=3D"left" style=3D"box-si=
+zing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><div class=3D"wrapper" st=
+yle=3D"box-sizing: border-box;"><table align=3D"left" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"box-sizing: border-box;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr style=3D"bo=
+x-sizing: border-box;"><td align=3D"center" valign=3D"top" style=3D"box-siz=
+ing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><table border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"wrapperInner" style=
+=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse:=
+ collapse;"><tr style=3D"box-sizing: border-box;"><td style=3D"box-sizing: =
+border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;"><table cellpadding=3D"0" cellsp=
+acing=3D"0" border=3D"0" width=3D"100%" style=3D"box-sizing: border-box; -w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr style=3D"box-s=
+izing: border-box;"><td align=3D"left" valign=3D"middle" style=3D"box-sizin=
+g: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><div style=3D"box-sizing: bo=
+rder-box; padding: 15px; background-color: transparent; border-color: #e5e5=
+e5; border-style: solid; text-align: center; border-width: 0px;"><!----> <a=
+ href=3D"https://api.getwemail.io/redirect-to/bf3a2d9c-c8a9-4d4b-a117-283a5=
+338e9f7:ec456c9be86cb9593f330d012ea197ce/ee279659b78a79de6dc7e36b5c59822c?e=
+mail_id=3Ded4fbdd1-9e9b-41cd-b709-c94ce5c413c1" target=3D"_blank" style=3D"=
+box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; background-color: transparent; -webkit-text-decoration-skip: objec=
+ts; -ms-touch-action: manipulation; touch-action: manipulation; color: #195=
+5ae; text-decoration: underline;"><img src=3D"https://www.raspberrypi.com/a=
+pp/uploads/2023/02/UbbhivTjSoQ.jpeg" alt=3D"youtube" style=3D"box-sizing: b=
+order-box; -ms-interpolation-mode: bicubic; border: 0; line-height: 100%; o=
+utline: none; text-decoration: none; vertical-align: middle; border-style: =
+none; max-width: 100%; height: auto;"></a> <div class=3D"wemail-content-tex=
+t" style=3D"box-sizing: border-box; padding: 15px; background-color: #FFFFF=
+F; font-size: 14px; color: #ffffff; text-align: center;"><p style=3D"box-si=
+zing: border-box; margin-top: 0; margin-bottom: 0; text-align: left;"><span=
+ style=3D"box-sizing: border-box; margin-bottom: 0; color: #000000;">Cooles=
+t Projects is a free online showcase for young digital tech creators around=
+ the world. Whether it's big, small, weird, wonderful, a work in progress, =
+or a world-changing idea, through Coolest Projects you can share your tech =
+project with a global community of creators like you.</span></p></div></div=
+></td></tr></table></td></tr></table></td></tr></table></div></td></tr></ta=
+ble></td></tr><tr data-source=3D"iframe" data-content-type=3D"button" data-=
+section-index=3D"1" data-content-index=3D"2" class=3D"content-wrapper" styl=
+e=3D"box-sizing: border-box;"><td style=3D"box-sizing: border-box; -webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; position: relative;"><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"box-sizi=
+ng: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 600px; margin-bot=
+tom: 0px; border-collapse: collapse;"><tr style=3D"box-sizing: border-box;"=
+><td align=3D"center" valign=3D"top" style=3D"box-sizing: border-box; -webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt; display: inline-block; vertical-align: top; width=
+: 100%;" width=3D"100%"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" class=3D"wrapperInner" style=3D"box-sizing: border-bo=
+x; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr style=3D"=
+box-sizing: border-box;"><td style=3D"box-sizing: border-box; -webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt; padding: 18px; margin-bottom: 0px; text-align: center;" a=
+lign=3D"center"><table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" b=
+order=3D"0" width=3D"100%" class=3D"wrapper" style=3D"box-sizing: border-bo=
+x; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; width: 100%; border-collapse: collapse;">=
+<tr style=3D"box-sizing: border-box;"><td valign=3D"middle" width=3D"100%" =
+style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: =
+18px;"><div class=3D"wemail-content-button" style=3D"box-sizing: border-box=
+;"><a href=3D"https://api.getwemail.io/redirect-to/bf3a2d9c-c8a9-4d4b-a117-=
+283a5338e9f7:6fef04615e1f3a808fe42d4e8a239945/ee279659b78a79de6dc7e36b5c598=
+22c?email_id=3Ded4fbdd1-9e9b-41cd-b709-c94ce5c413c1" style=3D"box-sizing: b=
+order-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -web=
+kit-text-decoration-skip: objects; -ms-touch-action: manipulation; touch-ac=
+tion: manipulation; border: 0px none #176598; background-color: #2980b9; co=
+lor: #fff; text-align: center; display: inline-block; padding-right: 65px; =
+text-decoration: none; padding-bottom: 18px; border-radius: 3px; border-wid=
+th: 0px; font-size: 14px; line-height: 1; padding-top: 18px; border-style: =
+solid; padding-left: 65px; font-weight: bold; text-transform: none;">Regist=
+er for Coolest Projects</a></div></td></tr></table></td></tr></table></td><=
+/tr></table></td></tr><tr data-source=3D"iframe" data-content-type=3D"image=
+Caption" data-section-index=3D"1" data-content-index=3D"3" class=3D"content=
+-wrapper" style=3D"box-sizing: border-box;"><td style=3D"box-sizing: border=
+-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; position: relative;"><table align=3D"c=
+enter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" styl=
+e=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 600p=
+x; margin-bottom: 0px; border-collapse: collapse;"><tr style=3D"box-sizing:=
+ border-box;"><td align=3D"center" valign=3D"top" width=3D"100%" style=3D"b=
+ox-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 0; backgro=
+und-color: #e5e5e5;" bgcolor=3D"#e5e5e5"><table align=3D"left" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"50%" class=3D"wrapper" style=
+=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 50%; bord=
+er-collapse: collapse;"><tr style=3D"box-sizing: border-box;"><td align=3D"=
+center" valign=3D"top" style=3D"box-sizing: border-box; -webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt; text-align: center; margin-bottom: 0px;"><table border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"wrapperInner" sty=
+le=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collaps=
+e: collapse;"><tr style=3D"box-sizing: border-box;"><td style=3D"box-sizing=
+: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;"><table cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0" width=3D"100%" style=3D"box-sizing: border-box; =
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr style=3D"box=
+-sizing: border-box;"><td align=3D"left" valign=3D"middle" style=3D"box-siz=
+ing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 18px;"><div styl=
+e=3D"box-sizing: border-box; border-color: #e5e5e5; border-width: 0px; bord=
+er-style: solid; padding: 36px;"><!----> <div class=3D"wemail-content-image=
+" style=3D"box-sizing: border-box; text-align: center;"><img src=3D"https:/=
+/www.raspberrypi.com/app/uploads/2023/02/Screenshot-2023-02-17-at-12.03.10.=
+png" alt=3D"hackspace 64" style=3D"box-sizing: border-box; -ms-interpolatio=
+n-mode: bicubic; border: 0; line-height: 100%; outline: none; text-decorati=
+on: none; vertical-align: middle; border-style: none; max-width: 100%; heig=
+ht: auto;"></div> <div class=3D"wemail-content-text" style=3D"box-sizing: b=
+order-box; padding-top: 8px; padding-right: 0px; padding-bottom: 0px; paddi=
+ng-left: 0px;"><p style=3D"box-sizing: border-box; margin-top: 0; margin-bo=
+ttom: 1rem;"><span style=3D"box-sizing: border-box; margin-bottom: 0; color=
+: #000000; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Hel=
+vetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI=
+ Symbol'; font-size: 16px;">Soldering: we&rsquo;ve rounded up the best wiza=
+rding wands to give you this magical maker power.</span></p>
+<p style=3D"box-sizing: border-box; margin-top: 0; margin-bottom: 0;"><a st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-=
+text-decoration-skip: objects; -ms-touch-action: manipulation; text-decorat=
+ion: underline; color: #333399; font-family: -apple-system, 'system-ui', 'S=
+egoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Symbol'; font-size: 16px; background-color: transpare=
+nt; box-sizing: border-box; text-size-adjust: 100%; touch-action: manipulat=
+ion; margin-bottom: 0px;" href=3D"https://api.getwemail.io/redirect-to/bf3a=
+2d9c-c8a9-4d4b-a117-283a5338e9f7:b2f2f177d3224072b2fae43f2a4d0fe9/ee279659b=
+78a79de6dc7e36b5c59822c?email_id=3Ded4fbdd1-9e9b-41cd-b709-c94ce5c413c1" ta=
+rget=3D"_blank" rel=3D"noopener">Read HackSpace #64</a></p></div></div></td=
+></tr></table></td></tr></table></td></tr></table><table align=3D"left" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"50%" class=3D"wrappe=
+r" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 5=
+0%; border-collapse: collapse;"><tr style=3D"box-sizing: border-box;"><td a=
+lign=3D"center" valign=3D"top" style=3D"box-sizing: border-box; -webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt; text-align: center; margin-bottom: 0px;"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"wrapperI=
+nner" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; borde=
+r-collapse: collapse;"><tr style=3D"box-sizing: border-box;"><td style=3D"b=
+ox-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><table cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" style=3D"box-sizing: b=
+order-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr s=
+tyle=3D"box-sizing: border-box;"><td align=3D"left" valign=3D"middle" style=
+=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 18px;=
+"><div style=3D"box-sizing: border-box; border-color: #e5e5e5; border-width=
+: 0px; border-style: solid; padding: 36px;"><!----> <div class=3D"wemail-co=
+ntent-image" style=3D"box-sizing: border-box; text-align: center;"><img src=
+=3D"https://www.raspberrypi.com/app/uploads/2023/01/Screenshot-2023-01-25-a=
+t-14.03.04.png" alt=3D"magpi 126 #126 magazine" style=3D"box-sizing: border=
+-box; -ms-interpolation-mode: bicubic; border: 0; line-height: 100%; outlin=
+e: none; text-decoration: none; vertical-align: middle; border-style: none;=
+ max-width: 100%; height: auto;"></div> <div class=3D"wemail-content-text" =
+style=3D"box-sizing: border-box; padding-top: 8px; padding-right: 0px; padd=
+ing-bottom: 0px; padding-left: 0px;"><p style=3D"box-sizing: border-box; ma=
+rgin-top: 0; margin-bottom: 1rem;"><span style=3D"box-sizing: border-box; m=
+argin-bottom: 0; color: #000000; font-family: -apple-system, BlinkMacSystem=
+Font, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px;">Camera Module 3 sp=
+ecs, in-depth engineering interview, project ideas and resources.</span></p=
+>
+<p style=3D"box-sizing: border-box; margin-top: 0; margin-bottom: 0;"><a hr=
+ef=3D"https://api.getwemail.io/redirect-to/bf3a2d9c-c8a9-4d4b-a117-283a5338=
+e9f7:ae792d324ce758ba9e7c76c56994809a/ee279659b78a79de6dc7e36b5c59822c?emai=
+l_id=3Ded4fbdd1-9e9b-41cd-b709-c94ce5c413c1" style=3D"box-sizing: border-bo=
+x; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-c=
+olor: transparent; -webkit-text-decoration-skip: objects; -ms-touch-action:=
+ manipulation; touch-action: manipulation; color: #1955ae; text-decoration:=
+ underline; margin-bottom: 0;"><span style=3D"box-sizing: border-box; margi=
+n-bottom: 0; color: #333399; font-family: -apple-system, system-ui, Segoe U=
+I, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,=
+ Segoe UI Symbol;"><span style=3D"box-sizing: border-box; margin-bottom: 0;=
+ font-size: 16px;">Read The MagPi #126</span></span></a></p></div></div></t=
+d></tr></table></td></tr></table></td></tr></table></td></tr></table></td><=
+/tr><tr data-source=3D"iframe" data-content-type=3D"socialFollow" data-sect=
+ion-index=3D"1" data-content-index=3D"4" class=3D"content-wrapper" style=3D=
+"box-sizing: border-box;"><td style=3D"box-sizing: border-box; -webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt; position: relative;"><table align=3D"center" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"box-sizing: b=
+order-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 600px; margin-bottom: =
+0px; border-collapse: collapse;"><tr style=3D"box-sizing: border-box;"><td =
+align=3D"center" valign=3D"top" style=3D"box-sizing: border-box; -webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; font-size: 0;"><div class=3D"wrapper" style=3D"box-siz=
+ing: border-box; display: inline-block; vertical-align: top; width: 100%;">=
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"100%" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; =
+border-collapse: collapse;"><tr style=3D"box-sizing: border-box;"><td align=
+=3D"center" valign=3D"top" style=3D"box-sizing: border-box; -webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" class=3D"wrapperInner" style=3D"box-sizing: border-box; -webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; border-collapse: collapse;"><tr style=3D"box-sizin=
+g: border-box;"><td style=3D"box-sizing: border-box; -webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt; background-color: #1e1e1e; padding: 15px; border-width: 0px; borde=
+r-style: solid; border-color: #e5e5e5;" bgcolor=3D"#1e1e1e"><table cellpadd=
+ing=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" style=3D"box-sizing=
+: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><t=
+r style=3D"box-sizing: border-box;"><td align=3D"left" valign=3D"middle" st=
+yle=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 18=
+px;"><div class=3D"wemail-content-social-follow" style=3D"box-sizing: borde=
+r-box; line-height: 0; text-align: center; padding: 15px; display: block;">=
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"social-fol=
+low-table horizontal-icons large-icons align-center" style=3D"box-sizing: b=
+order-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 14px; display: inline-=
+block; width: auto; margin-right: 15px; border-collapse: collapse;"><tr sty=
+le=3D"box-sizing: border-box;"><td valign=3D"middle" class=3D"image-contain=
+er-td" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padd=
+ing: 0 3px; line-height: 1; display: block; width: 100%; margin-bottom: 3px=
+; text-align: center;" width=3D"100%" align=3D"center"><a href=3D"https://a=
+pi.getwemail.io/redirect-to/bf3a2d9c-c8a9-4d4b-a117-283a5338e9f7:ddfa2e38d7=
+0ec67e843a9c393fd56a3f/ee279659b78a79de6dc7e36b5c59822c?email_id=3Ded4fbdd1=
+-9e9b-41cd-b709-c94ce5c413c1" style=3D"box-sizing: border-box; -webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: transpare=
+nt; -webkit-text-decoration-skip: objects; -ms-touch-action: manipulation; =
+touch-action: manipulation; color: #1955ae; display: block; text-decoration=
+: none;"><img src=3D"https://cdn.getwemail.io/images/social-icons/solid-lig=
+ht-twitter.png" alt=3D"Twitter" style=3D"box-sizing: border-box; -ms-interp=
+olation-mode: bicubic; border: 0; line-height: 100%; outline: none; text-de=
+coration: none; max-width: 100%; vertical-align: middle; border-style: none=
+; width: 45px; height: 45px;" width=3D"45" height=3D"45"></a></td> <!----><=
+/tr></table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"social-follow-table horizontal-icons large-icons align-center" style=3D=
+"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 14px; di=
+splay: inline-block; width: auto; margin-right: 15px; border-collapse: coll=
+apse;"><tr style=3D"box-sizing: border-box;"><td valign=3D"middle" class=3D=
+"image-container-td" style=3D"box-sizing: border-box; -webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 0 3px; line-height: 1; display: block; width: 100%; marg=
+in-bottom: 3px; text-align: center;" width=3D"100%" align=3D"center"><a hre=
+f=3D"https://api.getwemail.io/redirect-to/bf3a2d9c-c8a9-4d4b-a117-283a5338e=
+9f7:c4894533406474b3f802ca5928455d2c/ee279659b78a79de6dc7e36b5c59822c?email=
+_id=3Ded4fbdd1-9e9b-41cd-b709-c94ce5c413c1" style=3D"box-sizing: border-box=
+; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-co=
+lor: transparent; -webkit-text-decoration-skip: objects; -ms-touch-action: =
+manipulation; touch-action: manipulation; color: #1955ae; display: block; t=
+ext-decoration: none;"><img src=3D"https://cdn.getwemail.io/images/social-i=
+cons/solid-light-linkedin.png" alt=3D"LinkedIn" style=3D"box-sizing: border=
+-box; -ms-interpolation-mode: bicubic; border: 0; line-height: 100%; outlin=
+e: none; text-decoration: none; max-width: 100%; vertical-align: middle; bo=
+rder-style: none; width: 45px; height: 45px;" width=3D"45" height=3D"45"></=
+a></td> <!----></tr></table><table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"social-follow-table horizontal-icons large-icons align-ce=
+nter" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-=
+size: 14px; display: inline-block; width: auto; margin-right: 15px; border-=
+collapse: collapse;"><tr style=3D"box-sizing: border-box;"><td valign=3D"mi=
+ddle" class=3D"image-container-td" style=3D"box-sizing: border-box; -webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt; padding: 0 3px; line-height: 1; display: block; wid=
+th: 100%; margin-bottom: 3px; text-align: center;" width=3D"100%" align=3D"=
+center"><a href=3D"https://api.getwemail.io/redirect-to/bf3a2d9c-c8a9-4d4b-=
+a117-283a5338e9f7:2d5269b79a2e66adba63e4a0a43e7375/ee279659b78a79de6dc7e36b=
+5c59822c?email_id=3Ded4fbdd1-9e9b-41cd-b709-c94ce5c413c1" style=3D"box-sizi=
+ng: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ background-color: transparent; -webkit-text-decoration-skip: objects; -ms-=
+touch-action: manipulation; touch-action: manipulation; color: #1955ae; dis=
+play: block; text-decoration: none;"><img src=3D"https://cdn.getwemail.io/i=
+mages/social-icons/solid-light-youtube.png" alt=3D"YouTube" style=3D"box-si=
+zing: border-box; -ms-interpolation-mode: bicubic; border: 0; line-height: =
+100%; outline: none; text-decoration: none; max-width: 100%; vertical-align=
+: middle; border-style: none; width: 45px; height: 45px;" width=3D"45" heig=
+ht=3D"45"></a></td> <!----></tr></table><table border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" class=3D"social-follow-table horizontal-icons large-ic=
+ons align-center" style=3D"box-sizing: border-box; -webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; font-size: 14px; display: inline-block; width: auto; margin-right: 1=
+5px; border-collapse: collapse;"><tr style=3D"box-sizing: border-box;"><td =
+valign=3D"middle" class=3D"image-container-td" style=3D"box-sizing: border-=
+box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0 3px; line-height: 1; display=
+: block; width: 100%; margin-bottom: 3px; text-align: center;" width=3D"100=
+%" align=3D"center"><a href=3D"https://api.getwemail.io/redirect-to/bf3a2d9=
+c-c8a9-4d4b-a117-283a5338e9f7:a8c6dced3234de9258eeaada4fc77e3e/ee279659b78a=
+79de6dc7e36b5c59822c?email_id=3Ded4fbdd1-9e9b-41cd-b709-c94ce5c413c1" style=
+=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; background-color: transparent; -webkit-text-decoration-skip: o=
+bjects; -ms-touch-action: manipulation; touch-action: manipulation; color: =
+#1955ae; display: block; text-decoration: none;"><img src=3D"https://cdn.ge=
+twemail.io/images/social-icons/solid-light-instagram.png" alt=3D"Instagram"=
+ style=3D"box-sizing: border-box; -ms-interpolation-mode: bicubic; border: =
+0; line-height: 100%; outline: none; text-decoration: none; max-width: 100%=
+; vertical-align: middle; border-style: none; width: 45px; height: 45px;" w=
+idth=3D"45" height=3D"45"></a></td> <!----></tr></table><table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" class=3D"social-follow-table horizonta=
+l-icons large-icons align-center" style=3D"box-sizing: border-box; -webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; font-size: 14px; display: inline-block; width: auto;=
+ border-collapse: collapse;"><tr style=3D"box-sizing: border-box;"><td vali=
+gn=3D"middle" class=3D"image-container-td" style=3D"box-sizing: border-box;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt; padding: 0 3px; line-height: 1; display: bl=
+ock; width: 100%; margin-bottom: 3px; text-align: center;" width=3D"100%" a=
+lign=3D"center"><a href=3D"https://api.getwemail.io/redirect-to/bf3a2d9c-c8=
+a9-4d4b-a117-283a5338e9f7:b8b995b88a862ae0467f3c241a75e958/ee279659b78a79de=
+6dc7e36b5c59822c?email_id=3Ded4fbdd1-9e9b-41cd-b709-c94ce5c413c1" style=3D"=
+box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; background-color: transparent; -webkit-text-decoration-skip: objec=
+ts; -ms-touch-action: manipulation; touch-action: manipulation; color: #195=
+5ae; display: block; text-decoration: none;"><img src=3D"https://cdn.getwem=
+ail.io/images/social-icons/solid-light-website.png" alt=3D"Website" style=
+=3D"box-sizing: border-box; -ms-interpolation-mode: bicubic; border: 0; lin=
+e-height: 100%; outline: none; text-decoration: none; max-width: 100%; vert=
+ical-align: middle; border-style: none; width: 45px; height: 45px;" width=
+=3D"45" height=3D"45"></a></td> <!----></tr></table></div></td></tr></table=
+></td></tr></table></td></tr></table></div></td></tr></table></td></tr></tb=
+ody></table></td></tr><tr class=3D"section section-footer" style=3D"box-siz=
+ing: border-box;"><td align=3D"center" style=3D"box-sizing: border-box; -we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"100%" class=3D"responsive-table section-wrapper" style=
+=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color=
+: transparent; color: inherit; border-top-color: #1e73be; border-top-style:=
+ solid; border-bottom-color: #1e73be; border-left: 0; font-family: inherit;=
+ padding-bottom: 0px; border-top-width: 0px; border-right: 0; border-bottom=
+-style: solid; font-size: inherit; margin-bottom: 0px; padding-top: 0px; bo=
+rder-bottom-width: 0px; max-width: 600px; border-collapse: collapse;" bgcol=
+or=3D"transparent"><tbody data-section-index=3D"2" style=3D"box-sizing: bor=
+der-box;"><tr data-source=3D"iframe" data-content-type=3D"giphy" data-secti=
+on-index=3D"2" data-content-index=3D"0" class=3D"content-wrapper" style=3D"=
+box-sizing: border-box;"><td style=3D"box-sizing: border-box; -webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt; position: relative;"><table align=3D"center" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"box-sizing: bo=
+rder-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; max-width: 600px; margin-bottom: 0=
+px; border-collapse: collapse;"><tr style=3D"box-sizing: border-box;"><td a=
+lign=3D"center" valign=3D"top" style=3D"box-sizing: border-box; -webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt; display: inline-block; vertical-align: top; width: 100%=
+;" width=3D"100%"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%" class=3D"wrapperInner" style=3D"box-sizing: border-box; -webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt; border-collapse: collapse;"><tr style=3D"box-sizi=
+ng: border-box;"><td style=3D"box-sizing: border-box; -webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; text-align: center; background-color: #1e1e1e; margin-bottom: 0px=
+;" align=3D"center" bgcolor=3D"#1e1e1e"><img src=3D"https://media4.giphy.co=
+m/media/cxWATKR8SBoevTxXsZ/100.gif?cid=3D33960d6107qiw01v4oycmuj2a9epnbbbn1=
+8wgcj5jgfasvge&amp;rid=3D100.gif&amp;ct=3Dg" alt=3D"GIF" style=3D"box-sizin=
+g: border-box; -ms-interpolation-mode: bicubic; border: 0; height: auto; li=
+ne-height: 100%; outline: none; text-decoration: none; vertical-align: midd=
+le; border-color: #eee; padding-bottom: 36px; border-width: 0px; padding-ri=
+ght: 5px; padding-top: 5px; border-style: solid; padding-left: 5px; max-wid=
+th: 100%;"></td></tr></table></td></tr></table></td></tr><tr data-source=3D=
+"iframe" data-content-type=3D"footer" data-section-index=3D"2" data-content=
+-index=3D"1" class=3D"content-wrapper" style=3D"box-sizing: border-box;"><t=
+d style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; position:=
+ relative;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"100%" style=3D"box-sizing: border-box; -webkit-text-size=
+-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table=
+-rspace: 0pt; max-width: 600px; margin-bottom: 0px; border-collapse: collap=
+se;"><tr style=3D"box-sizing: border-box;"><td align=3D"center" valign=3D"t=
+op" style=3D"box-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-si=
+ze: 0;"><div class=3D"wrapper" style=3D"box-sizing: border-box; display: in=
+line-block; width: 100%; vertical-align: top;"><table align=3D"left" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"box-sizi=
+ng: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;">=
+<tr style=3D"box-sizing: border-box;"><td align=3D"center" valign=3D"top" c=
+lass=3D"content-text-extra-padding" style=3D"box-sizing: border-box; -webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; padding-right: 0;"><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"wrapperInner" style=3D"box=
+-sizing: border-box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collap=
+se;"><tr style=3D"box-sizing: border-box;"><td style=3D"box-sizing: border-=
+box; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding-top: 15px; padding-right: 15px;=
+ padding-bottom: 15px; padding-left: 15px; border-width: 0px; border-style:=
+ solid; border-color: #e5e5e5;"><table cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" width=3D"100%" style=3D"box-sizing: border-box; -webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt; border-collapse: collapse;"><tr style=3D"box-sizing: borde=
+r-box;"><td align=3D"left" valign=3D"middle" style=3D"box-sizing: border-bo=
+x; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; font-size: 18px;"><div class=3D"wemail-co=
+ntent-text" style=3D"box-sizing: border-box;"><p style=3D"box-sizing: borde=
+r-box; margin-top: 0; margin-bottom: 0; text-align: center;"><span style=3D=
+"box-sizing: border-box; margin-bottom: 0; font-size: 16px; font-family: -a=
+pple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans=
+-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"><a href=
+=3D"https://app.getwemail.io/campaigns/bf3a2d9c-c8a9-4d4b-a117-283a5338e9f7=
+/subscribers/ee279659b78a79de6dc7e36b5c59822c/unsubscribe?email_id=3Ded4fbd=
+d1-9e9b-41cd-b709-c94ce5c413c1" target=3D"_blank">Unsubscribe from Raspberr=
+y Pi Weekly</a></span></p></div></td></tr></table></td></tr></table></td></=
+tr></table></div> <!----></td></tr></table></td></tr></tbody></table></td><=
+/tr></table></div>
+    <img src=3D"https://api.getwemail.io/campaigns/bf3a2d9c-c8a9-4d4b-a117-=
+283a5338e9f7/subscribers/ee279659b78a79de6dc7e36b5c59822c/track?email_id=3D=
+ed4fbdd1-9e9b-41cd-b709-c94ce5c413c1" alt title width=3D"1" height=3D"1" st=
+yle=3D"box-sizing: border-box; -ms-interpolation-mode: bicubic; border: 0; =
+height: auto; line-height: 100%; outline: none; text-decoration: none; max-=
+width: 100%; vertical-align: middle; border-style: none;">
+</body>
+</html>

@@ -1,0 +1,507 @@
+X-Pm-Gluon-Id: 7aa66da5-1c14-43db-9cdb-926d35954df0
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+References: <cb558b57-0584-464a-9620-c2163fd178f2@atl1s11mta404.xt.local>
+ <HqAfwZiDAc0CBiuKsWAFMfic8F0ipil_pmjlAVBzbcYfUngbl8XwXmn_BPJ_34JqxkbLnFVEF_eIIMjnrKaqvw==@protonmail.internalid>
+X-Pm-Date: Mon, 20 Feb 2023 17:34:01 +0000
+X-Pm-External-Id: <45f48bf8df4d4cf592eb0b893f411f6f@SA1PR12MB6702.namprd12.prod.outlook.com>
+X-Pm-Internal-Id: HqAfwZiDAc0CBiuKsWAFMfic8F0ipil_pmjlAVBzbcYfUngbl8XwXmn_BPJ_34JqxkbLnFVEF_eIIMjnrKaqvw==
+To: "luis@lefv.io" <luis@lefv.io>
+Reply-To: "Luis Fernandez de la Vara" <luisfdzdelavara@outlook.com>
+From: "Luis Fernandez de la Vara" <luisfdzdelavara@outlook.com>
+Subject: FW: Your ADT Product Return
+X-Rspamd-Server: cp4-mailin-030.plabs.ch
+X-Ms-Office365-Filtering-Correlation-Id: 9cdb037a-5ee6-4fc6-64e2-08db1368a779
+Thread-Topic: Your ADT Product Return
+X-Ms-Exchange-Crosstenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+Authentication-Results: mailin030.protonmail.ch; dkim=pass (2048-bit key) header.d=outlook.com header.i=@outlook.com header.b="FRNXU6D8"
+Authentication-Results: mailin030.protonmail.ch; arc=fail smtp.remote-ip=40.92.41.58
+Authentication-Results: mailin030.protonmail.ch; spf=pass smtp.mailfrom=outlook.com
+Authentication-Results: mailin030.protonmail.ch; dmarc=pass (p=none dis=none) header.from=outlook.com
+Authentication-Results: mailin030.protonmail.ch; dkim=pass (Good 2048    bit rsa-sha256 signature) header.d=outlook.com header.a=rsa-sha256
+X-Pm-Spam-Action: inbox
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com; s=selector1; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck; bh=Qu0O3j7iG1QpSSE0hNM80zNWkR03/xmQhzZ/Jeha6Pk=; b=FRNXU6D8dCdiH1QwcL+wcovF+SzLZOgx+jMv1CUX1bS9rNuoyAz2x0XWc1jRZjtTqwZoHHoECaCTqpA87EjJrmh47mJM2ZG+HWqI/dpj7lcXho/lhCM8THzjM/TnwoTpkY2t5nGEIO60LM//DYNVQkOaJOxpjeWTQU3f4C/j4qH4cDYd32wuGXTwbZKnda+YMeqJxNL/uIpuVoXiF9AGipKVOEutKNCIeWJyysmGqlWlJb/GvDrb9RdlGRqo+VosqXRx/UTG8Rb8CLhNFoLH+6xqJHf2zDNGNkBXS5B62fPyGspzgyABTKFqIYf1BGgygVhVcGGEB5U1IKNArmKjgg==
+X-Rspamd-Queue-Id: 4PL8fg1grqz7QQ5t
+X-Pm-Spam: 0yezJI6cihyJeYR3pi42biOpJJvbmsCIeI1msjN3X3blJp7IjBlNIIojty4CMCLSJ I6UyuTMLNcjsSBlI0TiQ0yOiiCwMUJFPQ9FRkUEVNUSUOU9SIojwfJCLGZiVdfdWmW5abIy6QJye kUE9p7IjfnBIcB3h6ISbCMw4ExMD5TIOOITzyAjMDOyQc0NDtCJLbR2lp9FbHZigB9OjsX0fINny iQWaiO2IYzM2wWYYZNDmjFWNzYjZYyNDyjYZMY2iiwSf2ciEsiOnfXNacB3h6ISbCMiwNvc2imUc OAjsjNnI3blJI6ZCuTALMwiiwVmc3b0Jp7IjDlJIVRkff5USVTQNtFSUy0gXIpjbuATLCMiwAuND uTIONEDuggTNGbzlVkdGuGlIIdHsh1mLWazxlrcGuS5ZZQXiiwSX1UGBBBX1i1MUOsltw4CMSXiw BGU1F0hXT9EfTFEUyU6I0wWydjBLLJCGFVkUUTJF9GTFNk9UIpjbw4CMCLsJlzdW6mRZZVGshZXY mcbFRdYX03Vbb9Gvj5ya2bi0wiXSNFRST9FNTNVRUQFdpbIjwC4MXwSiJtERVTW9xJQUBF9RVIS6 w0yWjLdFJELCN0lSXZ1BElETjIbpAuLTsV0MIRkLf1US0UHlVETkbjpIM4CxiwSXERJt9WTVJUxQ R9FF6IiRyWw0FdLjUCJLXt0BI9VTEVM1ZPX0flRTS5UWJxUQCR6IAuWz9F1MfX0=
+X-Ms-Exchange-Transport-Crosstenantheadersstamped: CH0PR12MB5108
+Return-Path: <luisfdzdelavara@outlook.com>
+X-Pm-Origin: external
+X-Ms-Exchange-Antispam-Messagedata-0: YaQZFKhb4WadaXBq5PrappsoPi9mdFuCGiBX/ZawxQokIwMLkynqs/p/uu4+IT+vpaDT5nGC9mlT1bZudAUQU3wiVZL6ujztxUTpHVrEQbdsgLrXrU3nXecydeoIjHHEv0nwqNRqJVkNN05Jhhi9zf8Lppi1vSFcKLCwh0b03hx8cf94kFCgiO7IaGuVU+CCalCCkt68ny9dBy3pf+QEOD6wBh1SnoxzYWQgtYCcyx9BbmNXTTZNROwiluQ5SviO73TTv0wYzcEDzrALakx8kDPlZZyGLzsirCjsGl1O2nZJhDtOKhP1cGXi46wz40pm
+Date: Mon, 20 Feb 2023 17:34:01 +0000
+Arc-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com; s=arcselector9901; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1; bh=Qu0O3j7iG1QpSSE0hNM80zNWkR03/xmQhzZ/Jeha6Pk=; b=JXOh1x64Pg/vnEl9oFR/GypHtpHsHWf8TX7tjI+vWTRsLYsGMzPglv2sGOJNhcyf/EXgv0zVMP9yH+8Urb0xaByxRh+7TfWTcOJdXWBZ24nD31UQid/Ij0kHJMe4PzVqeUMsWaFPbyDBVicHq13yG3Lndy/GpuF0tpVUYT2REGowyyCLFGbFUXSKeaiSo1AlKq/+I15IAoKyRW6KrwKWYCOF3TPUWds/srBBwonpU/WoIu29+4p5vXC6A3xwgItXR9p4ax92s3dqi+GIjbMBRRwrYgKnAIi+dF1iNqiqrXeLFygG9Cc9dq4eFZCefMcYOIu6RgvQOU40MvV0GnQl/Q==
+X-Ms-Exchange-Crosstenant-Originalarrivaltime: 20 Feb 2023 17:34:01.0178 (UTC)
+X-Ms-Exchange-Generated-Message-Source: Mailbox Rules Agent
+X-Pm-Content-Encryption: on-delivery
+X-Spamd-Result: default: False [-3.67 / 25.00]; BAYES_HAM(-2.72)[98.79%]; ARC_ALLOW(-1.00)[microsoft.com:s=arcselector9901:i=1]; URI_COUNT_ODD(1.00)[29]; DMARC_POLICY_ALLOW(-0.50)[outlook.com,none]; R_DKIM_ALLOW(-0.20)[outlook.com:s=selector1]; R_SPF_ALLOW(-0.20)[+ip4:40.92.0.0/15]; MIME_GOOD(-0.10)[multipart/alternative,text/plain]; MANY_INVISIBLE_PARTS(0.05)[1]; FROM_EQ_ENVFROM(0.00)[]; ASN(0.00)[asn:8075, ipnet:40.80.0.0/12, country:US]; RCVD_TLS_LAST(0.00)[]; TO_DN_EQ_ADDR_ALL(0.00)[]; MIME_TRACE(0.00)[0:+,1:+,2:~]; NEURAL_HAM(-0.00)[-0.971]; DKIM_TRACE(0.00)[outlook.com:+]; RCPT_COUNT_ONE(0.00)[1]; FROM_HAS_DN(0.00)[]; RCVD_COUNT_THREE(0.00)[3]; TO_MATCH_ENVRCPT_ALL(0.00)[]; MID_RHS_MATCH_FROMTLD(0.00)[]
+X-Ms-Exchange-Crosstenant-Network-Message-Id: 9cdb037a-5ee6-4fc6-64e2-08db1368a779
+X-Ms-Exchange-Crosstenant-Authsource: SA1PR12MB6702.namprd12.prod.outlook.com
+X-Ms-Exchange-Antispam-Messagedata-Chunkcount: 1
+X-Microsoft-Antispam: BCL:0;
+Message-Id: <45f48bf8df4d4cf592eb0b893f411f6f@SA1PR12MB6702.namprd12.prod.outlook.com>
+Arc-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none; b=RGHodzdWXLG3b7y2aaP4ZRHRn/7zXykw1CmNZKTYEw0ZrQ9xa+OL0fpzxEMAUuwB4W2pHOkBJrRCZM0g7LdOzhZ5G23hZ5MY2JQtI3Dx7HCPEOTXHLQ45UgZ4ASWflIYQuoOkrDC+zIl6XwvB8HpBAkJNCsBL8sM0CKV/sNs4kQkGNwiXxrnavIVtsv1iMVMHJrHYZxlKvEucp2T4uTSO9WZKK3KdE59hqOTXfLcpL4HyJXh0kLE2U5442rwtSwR+iUBOBWixhXvBHY4RLxC4CMY7jzuiFd4akNrXncaJ+A7zv/DZliL3hnf8o7slHuaB5LKwysWWLKfa0RIr+/dJQ==
+X-Ms-Exchange-Parent-Message-Id: <cb558b57-0584-464a-9620-c2163fd178f2@atl1s11mta404.xt.local>
+Arc-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none; dkim=none; arc=none
+X-Ms-Publictraffictype: Email
+X-Ms-Traffictypediagnostic: SA1PR12MB6702:EE_|CH0PR12MB5108:EE_
+Received: from SA1PR12MB6702.namprd12.prod.outlook.com ([::1]) by SA1PR12MB6702.namprd12.prod.outlook.com ([fe80::44f2:8e0:9d58:9759%5]) with Microsoft SMTP Server id 15.20.6111.020; Mon, 20 Feb 2023 17:34:01 +0000
+Received: from SA1PR12MB6702.namprd12.prod.outlook.com (2603:10b6:806:252::22) by CH0PR12MB5108.namprd12.prod.outlook.com (2603:10b6:610:bf::6) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6111.20; Mon, 20 Feb 2023 17:34:01 +0000
+Received: from NAM10-DM6-obe.outbound.protection.outlook.com (mail-dm6nam10olkn2058.outbound.protection.outlook.com [40.92.41.58]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by mailin030.protonmail.ch (Postfix) with ESMTPS id 4PL8fg1grqz7QQ5t for <luis@lefv.io>; Mon, 20 Feb 2023 17:34:03 +0000 (UTC)
+X-Pm-Transfer-Encryption: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)
+Auto-Submitted: auto-generated
+X-Originatororg: outlook.com
+X-Ms-Exchange-Crosstenant-Fromentityheader: Hosted
+X-Ms-Exchange-Crosstenant-Authas: Internal
+In-Reply-To: <cb558b57-0584-464a-9620-c2163fd178f2@atl1s11mta404.xt.local>
+X-Microsoft-Antispam-Message-Info: h+vf0rQDKgZYoa6vXXKs2XA9lZNS5sobp9Ib0FyT9/TudCFKMF6F0vNIwcjkXZgjLs1iiHs37UPxG4x3jSPulIBK/Vm5GEdj5xbmFmW+u+ggLn3nBEKzd59onnqiyFn/YPjgBN2VVcHiEw2kFYTXuIkzi95gsl1UQHMpIOLG+Zb9lj+tVI/lu9Y24DHWdDbNPsVL4JnZecghelYg7PxEe/XrPRzrF82AgmkSfkYtum/F8CNGFMS7v6PUrs+6myGJC4PY1xJPFt+piBrC5D50M1qMwjx9tmhLiay9KJ++Xzy3HGqo+UUKMZ+KHzQRmIqdwMdkcYzQyETqWaQCFJqRIQW4RPJ8xx2G27Das5CyTmBqCeYOnoUhF0AFkpqynQ5F/hSAUBNcWcnRgQ/dginf7AccA6gbzg2NTF4PvtT+m2omvQGOIfyv+ttPX0FetEOG9ptxmoYetiwitgARetZZcc1xrbY2T7Hps27yxbvsd7na34SaCcf/4M0YWJCrvFguFa/CV6PINsOh1bKnOeRxrjyhyxD4BQwHam3BUOUoysb1QL7E8lD/WDaTrVqy1NEqJyCOZbs/5Yx9qXiJHfOPK9vZiYeXQo9y7rrLAfHeqimCcMDu3bZ7yrLKnW2peCfNaRKgridANQa7I0i/AKniYYcQY/Ltb5ga88zUa8z/idLrSvN5cLyLwi/1Ex+/dsX++ADaT/p9nXyCsRw5D4BkoQ==
+Delivered-To: luis@lefv.io
+X-Ms-Exchange-Crosstenant-Rms-Persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-Ms-Exchange-Crosstenant-Rms-Persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-Ms-Exchange-Inbox-Rules-Loop: luis@lefv.info
+Mime-Version: 1.0
+Thread-Index: AQHZRVGE+feISzANykiH8pe4kxFV+K7YGGag
+X-Original-To: luis@lefv.io
+X-Pm-Spamscore: 0
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<meta content=3D"IE=3Dedge">
+<style type=3D"text/css">
+<!--
+-->
+</style><style type=3D"text/css">
+<!--
+.ReadMsgBody
+	{width:100%}
+.ExternalClass
+	{width:100%}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font,=
+ .ExternalClass td, .ExternalClass div
+	{line-height:100%}
+.ExternalClass *
+	{line-height:100%}
+p
+	{margin:1em 0}
+table td
+	{border-collapse:collapse}
+.appleLinksWhite a
+	{color:#ffffff;
+	text-decoration:none}
+.appleLinksGray a
+	{color:#949a9d;
+	text-decoration:none}
+.appleLinksGray2 a
+	{color:#54585a;
+	text-decoration:none}
+.appleLinksBlack a
+	{color:#000000;
+	text-decoration:none}
+a.mobileshow, .mobilehide
+	{display:none;
+	color:#ffffff}
+sup
+	{line-height:0;
+	font-size:55%}
+a[x-apple-data-detectors]
+	{color:inherit!important;
+	text-decoration:none!important;
+	font-size:inherit!important;
+	font-family:inherit!important;
+	font-weight:inherit!important;
+	line-height:inherit!important}
+-->
+</style><style type=3D"text/css">
+<!--
+-->
+</style><style type=3D"text/css">
+<!--
+-->
+</style><style type=3D"text/css">
+<!--
+-->
+</style><style type=3D"text/css">
+<!--
+-->
+</style><style type=3D"text/css">
+<!--
+-->
+</style>
+</head>
+<body leftmargin=3D"0" topmargin=3D"0" marginwidth=3D"0" marginheight=3D"0"=
+ class=3D"body" style=3D"width:100%!important; margin-top:0; margin-bottom:=
+0; margin-right:0; margin-left:0; padding-top:0; padding-bottom:0; padding-=
+right:0; padding-left:0; min-width:100%">
+<strong>
+<div><font face=3D"Tahoma" color=3D"#000000" size=3D"2">&nbsp;</font></div>
+</strong>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<font face=3D"Tahoma" size=3D"2"><b>From:</b> ADT Security Services &lt;adt=
+@e.adt.com&gt;<br>
+<b>Sent:</b> Monday, February 20, 2023 12:33:57 PM (UTC-05:00) Indiana (Eas=
+t)<br>
+<b>To:</b> luis@lefv.info &lt;luis@lefv.info&gt;<br>
+<b>Subject:</b> Your ADT Product Return<br>
+</font><br>
+<div></div>
+<div><style type=3D"text/css">
+<!--
+div.preheader
+	{display:none!important}
+-->
+</style>
+<div class=3D"preheader" style=3D"font-size:1px; display:none!important">RM=
+A# and return instructions inside</div>
+<img src=3D"https://click.e.adt.com/open.aspx?ffcb10-feca1773776d0479-fe561=
+2777661017f7212-fe3111717164047b741277-ff6115757d-fe2d15707365017a761679-ff=
+68167171&amp;d=3D110020&amp;bmt=3D0" width=3D"1" height=3D"1" alt=3D"">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" class=3D"gwfw" style=3D"background-color:#ffffff">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"padding-top:0px; padding-bottom:40px">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"container" style=3D"font-family:Arial,Helvetica,sans-serif; width:60=
+0px">
+<tbody>
+<tr>
+<td>
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentat=
+ion" class=3D"stylingblock-content-wrapper" style=3D"min-width:100%">
+<tbody>
+<tr>
+<td class=3D"stylingblock-content-wrapper camarker-inner">
+<div style=3D"font-size:13px; font-family:courier new; color:#666666; text-=
+align:center">
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td bgcolor=3D"#ffffff">
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentat=
+ion" class=3D"stylingblock-content-wrapper" style=3D"background-color:trans=
+parent; min-width:100%">
+<tbody>
+<tr>
+<td class=3D"stylingblock-content-wrapper camarker-inner" style=3D"padding:=
+20px 0px 30px">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"padding-right:0px">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td align=3D"left" class=3D"block" valign=3D"middle" style=3D"padding-top:1=
+0px; padding-bottom:0px; padding-left:30px; font-size:14px; font-family:'Op=
+en Sans',Arial,Helvetica,sans-serif; color:#001689">
+<img alt=3D"" height=3D"62" src=3D"https://image.e.adt.com/lib/fe3111717164=
+047b741277/m/1/62e304f5-a659-4c26-8a21-4bea6a282775.png" width=3D"62" style=
+=3D"height:62px; width:62px; padding:0px; text-align:center"></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=3D"center" class=3D"container noLeftRightPad center" style=3D"fon=
+t-size:10px; color:#54585a; padding-top:10px; padding-bottom:0px; padding-l=
+eft:0px; font-family:Arial,Helvetica,sans-serif; color:#5e6366">
+<a href=3D"https://click.e.adt.com/?qs=3Ddb223ebe30a541694473690d77d7a6b223=
+7e5a469376259f817fc6395c798cd6e2f892dbe3dc548dd4eda2294bfa7662f2bd29e0fce0f=
+862676f85c0001d8c8d" target=3D" _blank" title=3D""><img alt=3D"ADT Brillian=
+tly Safe" height=3D"72" src=3D"https://image.e.adt.com/lib/fe3111717164047b=
+741277/m/1/67ffdda6-434c-4f60-b56a-f2fd78851a03.png" width=3D"88" style=3D"=
+height:72px; width:88px; padding:0px"></a></td>
+<td align=3D"right" style=3D"padding-right:30px">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td align=3D"right" class=3D"block" valign=3D"middle" width=3D"'58" style=
+=3D"padding-top:10px; padding-bottom:0px; padding-right:0px; font-size:14px=
+; font-family:'Open Sans',Arial,Helvetica,sans-serif; color:#001689">
+<img alt=3D"" height=3D"62" src=3D"https://image.e.adt.com/lib/fe3111717164=
+047b741277/m/1/62e304f5-a659-4c26-8a21-4bea6a282775.png" width=3D"62" style=
+=3D"height:62px; width:62px; padding:0px; text-align:center">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentat=
+ion" class=3D"stylingblock-content-wrapper" style=3D"background-color:#FFFF=
+FF; min-width:100%">
+<tbody>
+<tr>
+<td class=3D"stylingblock-content-wrapper camarker-inner" style=3D"padding:=
+20px 0px 10px">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody>
+<tr>
+<td class=3D"modBod pad20" height=3D"341" valign=3D"top" width=3D"100%" sty=
+le=3D"font-family:'Open Sans',Arial,Helvetica,sans-serif; font-size:16px; l=
+ine-height:22px; color:#000000; padding-left:30px; padding-right:30px">
+<p>Dear Luis Fernandez De La Vara,<br>
+<br>
+As a follow up to your discussion with an ADT Customer Support Specialist, =
+this email contains the information necessary for you to return your ADT pr=
+oduct. Please follow the instructions carefully to ensure that your account=
+ is handled properly.<br>
+<br>
+<strong>Your Return Merchandise Authorization (RMA)# is: RMA0348319<br>
+<br>
+<table width=3D"255" border=3D"0" align=3D"center" cellpadding=3D"2" cellsp=
+acing=3D"0" bgcolor=3D"#E8F6FD">
+<tbody>
+<tr>
+<td width=3D"34" align=3D"left" style=3D"font-family:Arial,Helvetica,sans-s=
+erif; font-size:12px; color:#111">
+<strong>Qty</strong></td>
+<td width=3D"137" align=3D"left" style=3D"font-family:Arial,Helvetica,sans-=
+serif; font-size:12px; color:#111">
+<strong>Description</strong></td>
+</tr>
+<tr>
+<td align=3D"left" style=3D"font-family:Arial,Helvetica,sans-serif; font-si=
+ze:11px; color:#111">
+1</td>
+<td align=3D"left" style=3D"font-family:Arial,Helvetica,sans-serif; font-si=
+ze:11px; color:#111">
+Blue Doorbell Camera (wired) - Pearl Gray</td>
+</tr>
+</tbody>
+</table>
+</strong><br>
+<br>
+HOW TO RETURN THE ORIGINAL ITEM:</p>
+<ol>
+<li>Your Electronic Return Label will be available for 10 days and only one=
+ can be used per return. Should the label expire, you will be responsible f=
+or the return shipping costs.</li><li>Carefully pack the product in its ori=
+ginal packaging. Place package in a shipping box. Cover other shipping labe=
+ls if applicable.</li><li>Affix the Electronic ARS Label to the box. Ensure=
+ your RMA# is clearly printed on the outside of the shipping box, preferabl=
+y on the mailing label.
+<strong>No returns will be accepted without an RMA number.</strong></li><li=
+>Please return the original component(s) within 30 days.</li><li>Expect you=
+r refund to be applied to your account within 14 business days of the recei=
+pt and check-in of the item you are returning at our warehouse.</li></ol>
+Sincerely,<br>
+Your ADT Security Team<br>
+<br>
+&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentat=
+ion" class=3D"stylingblock-content-wrapper" style=3D"background-color:#F3F5=
+F6; min-width:100%">
+<tbody>
+<tr>
+<td class=3D"stylingblock-content-wrapper camarker-inner" style=3D"padding:=
+0px">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody>
+<tr>
+<td align=3D"top" width=3D"100%">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentat=
+ion" class=3D"stylingblock-content-wrapper" style=3D"background-color:#FFFF=
+FF; min-width:100%">
+<tbody>
+<tr>
+<td class=3D"stylingblock-content-wrapper camarker-inner" style=3D"padding:=
+0px">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody>
+<tr>
+<td align=3D"center" class=3D"modBod pad20" valign=3D"top" width=3D"100%" s=
+tyle=3D"font-family:'Open Sans',Arial,Helvetica,sans-serif; font-size:16px;=
+ line-height:22px; color:#000000; padding-left:30px; padding-right:30px">
+<p style=3D"text-align:left"><span style=3D"font-size:14px"><b>Need help?</=
+b><br>
+<b>Call <a href=3D"https://click.e.adt.com/?qs=3Ddb223ebe30a5416900a2a5c6b9=
+e3e70dee48e57104a24ab972d905ee947f39dfc7ef731cf4a145dfb5289e69a27d0d9baeae6=
+2c48cdfe718496148d2fdda62a7" title=3D"(877) 464-7437" style=3D"color:#00168=
+9; text-decoration:underline; font-weight:bold">
+<span style=3D"color:#2980b9">(877) 464-7437</span></a></b> 8am-12am ET Mon=
+day-Friday and 8am-9pm ET Saturday-Sunday.</span></p>
+<p style=3D"text-align:center"><b><a href=3D"https://click.e.adt.com/?qs=3D=
+db223ebe30a541692bdf1923fb1ca73ac16f841a94b35549a7134ba12e45c2475b7cba626ba=
+4b2e34e7c49eb5e36780548af317443659858a5926121ca0adaad" title=3D"Visit the S=
+upport Center" style=3D"color:#001689; text-decoration:underline; font-weig=
+ht:bold"><span style=3D"color:#2980b9">Visit
+ the Support Center</span></a></b></p>
+<p style=3D"text-align:left"><br>
+<span style=3D"font-size:14px"><em>This is an automatically generated messa=
+ge. Please do not reply to this email as this mailbox does not accept mail =
+and your message will not be received.</em></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td bgcolor=3D"#ffffff" class=3D"pad20" style=3D"font-size:10px; padding-to=
+p:0px; padding-bottom:20px; padding-left:0px; padding-right:0px">
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentat=
+ion" class=3D"stylingblock-content-wrapper" style=3D"min-width:100%">
+<tbody>
+<tr>
+<td class=3D"stylingblock-content-margin-cell" style=3D"padding:0px 20px">
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentat=
+ion" class=3D"stylingblock-content-wrapper" style=3D"background-color:#FFFF=
+FF; min-width:100%; border-top:0px; border-right:0px; border-bottom:1px sol=
+id transparent; border-left:0px">
+<tbody>
+<tr>
+<td class=3D"stylingblock-content-wrapper camarker-inner" style=3D"padding:=
+0px 20px">
+<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+<tbody>
+<tr>
+<td align=3D"center" bgcolor=3D"#ffffff" valign=3D"top" width=3D"100%" styl=
+e=3D"font-family:'Brown',Arial,Helvetica,sans-serif; font-size:12px; line-h=
+eight:22px; color:#5e6366; letter-spacing:2px; padding-left:0px; padding-ri=
+ght:0px; padding-top:30px; padding-bottom:00px">
+<strong>FOLLOW US</strong></td>
+</tr>
+</tbody>
+</table>
+<table align=3D"center" bgcolor=3D"#ffffff" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" style=3D"border-bottom:1px solid #E7EAEC">
+<tbody>
+<tr>
+<td bgcolor=3D"#ffffff" style=3D"padding-top:20px; padding-bottom:30px">
+<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"font-size:10px"><a href=3D"https://click.e.ad=
+t.com/?qs=3Ddb223ebe30a54169ed33abf6275f09161001b375f7606cd0110580c341444f4=
+20fb97e6f76a9c31092b631c4fe7e1a3b44660c41b38507e16563b09b389500b5" target=
+=3D"_blank" title=3D""><img alt=3D"Instagram" height=3D"20" src=3D"https://=
+image.e.adt.com/lib/fe3111717164047b741277/m/1/f4acccc0-2284-4710-b072-4c58=
+f8e05a46.png" width=3D"20" style=3D"display:block; padding:0px; height:20px=
+; width:20px; text-align:center; border:0px"></a></td>
+<td width=3D"70"></td>
+<td align=3D"center" style=3D"font-size:10px"><a href=3D"https://click.e.ad=
+t.com/?qs=3Ddb223ebe30a54169a78d3e794801b9ea593e8c82c6d36bbf10ea472fd56e4c0=
+05c3fbe630f74149f9b0bba898d22500659e1bda4cb0aa7d8bfdf57beb41dee94" target=
+=3D"_blank" title=3D""><img alt=3D"Facebook" height=3D"19" src=3D"https://i=
+mage.e.adt.com/lib/fe3111717164047b741277/m/1/f9f6fa0e-77e7-44ea-833b-22678=
+0c637b6.png" width=3D"10" style=3D"display:block; padding:0px; height:19px;=
+ width:10px; text-align:center; border:0px"></a></td>
+<td width=3D"70"></td>
+<td align=3D"center" style=3D"font-size:10px"><a href=3D"https://click.e.ad=
+t.com/?qs=3Ddb223ebe30a541693ceba27b0dc0ec991f6ea257d409becadf028a6e6c2f022=
+afe56e76d8322b9e1ae6875d80917be5ae21cf37cc5533af771c8e37950268b1e" target=
+=3D"_blank" title=3D""><img alt=3D"Twitter" height=3D"16" src=3D"https://im=
+age.e.adt.com/lib/fe3111717164047b741277/m/1/0ce9ab99-8f53-43d5-95be-955d85=
+0e68d1.png" width=3D"20" style=3D"display:block; padding:0px; text-align:ce=
+nter; height:16px; width:20px; border:0px"></a></td>
+<td width=3D"70"></td>
+<td align=3D"center" style=3D"font-size:10px"><a href=3D"https://click.e.ad=
+t.com/?qs=3Ddb223ebe30a54169cee0736c272813684b49a11da25a9c7f05abda2dbe686b2=
+f68d83da41cb9c6d4e7009505ab73ffbe24b2ca2a6b0542d939c5edce9b1c4325" target=
+=3D"_blank" title=3D""><img alt=3D"YouTube" height=3D"17" src=3D"https://im=
+age.e.adt.com/lib/fe3111717164047b741277/m/1/e3eb0d3e-1b49-406c-858f-634acb=
+44cd08.png" width=3D"25" style=3D"display:block; padding:0px; text-align:ce=
+nter; height:17px; width:25px; border:0px"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentat=
+ion" class=3D"stylingblock-content-wrapper" style=3D"background-color:trans=
+parent; min-width:100%">
+<tbody>
+<tr>
+<td class=3D"stylingblock-content-wrapper camarker-inner" style=3D"padding:=
+30px 0px">
+<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%" style=3D"padding-top:0px; padding-bottom:0=
+px">
+<tbody>
+<tr>
+<td bgcolor=3D"#ffffff" class=3D"appleLinksGray" style=3D"font-family:Verda=
+na,Arial,Helvetica,sans-serif; font-size:9px; line-height:13px; color:#0500=
+01">
+View our <a href=3D"https://click.e.adt.com/?qs=3Ddb223ebe30a54169d2bda283a=
+215e6bad554f65daeb27d876b72458a05f705b656db1e5216383e9ebad1e90f51d2e1932a7c=
+d3c5ee8a31538a858e02ef7fb823" style=3D"color:#050001; text-decoration:under=
+line">
+Privacy Policy</a> and <a href=3D"https://click.e.adt.com/?qs=3Ddb223ebe30a=
+54169f00eb9df8fd9f8774e43f796d4b486897b7595e1cb482311a949a6f6cfc737b4fd2f30=
+bc2700018bf09a830a2e8d8e4b0eb0a2e8e1c24ebd" style=3D"color:#050001; text-de=
+coration:underline">
+Terms of Service</a>.<br>
+For customers with disabilities, email <a href=3D"mailto:adacompliance@adt.=
+com?subject=3DADA%20Compliance%20Help" title=3D"adacompliance@adt.com" styl=
+e=3D"color:#050001; text-decoration:underline">
+adacompliance@adt.com</a> for accessibility issues.<br>
+ADT Security Services, 1501 Yamato Road, Boca&nbsp;Raton,&nbsp;FL&nbsp;3343=
+1<br>
+=C2=A9 2023 ADT LLC. All rights reserved. Unauthorized use is strictly proh=
+ibited. The product/service names listed in this document are marks and/or =
+registered marks of their respective&nbsp;owners.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<img src=3D"https://click.e.adt.com/open.aspx?ffcb10-feca1773776d0479-fe561=
+2777661017f7212-fe3111717164047b741277-ff6115757d-fe2d15707365017a761679-ff=
+68167171&amp;d=3D110020&amp;bmt=3D0" width=3D"1" height=3D"1" alt=3D"">
+</div>
+</body>
+</html>

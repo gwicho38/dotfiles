@@ -1,0 +1,866 @@
+X-Pm-Gluon-Id: 884f7975-8677-453b-9950-803e3cf13145
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+References: <622.2632337105.202302201532339135901.0006903353@marketing01.email-allstate.com> <qmYqSiJRT4oDxih2aXbTNS-9P1Lp_VL162wrV0xoIwwiGfEDi0xYYYNmQdWiZP8w5iUsgF-3Zk24mNkhls6epQ==@protonmail.internalid>
+X-Pm-Date: Mon, 20 Feb 2023 15:32:38 +0000
+X-Pm-External-Id: <6276d95b40fc4e0cb014b0446ad45f65@SA1PR12MB6702.namprd12.prod.outlook.com>
+X-Pm-Internal-Id: qmYqSiJRT4oDxih2aXbTNS-9P1Lp_VL162wrV0xoIwwiGfEDi0xYYYNmQdWiZP8w5iUsgF-3Zk24mNkhls6epQ==
+To: "luis@lefv.io" <luis@lefv.io>
+Reply-To: "Luis Fernandez de la Vara" <luisfdzdelavara@outlook.com>
+From: "Luis Fernandez de la Vara" <luisfdzdelavara@outlook.com>
+Subject: FW: Allstate: Stay protected, Luis. Make a payment today!
+Arc-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com; s=arcselector9901; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1; bh=e+mHuK2p+ElBkyFZis7fOZYWeMcLHUd2aKlyfy687ls=; b=iYfe8KR1UxGMI+IkMykiG5D4vzg7RllZDh/eLWMetkrZ8b58p07XC+w3X/baM9lLMtTAkdg3WSoJ/eU9H8w+tUyHtBrvIJRmEQgYRoJk8qXwVfXGsfEJM6UZcdl2Y6EMGhNuG9rlejGd572c8NIHrvcSiyLZhn4qJavxok8O1eYbwP694wzRI8DQj0u7SQYeQbXga+6izIvpSBSyr6R9UBpNPJ02qAeQcHidYFTApZUk5cM7MLaTqXK9GeklG6ET+l28xOhgzCHyk75H6fEoKHoBQ2iW87VIVzYMYpWp7UKPSVV91RzgP6cbsbzvMbBRz06NrwsNdPAZY4BtHnPH4w==
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com; s=selector1; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck; bh=e+mHuK2p+ElBkyFZis7fOZYWeMcLHUd2aKlyfy687ls=; b=jIbDg8ECjgg8SeUgvYPgONWY3kxn+KxZK3sUQoB+1FfiKq5sy5ydMbe9JOCJJSlkhOtgUZb9axWLErZXG4VDDuIZpsrzSoZ/ILjHDBpZ+rR52gMEcC3/w0IpRIG/P3TqxZKUQ8Elcd/QQ3pc+8nXcVP9xfVgHbW7Lr8M1+M16coQX3F5vtjcmYZ26D2AcI1ArbE4gNkeawK6Fo+GXz0OBQ6yDeCOwqAFGIVbM0K8qR6mu/5fyIbLsZmgSuqfsZNfRZ8cjFbXdZ8SU+bx1DgI5yRO0C6tYsNee6rudZD0z965Ir9kFMXkvZzZuUMgqxbHGOzrPU1XGWFnuTj10tCVoA==
+Auto-Submitted: auto-generated
+Thread-Topic: Allstate: Stay protected, Luis. Make a payment today!
+X-Original-To: luis@lefv.io
+X-Ms-Exchange-Crosstenant-Rms-Persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-Ms-Exchange-Crosstenant-Rms-Persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+Arc-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none; dkim=none; arc=none
+X-Pm-Origin: external
+X-Pm-Spam: 0yezJI6cihyJeYR3pi42biOpJJvbmsCIeI1msjN3X3blJp7IjBlNIIojty4CMCLSJ I6UyzS4MNwCiPJFUCR6IIwLTQCJLU9kESB1XURJRRJQ1i04TOAjsk9lIWZ1J9pZ1vmZbIpj7SBlI 0TiQsiOnzF9ccFGtwojIjLwAc4MDzTUMOEDz2UTOzM1AgsMzvm1IZVGskl2XCe6I19MHiSwfcJ3p 6ICZjIzYM5ZjhjlMZETzjdTNjZyIJiZDk2JYNJy9zJCLSY6IJpeyz19ccFGtwojICLzJ9yY26SIZ MwCivN2cmckVotIjyC4MLJCyvBXZnciQsiOnFlJRR1UBfxUSlRPJI6TSuzAWMwCipVHb2ckZRlem 2GFbYJXh0F2WWX19xvdGu2sbY92ts0lIlIQN9QRlTVNQIpjbuATLFMs0NQIlIl9RRxUPBB1X1UiM stOlwC4MXwSiNRFSFTN9NTRVFUdQIpjbw4CMSXiwtJRETV9TSdUOiQURlOwsFdLjECJLSl0NBZ1X ETElVGX0bjpILATus0VMkILR1fSUMkFVSRUfiUVQlOts4xMCiSwXRtEJW9VTUQJxI6RCwy0WLFjd 91Xf============
+X-Pm-Spam-Action: inbox
+Delivered-To: luis@lefv.io
+X-Ms-Exchange-Crosstenant-Authsource: SA1PR12MB6702.namprd12.prod.outlook.com
+Arc-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none; b=UGIQbz0JlMTyNYJSMFbRB3vKIf+REtnsr4708yaPI1mGOrkbfBMVZnvjbqIe8wTxgf0lI28fcpVdeUFxoPiBGuzXk5vAL5kvwAK4IQnHAFjrxHw8eRgzYdCeybZjQcjKQLLM8gab0xOmalzGPIMwYCnzbcafXdp8n7BXu+0RILq/h8M1rTQb1NYYv/uTCFKNlwB/+BzNt9qoalra3DYH8P7XZoto+XaBL24nC4Ghl0px3HFuKlVCbi22AWVQI/XqUK2t1SJhBi7QWA930rrHiZxR7uOJ3bafmNnskyxdIM7Qkf/Xpt1Ns0rYu6wU45jV+rAMP/PUJLtxxE4rBwgllg==
+X-Ms-Exchange-Crosstenant-Fromentityheader: Hosted
+X-Ms-Exchange-Transport-Crosstenantheadersstamped: DM4PR12MB6278
+X-Ms-Exchange-Crosstenant-Originalarrivaltime: 20 Feb 2023 15:32:38.1009 (UTC)
+X-Microsoft-Antispam-Message-Info: qb1zlNQqwsGRmgTje8RPDgXU5XNKSs85fPknjaLk97QrPMn6jmxZKge8zchaZyUDaOQuJD39JvSkwO6lGA4AUTgFeDhlCUDkqXlfcEVTeRWc41CWWdzM4tknogShKXps5WeCH3GscUMIzIJeV4D2nkjV30IZ5r01xzWwYacf2CgKXE1nXnt6rzcj9fDJ14whB/QoHqxra200zD6l9OZD4bzf/cWzL4J4lTZExDWc17woV1RgR+DauDTwMBKxpEpL4yBHRpXExZe6Em5Y12YCyI92L27Fpd5IrmJKW7vi7d0vZpHW1+s5RZOaIHOFWywcER9fK+9LgLxTWmLs/ZWgWLeqya6pL6EZhNGknMd/T5K9modyRTh0h6J2xNUJXrMLrTVJ9s0VPh0uznTJwSd9uLWSScpwvpfUSXLvr53y7DekM0fNwBXozi5O/ObdnlwUfyFWpOFt35fhssCu7DHuMtJ1Nf7vXQduT2q4DoiYGU6ESkimAwn8hFKGM5J6smkhT/kkajYBZP5cm/k/jX7pxCkDtYxbNVVTgc4BBESXwZ7HRUZCDOemr8nb8Cxf/lmutXW360iuSRjwVWuNgMJrh7qGgcWw69mVcNVnsLZsGYfBZ+yD1f/wrMX+FLVx17NsVFKQhljq3t2tf19Rq+zZwJkn19zFdgDQDB4OOu0ojywgbVEwrmyRwqzj0/L4DxulwhDZtiAAJmkj8ONRsfeVpQ==
+X-Microsoft-Antispam: BCL:0;
+X-Ms-Traffictypediagnostic: SA1PR12MB6702:EE_|DM4PR12MB6278:EE_
+Thread-Index: AQHZRUCPbnbQZl6Sp0egGpr1Ppczfa7X9p6Y
+X-Rspamd-Server: cp3-mailin-025.plabs.ch
+X-Rspamd-Queue-Id: 4PL5yc3P1dz9vNPq
+X-Ms-Office365-Filtering-Correlation-Id: 3278b4da-ecae-4edd-8265-08db1357b284
+X-Ms-Publictraffictype: Email
+X-Pm-Transfer-Encryption: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)
+X-Ms-Exchange-Parent-Message-Id: <622.2632337105.202302201532339135901.0006903353@marketing01.email-allstate.com>
+In-Reply-To: <622.2632337105.202302201532339135901.0006903353@marketing01.email-allstate.com>
+X-Pm-Spamscore: 0
+Received: from SA1PR12MB6702.namprd12.prod.outlook.com ([::1]) by SA1PR12MB6702.namprd12.prod.outlook.com ([fe80::44f2:8e0:9d58:9759%5]) with Microsoft SMTP Server id 15.20.6111.020; Mon, 20 Feb 2023 15:32:38 +0000
+Received: from SA1PR12MB6702.namprd12.prod.outlook.com (2603:10b6:806:252::22) by DM4PR12MB6278.namprd12.prod.outlook.com (2603:10b6:8:a4::15) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6111.18; Mon, 20 Feb 2023 15:32:38 +0000
+Received: from NAM10-DM6-obe.outbound.protection.outlook.com (mail-dm6nam10olkn2062.outbound.protection.outlook.com [40.92.41.62]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by mailin025.protonmail.ch (Postfix) with ESMTPS id 4PL5yc3P1dz9vNPq for <luis@lefv.io>; Mon, 20 Feb 2023 15:32:40 +0000 (UTC)
+Message-Id: <6276d95b40fc4e0cb014b0446ad45f65@SA1PR12MB6702.namprd12.prod.outlook.com>
+Date: Mon, 20 Feb 2023 15:32:38 +0000
+X-Ms-Exchange-Crosstenant-Network-Message-Id: 3278b4da-ecae-4edd-8265-08db1357b284
+Return-Path: <luisfdzdelavara@outlook.com>
+Mime-Version: 1.0
+X-Ms-Exchange-Antispam-Messagedata-Chunkcount: 1
+X-Ms-Exchange-Antispam-Messagedata-0: 4axXaGTFrusYAlrawrfJIuLeZH1NEyBLRnMFukkS6q+TqU2uJrP/aojvq9Qv9ZSenz68H/Z1PLL9FoEbycXLHKN2AoJm89s2n/CKY/0Cf3SncDX6L2SfYS2+YsJMZwSxmvstJ440mcIkg9NWGyNDdsvtHFghTV1WgaI9UMpQ0brTXIM1UpT9/w5hSnCgWq3USvnE1EN/IY9x7CQLinUyCMAMH9gWbWDcIdc/D6xaxQlr0d33NJJp2/Ztc5kC8BSsN/Ex/1y1XpEMHTz9Eu7VY4HHr+MGAk2k7TOy1sZ2M7lycRXxRPyhtrP0d+y8EK8q
+X-Pm-Content-Encryption: on-delivery
+X-Spamd-Result: default: False [1.34 / 25.00]; PHISHING(3.72)[allstate.com->email-allstate.com]; BAYES_HAM(-2.63)[98.37%]; ARC_ALLOW(-1.00)[microsoft.com:s=arcselector9901:i=1]; URI_COUNT_ODD(1.00)[69]; PHISH_EMOTION(1.00)[]; DMARC_POLICY_ALLOW(-0.50)[outlook.com,none]; R_DKIM_ALLOW(-0.20)[outlook.com:s=selector1]; R_SPF_ALLOW(-0.20)[+ip4:40.92.0.0/15:c]; MIME_GOOD(-0.10)[multipart/alternative,text/plain]; MIME_BASE64_TEXT(0.10)[]; ZERO_FONT(0.10)[1]; MANY_INVISIBLE_PARTS(0.05)[1]; MIME_TRACE(0.00)[0:+,1:+,2:~]; RCVD_TLS_LAST(0.00)[]; ASN(0.00)[asn:8075, ipnet:40.80.0.0/12, country:US]; FROM_HAS_DN(0.00)[]; FROM_EQ_ENVFROM(0.00)[]; TO_DN_EQ_ADDR_ALL(0.00)[]; NEURAL_HAM(-0.00)[-0.998]; TO_MATCH_ENVRCPT_ALL(0.00)[]; RCPT_COUNT_ONE(0.00)[1]; SUBJECT_ENDS_EXCLAIM(0.00)[]; RCVD_COUNT_THREE(0.00)[3]; MID_RHS_MATCH_FROMTLD(0.00)[]; DKIM_TRACE(0.00)[outlook.com:+]
+X-Ms-Exchange-Crosstenant-Authas: Internal
+Authentication-Results: mailin025.protonmail.ch; dkim=pass (2048-bit key) header.d=outlook.com header.i=@outlook.com header.b="jIbDg8EC"
+Authentication-Results: mailin025.protonmail.ch; arc=fail smtp.remote-ip=40.92.41.62
+Authentication-Results: mailin025.protonmail.ch; spf=pass smtp.mailfrom=outlook.com
+Authentication-Results: mailin025.protonmail.ch; dmarc=pass (p=none dis=none) header.from=outlook.com
+Authentication-Results: mailin025.protonmail.ch; dkim=pass (Good 2048    bit rsa-sha256 signature) header.d=outlook.com header.a=rsa-sha256
+X-Ms-Exchange-Generated-Message-Source: Mailbox Rules Agent
+X-Ms-Exchange-Crosstenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-Originatororg: outlook.com
+X-Ms-Exchange-Inbox-Rules-Loop: Luisfdzdelavara@outlook.com
+
+<html lang=3D"en" style=3D"width:100%">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<meta content=3D"IE=3Dedge">
+<meta content=3D"IE=3Dedge">
+<meta content=3D"width=3Ddevice-width; initial-scale=3D1.0; maximum-scale=
+=3D1.0; user-scalable=3Dno;" name=3D"viewport">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width">
+<meta name=3D"ROBOTS" content=3D"NOINDEX, NOFOLLOW">
+<meta name=3D"x-apple-disable-message-reformatting">
+<style type=3D"text/css">
+<!--
+.ExternalClass
+	{width:100%}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font,=
+ .ExternalClass td, .ExternalClass div
+	{line-height:100%}
+table td
+	{border-collapse:collapse}
+h1, h2, h3, h4, h5, h6
+	{font-size:inherit;
+	padding:0;
+	margin:0;
+	color:#4e5969;
+	line-height:100%}
+.applelinks a
+	{text-decoration:none;
+	color:inherit!important}
+a
+	{color:#4e5969;
+	text-decoration:none}
+a, a:link, a:visited
+	{color:inherit;
+	text-decoration:none}
+span.MsoHyperlink
+	{color:inherit}
+span.MsoHyperlinkFollowed
+	{color:inherit}
+.outlook div
+	{font-size:0px!important;
+	display:block!important}
+body
+	{font-family:Segoe UI,Arial,sans-serif;
+	font-size:14px;
+	margin:0;
+	padding:0;
+	width:100%!important}
+-->
+</style>
+</head>
+<body class=3D"tli" style=3D"padding:0; margin:0; background-color:white">
+<strong>
+<div><font face=3D"Tahoma" color=3D"#000000" size=3D"2">&nbsp;</font></div>
+</strong>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<font face=3D"Tahoma" size=3D"2"><b>From:</b> Allstate Insurance &lt;allsta=
+te@marketing01.email-allstate.com&gt;<br>
+<b>Sent:</b> Monday, February 20, 2023 10:32:33 AM (UTC-05:00) Indiana (Eas=
+t)<br>
+<b>To:</b> Luis Fernandez De La Vara &lt;Luisfdzdelavara@outlook.com&gt;<br=
+>
+<b>Subject:</b> Allstate: Stay protected, Luis. Make a payment today!<br>
+</font><br>
+<div></div>
+<div><img src=3D"http://l.marketing01.email-allstate.com/rts/open.aspx?tp=
+=3Di-1NGB-A2-ZCp-2s9185-25-15ESqT-1c-2JrCUM-l8cPAXgmfl-28PyQz" height=3D"1"=
+ width=3D"1" style=3D"display:none">
+<div style=3D"display:none; font-size:0; max-height:0; width:0; overflow:hi=
+dden; visibility:hidden">
+<span style=3D"display:none; font-size:0; max-height:0; width:0; overflow:h=
+idden; visibility:hidden">A friendly reminder that your payment is due. =E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;</span>
+</div>
+<table width=3D"100%" border=3D"0" align=3D"center" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"width:100%">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"background-color:white">
+<table width=3D"100%" border=3D"0" align=3D"center" cellpadding=3D"0" cells=
+pacing=3D"0">
+<tbody>
+<tr>
+<td align=3D"center">
+<table class=3D"w100" width=3D"640" border=3D"0" align=3D"center" cellpaddi=
+ng=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"padding-top:25px">
+<table width=3D"90%" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0">
+<tbody>
+<tr>
+<td align=3D"center">
+<table width=3D"100%" border=3D"0" align=3D"center" cellpadding=3D"0" cells=
+pacing=3D"0">
+<tbody>
+<tr>
+<td class=3D"padt10m" align=3D"center">
+<table width=3D"100%" border=3D"0" align=3D"center" cellpadding=3D"0" cells=
+pacing=3D"0">
+<tbody>
+<tr>
+<td align=3D"right" style=3D"padding-left:20px">
+<table width=3D"100%" border=3D"0" align=3D"right" cellpadding=3D"0" cellsp=
+acing=3D"0">
+<tbody>
+<tr>
+<td style=3D"color:#4e5969; font-size:13px; text-align:right; font-family:A=
+rial,sans-serif; line-height:1.2em; font-weight:normal">
+<a class=3D"opacity" href=3D"http://l.marketing01.email-allstate.com/rts/go=
+2.aspx?h=3D694820&amp;tp=3Di-1NHD-A2-ZCp-2s9185-25-15ESqT-1c-FKf9-2JrCUM-l8=
+cPAXgmfl-1iYMn&amp;x=3Dmypreferences.allstate.com%2factivity-handler%3fpl%3=
+dQUNUSU9OPUxOR1BSRnxFTUFJTD1zOGxsUU1UamZLUmMwRE9RTTJIVk54VzdVZ29rK3pTekR0cG=
+1wWnQ2WmpsVkhwOThVeUtvcGRZUG1ZVVdKOFB5fFBBUlRZPStQNGRYVHJwNndQY1VZZkdFWW5Cc=
+kUwZElXOUNmb2hxT2hhVXg4NXBITm89%26hh%3dVRaZW7qZL247%252FJP2e%252FelBFg00gls=
+gmex2cSCl%252BP%252BgByvurBv6EID4S56OsWMC5kF7CJ2kfNrb419FS5Oi%252BBXHw%253D=
+%253D%26ec%3dfCBWCs1ujw%252FBU4XMMzWlQrykOgaWyn9f9RfNx6RK1I4SCDJxt7GlHBMBKi=
+3R8HHR%252FkGrsSkR5mkv%250AVNk6VVft6w%253D%253D%7cP_CUSTMKTG_LPRE_LATEPAYRE=
+MINDER_P%7c20211111%7c:EN" style=3D"color:#4e5969; text-decoration:none">Ch=
+ange
+ Preference |&nbsp;Espa=C3=B1ol</a></td>
+<td width=3D"1" style=3D"line-height:0px; padding-left:5px"><a href=3D"http=
+://l.marketing01.email-allstate.com/rts/go2.aspx?h=3D694820&amp;tp=3Di-1NHD=
+-A2-ZCp-2s9185-25-15ESqT-1c-FKf9-2JrCUM-l8cPAXgmfl-1iYMn&amp;x=3Dmypreferen=
+ces.allstate.com%2factivity-handler%3fpl%3dQUNUSU9OPUxOR1BSRnxFTUFJTD1zOGxs=
+UU1UamZLUmMwRE9RTTJIVk54VzdVZ29rK3pTekR0cG1wWnQ2WmpsVkhwOThVeUtvcGRZUG1ZVVd=
+KOFB5fFBBUlRZPStQNGRYVHJwNndQY1VZZkdFWW5CckUwZElXOUNmb2hxT2hhVXg4NXBITm89%2=
+6hh%3dVRaZW7qZL247%252FJP2e%252FelBFg00glsgmex2cSCl%252BP%252BgByvurBv6EID4=
+S56OsWMC5kF7CJ2kfNrb419FS5Oi%252BBXHw%253D%253D%26ec%3dfCBWCs1ujw%252FBU4XM=
+MzWlQrykOgaWyn9f9RfNx6RK1I4SCDJxt7GlHBMBKi3R8HHR%252FkGrsSkR5mkv%250AVNk6VV=
+ft6w%253D%253D%7cP_CUSTMKTG_LPRE_LATEPAYREMINDER_P%7c20211111%7c:EN"><img s=
+rc=3D"http://i.marketing01.email-allstate.com/wpm/622/ContentUploads/_CLAIM=
+S/MODULES/M_ICON_50X86_ARROWBLUE_081018.png" width=3D"7" style=3D"display:b=
+lock; border:0"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td align=3D"center" style=3D"padding-top:20px">
+<table width=3D"90%" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0">
+<tbody>
+<tr>
+<td align=3D"center"><a href=3D"http://l.marketing01.email-allstate.com/rts=
+/go2.aspx?h=3D694810&amp;tp=3Di-1NHD-A2-ZCp-2s9185-25-15ESqT-1c-FKfA-2JrCUM=
+-l8cPAXgmfl-mHT8&amp;x=3D057665%7cP_CUSTMKTG_LPRE_LATEPAYREMINDER_P%7c20211=
+111%7c:EN"><img src=3D"http://i.marketing01.email-allstate.com/wpm/622/Cont=
+entUploads/_CLAIMS/MODULES/M_BEACON_400X303_ALLSTATEBEACON_081018.png" widt=
+h=3D"75" alt=3D"Allstate" style=3D"display:block; border:0; font-size:35px;=
+ font-family:sans-serif; font-weight:bold; color:#0033a0"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"100%" border=3D"0" align=3D"center" cellpadding=3D"0" cells=
+pacing=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"padding-bottom:40px">
+<table class=3D"w100" width=3D"640" border=3D"0" align=3D"center" cellpaddi=
+ng=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td align=3D"center">
+<table width=3D"90%" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding-top:40px; color:#4e5969; font-size:28px; text-align:ce=
+nter; font-family:Arial,sans-serif; line-height:32px">
+Paying your past due balance is&nbsp;simple.</td>
+</tr>
+<tr>
+<td class=3D"tcenterm" style=3D"padding-top:20px; color:#0033A0; font-size:=
+16px; text-align:center; font-family:Arial,sans-serif; font-weight:bold">
+Amount Due</td>
+</tr>
+<tr>
+<td class=3D"tcenterm" style=3D"padding-top:10px; color:#0033A0; font-size:=
+50px; text-align:center; font-family:Arial,sans-serif">
+$341.00</td>
+</tr>
+<tr>
+<td class=3D"tcenterm" style=3D"padding-top:5px; color:#4e5969; font-size:1=
+6px; text-align:center; font-family:Arial,sans-serif; line-height:22px">
+Due date: <span style=3D"color:#0033A0; font-weight:bold">2/15/2023</span><=
+/td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"padding-top:30px">
+<table width=3D"250" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0">
+<tbody>
+<tr>
+<td style=3D"background-color:#95d600; overflow:hidden; -webkit-border-radi=
+us:50px; -moz-border-radius:50px; border-radius:50px">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"button">
+<tbody>
+<tr>
+<td width=3D"1" align=3D"left" valign=3D"top" style=3D"line-height:0px"><a =
+href=3D"http://l.marketing01.email-allstate.com/rts/go2.aspx?h=3D694818&amp=
+;tp=3Di-1NGB-A2-ZCp-2s9185-25-15ESqT-1c-2JrCUM-l8cPAXgmfl-28PyQz&amp;x=3DP_=
+CUSTMKTG_LPRE_LATEPAYREMINDER_P%7c20211111%7c:EN"><img src=3D"http://i.mark=
+eting01.email-allstate.com/wpm/622/ContentUploads/_CUSTMKTG/CUSTMKTG_LPRE_L=
+ATEPAYREMINDER_P/M_IMAGE_26X48_BUTTONCUTOUTLEFT_081018.png" width=3D"26" he=
+ight=3D"48" style=3D"display:block; border:0"></a></td>
+<td align=3D"center">
+<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"padding-left:10px; padding-right:10px; font-s=
+ize:16px; color:#0033A0; font-family:Arial,sans-serif; text-align:center; f=
+ont-weight:none">
+<a href=3D"http://l.marketing01.email-allstate.com/rts/go2.aspx?h=3D694818&=
+amp;tp=3Di-1NGB-A2-ZCp-2s9185-25-15ESqT-1c-2JrCUM-l8cPAXgmfl-28PyQz&amp;x=
+=3DP_CUSTMKTG_LPRE_LATEPAYREMINDER_P%7c20211111%7c:EN" style=3D"display:blo=
+ck; width:100%; color:#0033A0; text-decoration:none">Pay
+ Now</a></td>
+<td width=3D"1" style=3D"line-height:0px; padding-left:5px"><a href=3D"http=
+://l.marketing01.email-allstate.com/rts/go2.aspx?h=3D694818&amp;tp=3Di-1NGB=
+-A2-ZCp-2s9185-25-15ESqT-1c-2JrCUM-l8cPAXgmfl-28PyQz&amp;x=3DP_CUSTMKTG_LPR=
+E_LATEPAYREMINDER_P%7c20211111%7c:EN"><img src=3D"http://i.marketing01.emai=
+l-allstate.com/wpm/622/ContentUploads/_CUSTMKTG/CUSTMKTG_LPRE_LATEPAYREMIND=
+ER_P/M_ICON_50X86_ARROWBLUE_081018.png" width=3D"7" style=3D"display:block;=
+ border:0"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width=3D"1" align=3D"left" valign=3D"top" style=3D"line-height:0px"><a =
+href=3D"http://l.marketing01.email-allstate.com/rts/go2.aspx?h=3D694818&amp=
+;tp=3Di-1NGB-A2-ZCp-2s9185-25-15ESqT-1c-2JrCUM-l8cPAXgmfl-28PyQz&amp;x=3DP_=
+CUSTMKTG_LPRE_LATEPAYREMINDER_P%7c20211111%7c:EN"><img src=3D"http://i.mark=
+eting01.email-allstate.com/wpm/622/ContentUploads/_CUSTMKTG/CUSTMKTG_LPRE_L=
+ATEPAYREMINDER_P/M_IMAGE_26X48_BUTTONCUTOUTRIGHT_081018.png" width=3D"26" h=
+eight=3D"48" style=3D"display:block; border:0"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"padding-top:30px">
+<table class=3D"w100" width=3D"90%" border=3D"0" align=3D"center" cellpaddi=
+ng=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"background-color:#0033A0; padding-top:15px; p=
+adding-bottom:15px">
+<table width=3D"95%" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0">
+<tbody>
+<tr>
+<td style=3D"color:white; font-size:16px; text-align:center; font-family:Ar=
+ial,sans-serif; font-weight:bold">
+Policy Summary </td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"background-color:#f8f8f8; padding-top:15px; padding-bottom:30p=
+x">
+<table width=3D"85%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center">
+<tbody>
+<tr>
+<td style=3D"padding-top:5px; color:#4e5969; font-size:16px; text-align:lef=
+t; font-family:Arial,sans-serif; line-height:22px">
+<span style=3D"font-weight:bold">Policy Number:</span> xxxx6333</td>
+</tr>
+<tr>
+<td style=3D"padding-top:5px; color:#4e5969; font-size:16px; text-align:lef=
+t; font-family:Arial,sans-serif; line-height:22px">
+<span style=3D"font-weight:bold">Policy Type:</span> Landlords</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"padding-top:30px">
+<table class=3D"w100" width=3D"90%" border=3D"0" align=3D"center" cellpaddi=
+ng=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td style=3D"background-color:#f8f8f8; padding-top:15px; padding-bottom:30p=
+x">
+<table width=3D"85%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center">
+<tbody>
+<tr>
+<td class=3D"tcenterm" style=3D"color:#0033A0; font-size:28px; text-align:c=
+enter; font-family:Arial,sans-serif; line-height:1.2em">
+<a href=3D"http://l.marketing01.email-allstate.com/rts/go2.aspx?h=3D694818&=
+amp;tp=3Di-1NGB-A2-ZCp-2s9185-25-15ESqT-1c-2JrCUM-l8cPAXgmfl-28PyQz&amp;x=
+=3DP_CUSTMKTG_LPRE_LATEPAYREMINDER_P%7c20211111%7c:EN" style=3D"color:#0033=
+A0; text-decoration:none">Other Ways to Pay</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"padding-top:20px">
+<table class=3D"w90m" width=3D"250" border=3D"0" align=3D"center" cellpaddi=
+ng=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td width=3D"55" align=3D"center" style=3D"padding-right:25px"><a href=3D"t=
+el:1-800-901-1732"><img src=3D"http://i.marketing01.email-allstate.com/wpm/=
+622/ContentUploads/_CUSTMKTG/CUSTMKTG_LPRE_LATEPAYREMINDER_P/M_IMAGE_50X50_=
+ICON_PHONE_04222019.png" width=3D"50" style=3D"display:block; border:0; max=
+-width:100%"></a></td>
+<td class=3D"height0m" height=3D"50">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"color:#0033A0; font-size:16px; text-align:left; font-family:Ar=
+ial,sans-serif; line-height:1.2em; font-weight:bold">
+<a href=3D"tel:1-800-901-1732" style=3D"color:#0033A0; text-decoration:none=
+">By Phone
+<br>
+<u>1-800-901-1732</u></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"padding-top:20px">
+<table class=3D"w90m" width=3D"250" border=3D"0" align=3D"center" cellpaddi=
+ng=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td width=3D"55" align=3D"center" style=3D"padding-right:25px"><img src=3D"=
+http://i.marketing01.email-allstate.com/wpm/622/ContentUploads/_CUSTMKTG/CU=
+STMKTG_LPRE_LATEPAYREMINDER_P/M_IMAGE_300X300_ICON_MAIL_04172019.png" width=
+=3D"50" style=3D"display:block; border:0; max-width:100%"></td>
+<td class=3D"height0m" height=3D"50">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"color:#0033A0; font-size:16px; text-align:left; font-family:Ar=
+ial,sans-serif; line-height:1.2em; font-weight:bold">
+By Mail</td>
+</tr>
+<tr>
+<td style=3D"color:#4e5969; font-size:16px; text-align:left; font-family:Ar=
+ial,sans-serif; line-height:1.2em">
+Allstate (Attn: MMC) P.O.&nbsp;Box 660642 <br>
+Dallas, TX 75266=E2=80=910642</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"padding-top:30px">
+<table class=3D"w100" width=3D"90%" border=3D"0" align=3D"center" cellpaddi=
+ng=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td style=3D"background-color:#f8f8f8; padding-top:15px; padding-bottom:30p=
+x">
+<table width=3D"85%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center">
+<tbody>
+<tr>
+<td class=3D"tcenterm" style=3D"color:#0033A0; font-size:28px; text-align:c=
+enter; font-family:Arial,sans-serif; line-height:1.2em">
+Save Time With Automatic&nbsp;Payments</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"padding-top:20px">
+<table width=3D"250" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0">
+<tbody>
+<tr>
+<td width=3D"55" align=3D"center" valign=3D"top" style=3D"padding-right:25p=
+x"><a href=3D"http://l.marketing01.email-allstate.com/rts/go2.aspx?h=3D6948=
+19&amp;tp=3Di-1NGB-A2-ZCp-2s9185-25-15ESqT-1c-2JrCUM-l8cPAXgmfl-28PyQz&amp;=
+x=3DP_CUSTMKTG_LPRE_LATEPAYREMINDER_P%7c20211111%7c:EN"><img src=3D"http://=
+i.marketing01.email-allstate.com/wpm/622/ContentUploads/_CUSTMKTG/CUSTMKTG_=
+LPRE_LATEPAYREMINDER_P/M_IMAGE_50X50_ICON_AUTOPAY_04222019.png" width=3D"55=
+" style=3D"display:block; border:0; max-width:100%"></a></td>
+<td class=3D"height0m" height=3D"50">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"color:#4e5969; font-size:16px; text-align:left; font-family:Ar=
+ial,sans-serif; line-height:1.2em">
+It's easy, reliable and you can even choose your due&nbsp;date.</td>
+</tr>
+<tr>
+<td style=3D"padding-top:15px">
+<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"padding-right:5px; font-size:16px; color:#4e5=
+969; font-family:Arial,sans-serif; text-align:center; font-weight:none; fon=
+t-weight:bold">
+<a href=3D"http://l.marketing01.email-allstate.com/rts/go2.aspx?h=3D694819&=
+amp;tp=3Di-1NGB-A2-ZCp-2s9185-25-15ESqT-1c-2JrCUM-l8cPAXgmfl-28PyQz&amp;x=
+=3DP_CUSTMKTG_LPRE_LATEPAYREMINDER_P%7c20211111%7c:EN" style=3D"display:blo=
+ck; width:100%; color:#4e5969; text-decoration:none">Sign
+ Up</a></td>
+<td width=3D"1" style=3D"line-height:0px; padding-left:5px"><a href=3D"http=
+://l.marketing01.email-allstate.com/rts/go2.aspx?h=3D694819&amp;tp=3Di-1NGB=
+-A2-ZCp-2s9185-25-15ESqT-1c-2JrCUM-l8cPAXgmfl-28PyQz&amp;x=3DP_CUSTMKTG_LPR=
+E_LATEPAYREMINDER_P%7c20211111%7c:EN"><img src=3D"http://i.marketing01.emai=
+l-allstate.com/wpm/622/ContentUploads/_CUSTMKTG/CUSTMKTG_LPRE_LATEPAYREMIND=
+ER_P/M_ICON_50X86_ARROWGREEN_081018.png" width=3D"7" style=3D"display:block=
+; border:0"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"tcenterm" style=3D"padding-top:30px; color:#0033A0; font-size:=
+24px; text-align:center; font-family:Arial,sans-serif; line-height:1.2em">
+<a href=3D"http://l.marketing01.email-allstate.com/rts/go2.aspx?h=3D694818&=
+amp;tp=3Di-1NGB-A2-ZCp-2s9185-25-15ESqT-1c-2JrCUM-l8cPAXgmfl-28PyQz&amp;x=
+=3DP_CUSTMKTG_LPRE_LATEPAYREMINDER_P%7c20211111%7c:EN" style=3D"color:#0033=
+A0; text-decoration:none">Already Paid?</a></td>
+</tr>
+<tr>
+<td style=3D"padding-top:10px; color:#0033A0; font-size:16px; text-align:ce=
+nter; font-family:Arial,sans-serif; line-height:22px">
+If you've already paid, thanks. If not, we want to keep you covered. Please=
+ make a payment to avoid&nbsp;interruption.</td>
+</tr>
+<tr>
+<td style=3D"padding-top:30px">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"color:#0033a0; font-size:24px; text-align:left; font-family:Ar=
+ial,sans-serif; line-height:28px">
+Sara Giannone</td>
+</tr>
+<tr>
+<td style=3D"padding-top:10px; color:#4e5969; font-size:13px; text-align:le=
+ft; font-family:Arial,sans-serif; line-height:1.2em; font-weight:bold">
+</td>
+</tr>
+<tr>
+<td style=3D"padding-top:10px">
+<table border=3D"0" align=3D"left" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td class=3D"hidem h3m" style=3D"color:#4e5969; font-size:13px; text-align:=
+left; font-family:Arial,sans-serif; line-height:1.2em; font-weight:bold">
+586-746-1000</td>
+</tr>
+<tr>
+<td class=3D"showm" align=3D"center" style=3D"display:none; font-size:0; ma=
+x-height:0; width:0; overflow:hidden">
+<div class=3D"showm" style=3D"display:none; font-size:0; max-height:0; widt=
+h:0; overflow:hidden">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td class=3D"h3m" style=3D"color:#4e5969; font-size:18px; text-align:center=
+; font-family:Arial,sans-serif; line-height:0px; font-weight:bold">
+<a class=3D"opacity" href=3D"tel:586-746-1000" style=3D"color:#4e5969; text=
+-decoration:none">586-746-1000</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width=3D"1" style=3D"line-height:0px; padding-left:5px"><a href=3D"tel:=
+586-746-1000"><img src=3D"http://i.marketing01.email-allstate.com/wpm/622/C=
+ontentUploads/_CLAIMS/MODULES/M_ICON_50X86_ARROWBLUE_081018.png" width=3D"6=
+" style=3D"display:block; border:0"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding-top:10px">
+<table border=3D"0" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" clas=
+s=3D"opacity">
+<tbody>
+<tr>
+<td style=3D"color:#4e5969; font-size:13px; text-align:left; font-family:Ar=
+ial,sans-serif; line-height:1.2em; font-weight:bold">
+<a class=3D"opacity" href=3D"mailto:saragiannone@allstate.com?subject=3DCus=
+tomer Inquiry" style=3D"color:#4e5969; text-decoration:none">saragiannone@a=
+llstate.com</a></td>
+<td width=3D"1" style=3D"line-height:0px; padding-left:5px"><a href=3D"mail=
+to:saragiannone@allstate.com?subject=3DCustomer Inquiry"><img src=3D"http:/=
+/i.marketing01.email-allstate.com/wpm/622/ContentUploads/_CLAIMS/MODULES/M_=
+ICON_50X86_ARROWBLUE_081018.png" width=3D"6" style=3D"display:block; border=
+:0"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding-top:10px">
+<table border=3D"0" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" clas=
+s=3D"opacity">
+<tbody>
+<tr>
+<td style=3D"color:#4e5969; font-size:13px; text-align:left; font-family:Ar=
+ial,sans-serif; line-height:1.2em; font-weight:bold">
+<a class=3D"opacity" href=3D"http://l.marketing01.email-allstate.com/rts/go=
+2.aspx?h=3D694811&amp;tp=3Di-1NHD-A2-ZCp-2s9185-25-15ESqT-1c-FKfB-2JrCUM-l8=
+cPAXgmfl-L3ERC&amp;x=3D057665%7cP_CUSTMKTG_LPRE_LATEPAYREMINDER_P%7c2021111=
+1%7c:EN" style=3D"color:#4e5969; text-decoration:none">Book
+ an Appointment</a></td>
+<td width=3D"1" style=3D"line-height:0px; padding-left:5px"><a href=3D"http=
+://l.marketing01.email-allstate.com/rts/go2.aspx?h=3D694811&amp;tp=3Di-1NHD=
+-A2-ZCp-2s9185-25-15ESqT-1c-FKfB-2JrCUM-l8cPAXgmfl-L3ERC&amp;x=3D057665%7cP=
+_CUSTMKTG_LPRE_LATEPAYREMINDER_P%7c20211111%7c:EN"><img src=3D"http://i.mar=
+keting01.email-allstate.com/wpm/622/ContentUploads/_CLAIMS/MODULES/M_ICON_5=
+0X86_ARROWBLUE_081018.png" width=3D"6" style=3D"display:block; border:0"></=
+a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"background-color:#f8f8f8; padding-top:40px; p=
+adding-bottom:30px; word-break:break-all">
+<table class=3D"w100" width=3D"640" border=3D"0" align=3D"center" cellpaddi=
+ng=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td align=3D"center">
+<table width=3D"90%" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0">
+<tbody>
+<tr>
+<td align=3D"center">
+<table width=3D"100%" border=3D"0" align=3D"center" cellpadding=3D"0" cells=
+pacing=3D"0">
+<tbody>
+<tr>
+<td style=3D"color:#0033a0; font-size:18px; text-align:center; font-family:=
+Arial,sans-serif; line-height:22px">
+Did you find this email&nbsp;useful?</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"padding-top:15px">
+<table border=3D"0" align=3D"center" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td width=3D"50%" align=3D"left" valign=3D"top" style=3D"padding-right:10px=
+"><a href=3D"http://l.marketing01.email-allstate.com/rts/go2.aspx?h=3D69480=
+8&amp;tp=3Di-1NHD-A2-ZCp-2s9185-25-15ESqT-1c-FKfH-2JrCUM-l8cPAXgmfl-2Et4II"=
+><img src=3D"http://i.marketing01.email-allstate.com/wpm/622/ContentUploads=
+/_CLAIMS/MODULES/M_ICON_100X100_THUMBSUP_081018.png" width=3D"50" class=3D"=
+opacity" style=3D"display:block; border:0"></a></td>
+<td width=3D"50%" align=3D"right" valign=3D"top" style=3D"padding-left:10px=
+"><a href=3D"http://l.marketing01.email-allstate.com/rts/go2.aspx?h=3D69480=
+9&amp;tp=3Di-1NHD-A2-ZCp-2s9185-25-15ESqT-1c-FKfI-2JrCUM-l8cPAXgmfl-1cFiIT"=
+><img src=3D"http://i.marketing01.email-allstate.com/wpm/622/ContentUploads=
+/_CLAIMS/MODULES/M_ICON_100X100_THUMBSDOWN_081018.png" width=3D"50" class=
+=3D"opacity" style=3D"display:block; border:0"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"padding-top:40px"><a href=3D"http://l.marketi=
+ng01.email-allstate.com/rts/go2.aspx?h=3D694810&amp;tp=3Di-1NHD-A2-ZCp-2s91=
+85-25-15ESqT-1c-FKfJ-2JrCUM-l8cPAXgmfl-UZDO6&amp;x=3D057665%7cP_CUSTMKTG_LP=
+RE_LATEPAYREMINDER_P%7c20211111%7c:EN"><img src=3D"http://i.marketing01.ema=
+il-allstate.com/wpm/622/ContentUploads/_CLAIMS/MODULES/M_LOGO_500X109_ALLST=
+ATELOGO_081018.png" width=3D"140" alt=3D"Allstate" style=3D"display:block; =
+border:0; font-size:40px; font-family:sans-serif; font-weight:bold; color:#=
+0033a0; max-width:100%"></a></td>
+</tr>
+<tr>
+<td class=3D"padt20m" style=3D"padding-top:30px; color:#0033A0; font-size:1=
+3px; text-align:center; font-family:Arial,sans-serif; line-height:16px">
+<a class=3D"opacity" href=3D"http://l.marketing01.email-allstate.com/rts/go=
+2.aspx?h=3D694812&amp;tp=3Di-1NHD-A2-ZCp-2s9185-25-15ESqT-1c-FKfK-2JrCUM-l8=
+cPAXgmfl-tWGRK&amp;x=3D057665%7cP_CUSTMKTG_LPRE_LATEPAYREMINDER_P%7c2021111=
+1%7c:EN" style=3D"color:#0033A0; text-decoration:none">My
+ Account</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a class=3D"opacity" href=3D"http://=
+l.marketing01.email-allstate.com/rts/go2.aspx?h=3D694813&amp;tp=3Di-1NHD-A2=
+-ZCp-2s9185-25-15ESqT-1c-FKfK-2JrCUM-l8cPAXgmfl-tWGRK&amp;x=3Dmypreferences=
+.allstate.com%2factivity-handler%3fpl%3dQUNUSU9OPU1OR1BSRnxFTUFJTD1zOGxsUU1=
+UamZLUmMwRE9RTTJIVk54VzdVZ29rK3pTekR0cG1wWnQ2WmpsVkhwOThVeUtvcGRZUG1ZVVdKOF=
+B5fFBBUlRZPStQNGRYVHJwNndQY1VZZkdFWW5CckUwZElXOUNmb2hxT2hhVXg4NXBITm89fENGS=
+UQ9MDUz%26hh%3dJZltlFkmoJwVnNuxX4UAGvyAekKnxhyBr%252BYnr0Gna4YmvAQHeIzVcr%2=
+52FaYRObyXa9PARc11%252BeRnBhW7M6tMi%252F%252FA%253D%253D%26ec%3dfCBWCs1ujw%=
+252FBU4XMMzWlQrykOgaWyn9f9RfNx6RK1I4SCDJxt7GlHBMBKi3R8HHR%252FkGrsSkR5mkv%2=
+50AVNk6VVft6w%253D%253D%7cP_CUSTMKTG_LPRE_LATEPAYREMINDER_P%7c20211111%7c:E=
+N" style=3D"color:#0033A0; text-decoration:none">
+Manage Preferences</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a class=3D"opacity" href=
+=3D"http://l.marketing01.email-allstate.com/rts/go2.aspx?h=3D694814&amp;tp=
+=3Di-1NHD-A2-ZCp-2s9185-25-15ESqT-1c-FKfK-2JrCUM-l8cPAXgmfl-tWGRK&amp;x=3D0=
+57665%7cP_CUSTMKTG_LPRE_LATEPAYREMINDER_P%7c20211111%7c:EN" style=3D"color:=
+#0033A0; text-decoration:none">
+Allstate<span></span>.com</a></td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td style=3D"padding-top:10px; color:#4e5969; font-size:10px; text-align:ce=
+nter; font-family:Arial,sans-serif; line-height:14px">
+This email was sent to Luis at Luisfdzdelavara@outlook.com.<br>
+By providing your email address, you agreed to receive emails from&nbsp;All=
+state.<br>
+You are receiving this message because you are subscribed to&nbsp;Payment R=
+eminders.</td>
+</tr>
+<tr>
+<td class=3D"padt10m" style=3D"padding-top:20px; color:#4e5969; font-size:1=
+0px; text-align:center; font-family:Arial,sans-serif; line-height:14px">
+=C2=A9 2023 Allstate Insurance Company. All&nbsp;rights&nbsp;reserved. <br>
+<a class=3D"opacity" href=3D"http://l.marketing01.email-allstate.com/rts/go=
+2.aspx?h=3D694815&amp;tp=3Di-1NHD-A2-ZCp-2s9185-25-15ESqT-1c-FKfb-2JrCUM-l8=
+cPAXgmfl-2IV98l&amp;x=3D057665%7cP_CUSTMKTG_LPRE_LATEPAYREMINDER_P%7c202111=
+11%7c:EN"><span style=3D"color:#4e5969; text-decoration:underline">Privacy&=
+nbsp;Statement</span></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class=3D"o=
+pacity" href=3D"http://l.marketing01.email-allstate.com/rts/go2.aspx?h=3D69=
+4816&amp;tp=3Di-1NHD-A2-ZCp-2s9185-25-15ESqT-1c-FKfb-2JrCUM-l8cPAXgmfl-2IV9=
+8l&amp;x=3D057665%7cP_CUSTMKTG_LPRE_LATEPAYREMINDER_P%7c20211111%7c:EN"><sp=
+an style=3D"color:#4e5969; text-decoration:underline">Contact&nbsp;Us</span=
+></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class=3D"opacity" href=3D"http=
+://l.marketing01.email-allstate.com/rts/go2.aspx?h=3D694817&amp;tp=3Di-1NHD=
+-A2-ZCp-2s9185-25-15ESqT-1c-FKfb-2JrCUM-l8cPAXgmfl-2IV98l&amp;x=3Dmyprefere=
+nces.allstate.com%2factivity-handler%3fpl%3dQUNUSU9OPVVOU1VCUFJGfEVNQUlMPXM=
+4bGxRTVRqZktSYzBET1FNMkhWTnhXN1Vnb2srelN6RHRwbXBadDZaamxWSHA5OFV5S29wZFlQbV=
+lVV0o4UHl8UEFSVFk9K1A0ZFhUcnA2d1BjVVlmR0VZbkJyRTBkSVc5Q2ZvaHFPaGFVeDg1cEhOb=
+z18Q0ZJRD0wNTM%253D%26hh%3d6VJrzjI3EDpvMdjDzTS2SJBb3Xx0aDAY4zahMn95lbgXBEkL=
+eSqQRcljbPR1q%252BJvI9DcACbYiqRwi%252BLdqXc9YA%253D%253D%26ec%3dfCBWCs1ujw%=
+252FBU4XMMzWlQrykOgaWyn9f9RfNx6RK1I4SCDJxt7GlHBMBKi3R8HHR%252FkGrsSkR5mkv%2=
+50AVNk6VVft6w%253D%253D%7cP_CUSTMKTG_LPRE_LATEPAYREMINDER_P%7c20211111%7c:E=
+N"><span style=3D"color:#4e5969; text-decoration:underline">Unsubscribe</sp=
+an></a></td>
+</tr>
+<tr>
+<td class=3D"padt10m" style=3D"padding-top:20px; color:#4e5969; font-size:1=
+0px; text-align:center; font-family:Arial,sans-serif; line-height:14px">
+</td>
+</tr>
+<tr>
+<td style=3D"padding-top:20px; color:#4e5969; font-size:10px; text-align:ce=
+nter; font-family:Arial,sans-serif; line-height:14px; word-break:keep-all">
+Allstate Insurance Company, 2775 Sanders Rd., Northbrook, IL 60062 </td>
+</tr>
+<tr>
+<td class=3D"padt10m" style=3D"padding-top:15px; color:#4e5969; font-size:1=
+0px; text-align:center; font-family:Arial,sans-serif; line-height:14px">
+P_CUSTMKTG_LPRE_LATEPAYREMINDER_P</td>
+</tr>
+<tr>
+<td style=3D"color:#6f7e94; font-size:5px; text-align:center; font-weight:l=
+ighter; color:#666666; font-family:Arial,sans-serif; line-height:8px">
+EMAIL_TO:saragiannone@allstate.com:</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

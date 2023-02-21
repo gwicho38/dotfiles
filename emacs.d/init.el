@@ -38,6 +38,29 @@
 (use-package straight
              :custom (straight-use-package-by-default t))
 
+
+;; installing helm
+(use-package helm :straight t)
+
+;; installing etags
+(straight-use-package 'etags)
+(straight-use-package 'helm-etags+)
+
+;; install other helm packages
+;; https://github.com/emacs-helm/helm-system-packages
+(straight-use-package 'helm-system-packages)
+
+;; helm descbinds
+;; https://github.com/emacs-helm/helm-descbinds
+(straight-use-package 'helm-descbinds)
+(helm-descbinds-mode)
+
+;; helm-ls-git
+;; https://github.com/emacs-helm/helm-ls-git
+(straight-use-package 'helm-ls-git)
+
+(setq notmuch-search-oldest-first nil)
+
 ;; Put all Emacs customize variables & faces in its own file
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file 'noerror)
@@ -48,9 +71,24 @@
 (setq user-full-name "Luis E. Fernandez de la Vara"
       user-mail-address "luis@lefv.io")
 
+
+;; modes and bindings
+(global-set-key (kbd "M-x") 'helm-M-x)
+(helm-mode 1)
+(global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key (kbd "C-c hff") 'helm-find-files)
+(global-set-key (kbd "C-c hbp") 'helm-browse-project)
+(global-set-key (kbd "C-c hbl") 'helm-buffers-list)
+(global-set-key (kbd "C-c hbi") 'helm-imenu-in-all-buffers)
+(global-set-key (kbd "C-c hbb") 'helm-filtered-bookmarks)
+(global-set-key (kbd "C-c hbe") 'helm-etags-select)
+(global-set-key (kbd "C-c hsa") 'helm-apropos)
+(global-set-key (kbd "C-c hdb") 'helm-descbinds)
+
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; 10 Appearance
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;
 
 ;; Highlight current line.
 (global-hl-line-mode t)
@@ -74,13 +112,13 @@
   :hook
   (after-init . doom-modeline-mode))
 
-(use-package lisp
+(use-package lispy
   :bind (("C-c <up>" . windmove-up)
 	 ("C-c <down>" . windmove-down)
-	 ("C-c <left>" . windowmove-left)
+	 ("C-c <left>" . windmove-left)
         ("C-c <right>" . windmove-right)))
 
-(use-package lisp
+(use-package lispy
   :bind (("C-c -" . split-window-below)
          ("C-c |" . split-window-right)))
 
@@ -160,7 +198,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; 50 Text buffers
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; (evil-mode)
+(evil-mode)
 ;; (evil-mode-for-keymap)
 
 ;; Rename current buffer, as well as doing the related version control

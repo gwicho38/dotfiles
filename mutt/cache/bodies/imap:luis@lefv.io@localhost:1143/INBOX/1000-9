@@ -1,0 +1,199 @@
+X-Pm-Gluon-Id: 3277b2fc-d0f2-438b-b48f-e6dcd8533810
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+References: <CAM67VJf6Qb9nqNy7MsCu5va4sn5d_R7WEX-sBuFEHnJcKwhEoQ@mail.gmail.com> <hx0SkiU0SsMZxnylpmAgf2ncv02TkvFz8rRTjeOk7-5cb-_8eYEIAJawx40EVZXdSntOBR4sxjnn1fX4k_CQGg==@protonmail.internalid>
+X-Pm-Date: Mon, 20 Feb 2023 13:02:04 +0000
+X-Pm-External-Id: <ffb044b74d504a6ea3f96faad9855f32@SA1PR12MB6702.namprd12.prod.outlook.com>
+X-Pm-Internal-Id: hx0SkiU0SsMZxnylpmAgf2ncv02TkvFz8rRTjeOk7-5cb-_8eYEIAJawx40EVZXdSntOBR4sxjnn1fX4k_CQGg==
+To: "luis@lefv.io" <luis@lefv.io>
+Reply-To: "Luis Fernandez de la Vara" <luisfdzdelavara@outlook.com>
+From: "Luis Fernandez de la Vara" <luisfdzdelavara@outlook.com>
+Subject: FW: virtual link for appointment on Feb 21 @ 3.30 pm.
+X-Spamd-Result: default: False [-4.48 / 25.00]; BAYES_HAM(-2.48)[97.62%]; ARC_ALLOW(-1.00)[microsoft.com:s=arcselector9901:i=1]; DMARC_POLICY_ALLOW(-0.50)[outlook.com,none]; R_DKIM_ALLOW(-0.20)[outlook.com:s=selector1]; R_SPF_ALLOW(-0.20)[+ip4:40.92.0.0/15]; MIME_GOOD(-0.10)[multipart/alternative,text/plain]; TO_DN_EQ_ADDR_ALL(0.00)[]; RCVD_TLS_LAST(0.00)[]; ASN(0.00)[asn:8075, ipnet:40.80.0.0/12, country:US]; TAGGED_FROM(0.00)[SRS=wD1J8=6Q=rrpsychgroup.com=drupasani]; MIME_TRACE(0.00)[0:+,1:+,2:~]; NEURAL_HAM(-0.00)[-0.954]; FROM_HAS_DN(0.00)[]; MID_RHS_MATCH_FROMTLD(0.00)[]; TO_MATCH_ENVRCPT_ALL(0.00)[]; FROM_NEQ_ENVFROM(0.00)[luisfdzdelavara@outlook.com,luis@lefv.info]; RCPT_COUNT_ONE(0.00)[1]; RCVD_COUNT_THREE(0.00)[3]; DKIM_TRACE(0.00)[outlook.com:+]
+X-Ms-Exchange-Generated-Message-Source: Mailbox Rules Agent
+Arc-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none; dkim=none; arc=none
+Auto-Submitted: auto-generated
+X-Ms-Exchange-Crosstenant-Fromentityheader: Hosted
+X-Originatororg: outlook.com
+Arc-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none; b=CgO06YYiqF0UqKECD0rWorSJTP0UoBM+dPCtycDv1f3AzqkGeJpNjvl9YnRwPqj0+dPVK5Gz+3386j7mmfrmiGjp69KlKptCA+d67Qu+qi1BCGQLXJAFVxKgsIUg4HvN7hQD+AZpkI42/iIb2oP0v4itUtPNGgWBoz8zOlHtB9hwn3m8kQrwHp5Ukc+JpnCd5TLAWAPLY49PG7sp3nUPfkziQ1BULX3ofw6eB4oWOyEdKvAq+2+t1Yr0jsTiD9h7kPHETnnY6QBkW4mFgrXbbi6P2JcI4MDd2mi/S+g/91fOrcgBmk1CW50tptcxwHm7SVa4cN1BdRTg7vspak3AQQ==
+Date: Mon, 20 Feb 2023 13:02:04 +0000
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com; s=selector1; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck; bh=0LbJ36iKHxX/A5tKbxPk+c47fU3nYNzkLzaGRH1zbbc=; b=FRQVAlRybko69lsCKCBu03e76wJUzrbt6KP9DQpWm7lHiqafWrqwtAtyiMPhbb3kJdPD2BjObtGMDzg95wMK3pXoUClLCSh+p7TXrJCIQDIl1KyWlZVo4Cds0qaI6orLKplGiUWrAIpoCriaF0pKnQzfV4eazPNNKVaSZiB0nIQoSrAUg2xq3VsRBK6wS1GlLeOMuuygA8YKlV9jwGmW7TG2+zvkmVlmYGY3nqZxQTF853ewaLt+hfvIgYvf/UJ4g6gO01GnCf6Hpgbq3MH6m7j3jNqrWzZM8AJbZV0tWjBZh/zRzLIWje/O3gr20pU90vG9AILr2bw/KW4Ni1cDdQ==
+X-Ms-Exchange-Crosstenant-Authas: Internal
+Thread-Topic: virtual link for appointment on Feb 21 @ 3.30 pm.
+X-Ms-Exchange-Crosstenant-Authsource: SA1PR12MB6702.namprd12.prod.outlook.com
+X-Ms-Publictraffictype: Email
+Arc-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com; s=arcselector9901; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1; bh=0LbJ36iKHxX/A5tKbxPk+c47fU3nYNzkLzaGRH1zbbc=; b=MyY0jF5tex3PB8bZO4QMTS6Sr24Jq/8c+3tibcXLQI+c513vKp7CUcsplrnaV/Wi5/9W3uPt/ttUAbS41vWqVndN1wnZaNMyNOu8LmpqDI+XDe1HxSM2aLFxlxQ3vOZo5GUzJtqBJ8+uFLvm5BbkCXkUViAPToSuedWw8E/lKFaEsSnqrmLJF+rnF2DLUsGPUAs80fFq6wlZiJdJ3IzT1ymdrHFGsWGx6eH8tNZuxUiRkyD+Kf3OyeTH1i9h/9UBNh1FqhYzvW8rdPZs8HwyVKlLvcGSCpkR75qgHZRJjdJoaNcvjFRiLSg9Gm59pdtujDSwUQ+6M7rzMGpcNeoyMg==
+X-Pm-Transfer-Encryption: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)
+Delivered-To: luis@lefv.io
+X-Ms-Exchange-Crosstenant-Originalarrivaltime: 20 Feb 2023 13:02:04.6948 (UTC)
+Thread-Index: AQHZRSuHfL1LWyObEEKnq2dFxlSA2a7XzLjS
+X-Original-To: luis@lefv.io
+Received: from SA1PR12MB6702.namprd12.prod.outlook.com ([::1]) by SA1PR12MB6702.namprd12.prod.outlook.com ([fe80::44f2:8e0:9d58:9759%5]) with Microsoft SMTP Server id 15.20.6111.020; Mon, 20 Feb 2023 13:02:04 +0000
+Received: from SA1PR12MB6702.namprd12.prod.outlook.com (2603:10b6:806:252::22) by DS0PR12MB7994.namprd12.prod.outlook.com (2603:10b6:8:149::19) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6111.19; Mon, 20 Feb 2023 13:02:04 +0000
+Received: from NAM02-DM3-obe.outbound.protection.outlook.com (mail-dm3nam02olkn2052.outbound.protection.outlook.com [40.92.43.52]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by mailin035.protonmail.ch (Postfix) with ESMTPS id 4PL2ct5rcZz9vNQL for <luis@lefv.io>; Mon, 20 Feb 2023 13:02:06 +0000 (UTC)
+X-Pm-Content-Encryption: on-delivery
+X-Rspamd-Server: cp5-mailin-035.plabs.ch
+X-Microsoft-Antispam-Message-Info: Jah7geiL/SmIQ+qXkzaQFMx3ZYEt9gSAh9hN1dctJR1o2RfXNX/oFo193s0GDpiUhxka35TsUbZ/Qx2k0CBqkxNTpLKU/oloankz8i96eMiKSe0Ou01uK2c8kr0qrr0YRk0+kOxlv+Hm/ta88WTFDhTPvzlXfFhUvZvm1W1Rquc+eChajdWXmezAuCQmEhWoMmrL70WIZTuGosUqXrHkEJerfLO3e+6XXBgS+KvUXMAZmqOSfBvVHnHOiz7pdCqyLJDegZVVLi9SrsrrE4z9Tiq9zl5XTnpHj+3ncX22lkkzCrau8NnL5CDL0Mc8oQc8/uawC+5huCefK3BsPZXOYZIx/j6qi7bFxG5+4JbGNyPIPWHRhbCrIy7YLBYTBofnrWv0Qz9/SwJW2NJkxL23E42hwCjQhcmazXbRn/uAH4ZsFxIFKGCRwU0qCeoYH6IFlMIzKBkbcV8LyPae6EUrZPpMNNthRFDdhNA4VAUt73g2gmdPNnE2HvNPFhGTU8tsn0j/THwF5yGXxWCqCzetpZMd22YHDavvtX1DTAHHJxDRkC0pMU6E41kl6ddN4R4kgHEVAJYCtwHPmqI2xtMFUXMvP6ytTbEAinzlNAKusWVo2bbEuuK9wNIz9kMuPBmKvDPnAzfxiXGfD132wJAHgw==
+Message-Id: <ffb044b74d504a6ea3f96faad9855f32@SA1PR12MB6702.namprd12.prod.outlook.com>
+X-Ms-Exchange-Antispam-Messagedata-Chunkcount: 1
+X-Ms-Exchange-Inbox-Rules-Loop: luis@lefv.info
+X-Ms-Office365-Filtering-Correlation-Id: 5038705a-456c-4f99-1784-08db1342aa30
+X-Pm-Spamscore: 1
+Mime-Version: 1.0
+X-Ms-Traffictypediagnostic: SA1PR12MB6702:EE_|DS0PR12MB7994:EE_
+X-Pm-Origin: external
+X-Ms-Exchange-Parent-Message-Id: <CAM67VJf6Qb9nqNy7MsCu5va4sn5d_R7WEX-sBuFEHnJcKwhEoQ@mail.gmail.com>
+X-Pm-Spam-Action: inbox
+X-Pm-Spam: 0yezJI6cihyJeYR3pi42biOpJJvbmsCIeI1msjN3X3blJp7IjBlNIIojxsQjLlITJ otIj0C4NOwCiPJFUCR6IIwLTQCJLU9kESB1XURJRRJQ1i04TOAjsk9lIWZ1J9pZ1vmZbIpj7SBlI 0TiQsiOnzF9ccFGtwojIjLwAE3MT5TAMMcjzwYTNzM1QcsMTvm1IZVGskl2XCe6I19MHiSwfcJ3p 6ICZjIzYM2ZjxjUZMkD01UjMzNyAAzNT5mIMNJS9zJCLSY6IJpeyz19ccFGtwojICLzJ9yY26SIZ MwSivN2cmckVoxIjsjQLIJnly9GcCd6IJCeyFVlQU8106ICMzWuEwiMCv2NccUm6uADIzMxEJdOS SCJLQZ1EOl0X0XT1lLUEIV9RMIi6w0yWjLsAQwIjyjkLLQjzyUjLGIpxRlc3pCBZbBi3t5CbWYsl Bpc3u2UabVm0s0lIkISZVNRUMUlQXZ0Si00TlOwsAsLj1mxIaNXmkpHZWZhxFydmhVtYd1FvsRXd 2br9NvLmdSJbLJCIEFURVRfJJPRlEV9TSZUGFJVRlTfR9NREOUlQUIy6uAzWlMs0NQIlQl9RQNVT bpjITLuA0sMFQlNIR9lIPxUR1XBBMiU1tlsOM4CwiwSXFSNR9NTFTVNRQdUFbpjICMw4wiXSJEtR T9VWJxUQFRB9I6VSwy0WLFjdEJCL0SNlZBX1EElTIpjbuATLVMs0RLIkfU1SUl0HEVkTjIbp4xMC iSwXRJlFB1URUSfx9SRkE0VRXZ0SE10T0TB14iSUwlsOLJjd91Xf
+X-Rspamd-Queue-Id: 4PL2ct5rcZz9vNQL
+X-Ms-Exchange-Crosstenant-Network-Message-Id: 5038705a-456c-4f99-1784-08db1342aa30
+Return-Path: <luis+SRS=wD1J8=6Q=rrpsychgroup.com=drupasani@lefv.info>
+X-Ms-Exchange-Crosstenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-Ms-Exchange-Crosstenant-Rms-Persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-Ms-Exchange-Crosstenant-Rms-Persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-Microsoft-Antispam: BCL:0;
+Authentication-Results: mailin035.protonmail.ch; dkim=pass (2048-bit key) header.d=outlook.com header.i=@outlook.com header.b="FRQVAlRy"
+Authentication-Results: mailin035.protonmail.ch; arc=fail smtp.remote-ip=40.92.43.52
+Authentication-Results: mailin035.protonmail.ch; spf=pass smtp.mailfrom=lefv.info
+Authentication-Results: mailin035.protonmail.ch; dmarc=pass (p=none dis=none) header.from=outlook.com
+Authentication-Results: mailin035.protonmail.ch; dkim=pass (Good 2048    bit rsa-sha256 signature) header.d=outlook.com header.a=rsa-sha256
+X-Ms-Exchange-Transport-Crosstenantheadersstamped: DS0PR12MB7994
+X-Ms-Exchange-Antispam-Messagedata-0: n4Ch+a8M0BGFA1bB1aCJRujktPJZGuVa1SlP1HZ8bCgRIrYH2CJFLU7bAQUWk9gYKVlvdJWmqNnDVj6TfJzRtDWIWdBLulw4o650qRJT1DvzKhq5/RXYgvguyvNvLDxt7Hafyn5LNJP2bsV0Wsf1aIj4QKi6mEdGv+KbJo1GLEZLNh0302KqzP3mQgHOznTIAyyEsAmhBXgDvu9UlrWtNCe4YAdOMdlxpElxn2elPeQR21f3zrnPVarA0cnYDVsJkMCG9TC+pr+Oq2j42PtcxlI4ocuw5cSOa+/6mm9Zi183KwlkxyTZOL5X0e2KQPUl
+In-Reply-To: <CAM67VJf6Qb9nqNy7MsCu5va4sn5d_R7WEX-sBuFEHnJcKwhEoQ@mail.gmail.com>
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+</head>
+<body>
+<strong>
+<div><font face=3D"Tahoma" color=3D"#000000" size=3D"2">&nbsp;</font></div>
+</strong>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<font face=3D"Tahoma" size=3D"2"><b>From:</b> Dr. Sanskruti Upasani &lt;dru=
+pasani@rrpsychgroup.com&gt;<br>
+<b>Sent:</b> Monday, February 20, 2023 8:00:00 AM (UTC-05:00) Indiana (East=
+)<br>
+<b>To:</b> luis@lefv.info &lt;luis@lefv.info&gt;<br>
+<b>Subject:</b> virtual link for appointment on Feb 21 @ 3.30 pm.<br>
+</font><br>
+<div></div>
+<div>
+<div dir=3D"ltr"><a href=3D"https://doxy.me/dru">https://doxy.me/dru</a><br=
+ clear=3D"all">
+<div>
+<div dir=3D"ltr" class=3D"gmail_signature">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div>
+<p style=3D"margin:0in 0in 0pt"><br>
+</p>
+<p style=3D"margin:0in 0in 0pt"><span style=3D"font-size:10pt"><br>
+</span></p>
+<p style=3D"margin:0in 0in 0pt"><span style=3D"font-size:10pt"><br>
+</span></p>
+<p style=3D"margin:0in 0in 0pt"><span style=3D"font-size:10pt"><br>
+</span></p>
+<p style=3D"margin:0in 0in 0pt"><span style=3D"font-size:10pt"><br>
+</span></p>
+<p style=3D"margin:0in 0in 0pt"><span style=3D"font-size:10pt"><br>
+</span></p>
+<p style=3D"margin:0in 0in 0pt"><span style=3D"font-size:10pt"><i>Sanskruti=
+ Upasani M.D</i></span></p>
+<p style=3D"margin:0in 0in 0pt"><b><span style=3D"font-size:10pt"><br>
+</span></b></p>
+<p style=3D"margin:0in 0in 0pt"><span style=3D"color:black; font-family:Tah=
+oma,sans-serif; font-size:10pt">Reynolds &amp; Rubino Psychology Group, LLC=
+</span></p>
+<p style=3D"margin:0in 0in 0pt"><font color=3D"#000111" face=3D"Tahoma, san=
+s-serif" size=3D"3">10301 Democracy lane , Suite 201</font></p>
+<p style=3D"margin:0in 0in 0pt"><span style=3D"color:black; font-family:&qu=
+ot;Tahoma&quot;,sans-serif"><font size=3D"3">Fairfax, VA 22030</font></span=
+></p>
+<p style=3D"margin:0in 0in 0pt"><span style=3D"color:black; font-family:&qu=
+ot;Tahoma&quot;,sans-serif"><font size=3D"3">(P) 703-547-3509</font></span>=
+</p>
+<p style=3D"margin:0in 0in 0pt"><span style=3D"color:black; font-family:&qu=
+ot;Tahoma&quot;,sans-serif"><font size=3D"3">(F) 703-383-3887</font></span>=
+</p>
+<p style=3D"margin:0in 0in 0pt"><span style=3D"color:black"><a href=3D"http=
+://www.rrpsychgroup.com/" target=3D"_blank"><span style=3D"font-family:&quo=
+t;Tahoma&quot;,sans-serif"><font color=3D"#0000ff" size=3D"3">www.rrpsychgr=
+oup.com</font></span></a></span></p>
+<font color=3D"#000000" face=3D"Times New Roman" size=3D"3"></font></div>
+<div>
+<p style=3D"color:rgb(0,0,0); margin-top:0px; margin-bottom:0px; font-famil=
+y:Tahoma">
+<b style=3D"font-family:tahoma,sans-serif">&nbsp;</b><span style=3D"font-fa=
+mily:tahoma,sans-serif">&nbsp;</span><br>
+</p>
+<p style=3D"color:rgb(0,0,0); margin-top:0px; margin-bottom:0px"><font face=
+=3D"tahoma, sans-serif"><b style=3D"font-size:12px; white-space:pre-wrap"><=
+a href=3D"https://portal.therapyappointment.com/index.cfm/public:therapistd=
+etail?directoryId=3Da4f34d0b925df4b0105d73be411abbbc" target=3D"_blank" sty=
+le=3D"color:rgb(17,85,204)">CLIENT
+ PORTAL</a> </b></font></p>
+<p style=3D"color:rgb(0,0,0); margin-top:0px; margin-bottom:0px"><font face=
+=3D"tahoma, sans-serif"><b style=3D"font-size:12px; white-space:pre-wrap">B=
+ILLING:
+</b><span style=3D"font-size:12px; white-space:pre-wrap">Please direct all =
+billing issues or concerns to&nbsp;<a href=3D"mailto:billing@rrpsychgroup.c=
+om" target=3D"_blank" style=3D"color:rgb(17,85,204)">billing@rrpsychgroup.c=
+om</a>.</span></font></p>
+<p style=3D"color:rgb(0,0,0); margin-top:0px; margin-bottom:0px"><span styl=
+e=3D"color:rgb(34,34,34)"><b><br>
+</b></span></p>
+<p style=3D"color:rgb(0,0,0); margin-top:0px; margin-bottom:0px"><span styl=
+e=3D"color:rgb(34,34,34)"><b>MENTAL HEALTH EMERGENCIES</b>: Please do not u=
+se this email. You may call&nbsp;</span><span style=3D"color:rgb(34,34,34)"=
+>the Crisis Hotline at 703.527.4077 or 1.800.273.TALK
+ (8255). Please go</span><br style=3D"color:rgb(34,34,34)">
+<span style=3D"color:rgb(34,34,34)">to your nearest emergency room or dial =
+911. Thank you.</span><br style=3D"color:rgb(34,34,34)">
+</p>
+<p style=3D"color:rgb(0,0,0); margin-top:0px; margin-bottom:0px"><span styl=
+e=3D"color:rgb(34,34,34)"><br>
+</span></p>
+<p style=3D"color:rgb(0,0,0); margin-top:0px; margin-bottom:0px"><span styl=
+e=3D"color:rgb(34,34,34)">*<b>Provide at least 24 hours notice for cancella=
+tions or changes to your</b></span><b><br style=3D"color:rgb(34,34,34)">
+<span style=3D"color:rgb(34,34,34)">scheduled appointment times to avoid mi=
+ssed session fees.*</span></b><span style=3D"color:rgb(34,34,34)"><br>
+</span></p>
+<p style=3D"color:rgb(0,0,0); margin-top:0px; margin-bottom:0px"><font face=
+=3D"tahoma, sans-serif"><span style=3D"font-size:12px; white-space:pre-wrap=
+"><br>
+</span></font></p>
+<p style=3D"color:rgb(0,0,0); margin-top:0px; margin-bottom:0px"><span styl=
+e=3D"font-family:tahoma,sans-serif">In compliance with the Health Portabili=
+ty and Accountability Act &quot;HIPAA&quot; (rule 104-91), this message and=
+ any attachments are intended only for use of
+ the individual or entity to which it is addressed and may contain informat=
+ion that is privileged, confidential and exempt from disclosure.&nbsp; If t=
+he reader of this electronic message is not the intended recipient or the e=
+mployee or agent responsible for delivering
+ the message to the intended recipient, please note that any dissemination,=
+ distribution or copying of this communication is prohibited. If you have r=
+eceived this communication in error or it was forwarded to you without perm=
+ission, please forward this message
+ back to the sender at the email address above, delete this message from al=
+l mailboxes and any other electronic storage medium and destroy all copies.=
+&nbsp; Thank you.</span><font face=3D"tahoma, sans-serif"><span style=3D"fo=
+nt-size:12px; white-space:pre-wrap"><br>
+</span></font></p>
+</div>
+<div><br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1583 @@
+X-Pm-Gluon-Id: a3a28600-2e8f-4198-b8b4-079fe505fd31
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+References: <5hLVCf9tF6HbXFiVFRt_TyHe-jdnyXFNW85NTQVIeiVbJlDJhcNhUDNII9uP8uv7HPXY0Mkc52_WaLI5FXpWzw==@protonmail.internalid>
+X-Pm-Date: Sat, 18 Feb 2023 13:56:10 +0000
+X-Pm-External-Id: <0100018664cf9163-0ba48dc5-cff5-42bf-ba57-bdcc742ca6f5-000000@email.amazonses.com>
+X-Pm-Internal-Id: 5hLVCf9tF6HbXFiVFRt_TyHe-jdnyXFNW85NTQVIeiVbJlDJhcNhUDNII9uP8uv7HPXY0Mkc52_WaLI5FXpWzw==
+To: <luis.e.fernandezdelavara@gmail.com>
+Reply-To: <no-reply@amazon.com>
+From: "Amazon.com" <auto-confirm@amazon.com>
+Subject: Your Amazon.com order
+X-Pm-Content-Encryption: on-delivery
+X-Pm-Origin: external
+Arc-Seal: i=1; a=rsa-sha256; t=1676728570; cv=none;        d=google.com; s=arc-20160816;        b=GnQ5hYgJS3vAOoLxFxv9IhuoB80GeRSuU6Y31XjErQaoentUOfIE3JgxzFHU/+DaT4         WvAwY4/4KxdvRmpeCWRrcMIDjhWoZu9FgdOxH95KXYT1Q0OMGooJ/evRTcRziIt/pceM         pLoqlg5XrMFqsIoK4kWUBX7/OQ58yO47C+oWzrWZbOyuHADpxnckdz1fE0J9YYDvExma         jiWvsaOAdXussuK+fabfQxIcDSRjx1FmG6Lf/emVP61uug2aUNSNIgne1P2lZbGvFMcs         PHrwTHfMqFPrYjg6n8S4UomCyHSZW4mDwYax1L7MuMhn5xYUX5an/808mq1kaX1TZpjO         JiLg==
+X-Amazon-Mail-Relay-Type: notification
+X-Amazon-Metadata: CA=C3N8A7NLGM1XAS-CU=AEILDFPHEMPGQ
+X-Received: by 2002:a05:6214:2628:b0:537:7484:8d1c with SMTP id gv8-20020a056214262800b0053774848d1cmr2538801qvb.30.1676728570619;        Sat, 18 Feb 2023 05:56:10 -0800 (PST)
+X-Received: by 2002:a05:6402:1f04:b0:4ab:1f1b:95a1 with SMTP id b4-20020a0564021f0400b004ab1f1b95a1mr223699edb.0.1676728572223;        Sat, 18 Feb 2023 05:56:12 -0800 (PST)
+X-Gm-Message-State: AO0yUKVMmFh/wyvdGfWFOtUa6uEOisvcG5pQgn/KJ7qKsMl33IBFkRNu xU5LHLBQQLQMYm96PmoomKyl0hsxMT3CZac+CDOTHynZRZLSBS6BWQ==
+X-Pm-Spam-Action: inbox
+X-Pm-Spamscore: 0
+Delivered-To: luis@lefv.io
+X-Ses-Outgoing: 2023.02.18-54.240.13.179
+Mime-Version: 1.0
+X-Pm-Spam: 0yezJI6cihyJeYR3pi42biOpJJvbmsCIeI1msjN3X3blJp7IjBlNIIojwsEjLlITJ otIjwC4NLJCQE9kUjItoAsMjSlBITR0fFJFUERDllPVE6iITMwCilR2XnYnVluX2im8ZOsniPJFU CR6IJweyw3NXY0WiuAjODMxAY1Nz5jkNNAz3yATOTO4YJtLCl2Rbb9FpigHZjO9B0sfXynNIaQWi 2IiO2MwYhmZDmDlZOkTzhJjZGMzQA1MziTQMfwSiiE2cnOisNfaXh3BcbIS6iwCM2cvNUicmsjAO INnjlJ3bCZ6I4xMCyCJLZBXviQncnOisNWUkJF9RT9lNJB1U0SfVIiSDtlsOM4CwyICLDMukUuOD 4jAMLUjwpxGI3clRBpZC3iBbb5CtslWY3cpBUua20mVbI0lsQNlIlRI9xPRUP05XTUkiwslOjLdB JTLCfEZUUFET6IyUyWw0BdLjICJLRFUEfJVRlRPJ9ETVGUZSRJVFfRlTERN9lOQU6yIUWAzus0lM kIUhxfTUTUVTUF0H6ISRzWuA0sMFLkRIS1UfMFkVUSiQstOlxC4MXwSiJtERVTW9xJQUBF9RVIS6 w0yWjLdFJELCN0lSXN1JF50RCR6IAuWz9V1MfX0=
+X-Forwarded-To: luis@lefv.io
+X-Original-To: luis@lefv.io
+Return-Path: <luis.e.fernandezdelavara+caf_=luis=lefv.io@gmail.com>
+X-Pm-Transfer-Encryption: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+Arc-Authentication-Results: i=1; mx.google.com;       dkim=pass header.i=@amazon.com header.s=jvxsykglqiaiibkijmhy37vqxh4mzqr6 header.b=HzX9r9KG;       dkim=pass header.i=@amazonses.com header.s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw header.b=MYBjeBto;       spf=pass (google.com: domain of 2023021813561062d07befcad54c2f802e72f2d4e0p0na-c3n8a7nlgm1xas@bounces.amazon.com designates 54.240.13.179 as permitted sender) smtp.mailfrom=2023021813561062d07befcad54c2f802e72f2d4e0p0na-C3N8A7NLGM1XAS@bounces.amazon.com;       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=amazon.com
+X-Google-Smtp-Source: AK7set9DjuPN5y3E8m9KY71ArtYKQuYeBvTTUQmNm5aljt0PdWLm/keL2fUi3zZ7mmsimu97I/Ph
+Arc-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=feedback-id:bounces-to:mime-version:subject:message-id:to:reply-to         :from:date:dkim-signature:dkim-signature;        bh=lo2Bir8RQWRVaZrd5xx+8W3hnv9u5GidUeLAB7IyivA=;        b=CHRkWvsJJgLJ8hQkwB+7gKI2ewQSwFrkrYRkp/2TMpF9ACLaJhAXig0KAt0uhA1KAP         USfwXSQjPc32B6XE4SZOeaC7G1QLE9uC6kNwdr8ZcjD9tduhQiCssw+5oT19xZSmbUn0         Vnqv/DUYqpOf5AbvukjkylTfBOQkmYLeF+nh5G2WbVVzqC9GiMCeCGn4Oo3TNAutlsXY         oEOdJR4HC66NXdxCV+hWeKDMK19nYA1ek8DU/UPpuHsjd6umVK5zr88Rw99+A7Sm/UZr         B7uI9hKqqhxHdXdgosf7gKvJND1fBrMTBqeZQrXK+pew5EGOcNPGZ/59FJZbDKkuWK2a         OXZw==
+Authentication-Results: mailin034.protonmail.ch; dkim=pass (1024-bit key) header.d=amazon.com header.i=@amazon.com header.b="HzX9r9KG"; dkim=pass (1024-bit key) header.d=amazonses.com header.i=@amazonses.com header.b="MYBjeBto"
+Authentication-Results: mailin034.protonmail.ch; arc=pass smtp.remote-ip=209.85.208.50 arc.chain=:google.com
+Authentication-Results: mailin034.protonmail.ch; spf=pass smtp.mailfrom=gmail.com
+Authentication-Results: mailin034.protonmail.ch; dmarc=pass (p=quarantine dis=none) header.from=amazon.com
+Authentication-Results: mailin034.protonmail.ch; dkim=pass (Good 1024    bit rsa-sha256 signature) header.d=amazon.com header.a=rsa-sha256;    dkim=pass (Good 1024 bit rsa-sha256 signature) header.d=amazonses.com    header.a=rsa-sha256
+X-Rspamd-Server: cp5-mailin-034.plabs.ch
+X-Google-Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20210112;        h=feedback-id:bounces-to:mime-version:subject:message-id:to:reply-to         :from:date:dkim-signature:dkim-signature:delivered-to         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;        bh=lo2Bir8RQWRVaZrd5xx+8W3hnv9u5GidUeLAB7IyivA=;        b=KUizFEAwwwzKZdRs1hjlipKLzf+LDwQ7a8IYJQRedK/bYWRW4jgR9Bt+KN7usMEFMo         vX9Q0+EX7XdX3i2yo0o6FgPOJHgcpu+cuU6ibEVkTjWLoKvw6ZUEQyesYGhsd+iio4Rb         zTfsBpNVQYi1K4+4FF8rlZA2Fk+/nvXncR0t2HI/EqEhbkkLgoX7N0wvd/Ad5sQjHbNi         kBktnS4pMkVtkow+clm4suFlJJHxS7gLiAiHv7MT85HOit+sugyz9n+PIOew/HwjDs+q         YM9huRkLL6RwJymixEnCWMuBWgo2QzsTCXnllZ3kri7Fb9Hglb7Jpsh/YJ1I60gs6I9e         5XwA==
+Received: from a13-179.smtp-out.amazonses.com (a13-179.smtp-out.amazonses.com. [54.240.13.179])        by mx.google.com with ESMTPS id l2-20020a05620a28c200b0071fe862c92dsi6448503qkp.63.2023.02.18.05.56.10        for <luis.e.fernandezdelavara@gmail.com>        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);        Sat, 18 Feb 2023 05:56:10 -0800 (PST)
+Received: by 2002:a05:640c:2c07:b0:1a6:de99:784a with SMTP id x7csp501643eit;        Sat, 18 Feb 2023 05:56:10 -0800 (PST)
+Received: by mail-ed1-f50.google.com with SMTP id ez14so2753989edb.1        for <luis@lefv.io>; Sat, 18 Feb 2023 05:56:12 -0800 (PST)
+Received: from mail-ed1-f50.google.com (mail-ed1-f50.google.com [209.85.208.50]) (using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)  key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256) (No client certificate requested) by mailin034.protonmail.ch (Postfix) with ESMTPS id 4PJqwD53T6z9vNQ0 for <luis@lefv.io>; Sat, 18 Feb 2023 13:56:12 +0000 (UTC)
+X-Spamd-Result: default: False [-4.00 / 25.00]; BAYES_HAM(-3.00)[100.00%]; ARC_ALLOW(-1.00)[google.com:s=arc-20160816:i=1]; URI_COUNT_ODD(1.00)[45]; DMARC_POLICY_ALLOW(-0.50)[amazon.com,quarantine]; R_DKIM_ALLOW(-0.20)[amazon.com:s=jvxsykglqiaiibkijmhy37vqxh4mzqr6,amazonses.com:s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw]; R_SPF_ALLOW(-0.20)[+ip4:209.85.128.0/17:c]; MIME_GOOD(-0.10)[multipart/alternative,text/plain]; NEURAL_HAM(-0.00)[-0.986]; FROM_HAS_DN(0.00)[]; RCVD_TLS_LAST(0.00)[]; ASN(0.00)[asn:15169, ipnet:209.85.128.0/17, country:US]; MIME_TRACE(0.00)[0:+,1:+,2:~]; TAGGED_FROM(0.00)[caf_=luis=lefvio]; DKIM_TRACE(0.00)[amazon.com:+,amazonses.com:+]; RCVD_COUNT_THREE(0.00)[4]; FROM_NEQ_ENVFROM(0.00)[auto-confirm@amazon.com,luisefernandezdelavara@gmail.com]; FWD_GOOGLE(0.00)[luis.e.fernandezdelavara@gmail.com]; RCPT_COUNT_ONE(0.00)[1]; TAGGED_RCPT(0.00)[]; TO_DN_NONE(0.00)[]; REPLYTO_DOM_EQ_FROM_DOM(0.00)[]; HAS_REPLYTO(0.00)[no-reply@amazon.com]
+X-Original-Messageid: <urn.rtn.msg.2023021813561062d07befcad54c2f802e72f2d4e0p0na@1676728570197.>
+Dkim-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw; d=amazonses.com; t=1676728570; h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:Feedback-ID; bh=G+YHuWT5XUxP2wRynFRVqIQ/uum3cQYHHGvp+AjnEgY=; b=MYBjeBto/7x0zmNLToeoi6JvzVa+xTt60xYS8ocTP04Nj8VGkzh1Xic3RMeYrzRn BYwHcZwkXKza37RGMJUlCxrxhS+gf0m30P16Dc2eiuhEe5Z1Cc4+77bPPdLe17U9pE/ FSbrJJaYRnEr3pBu+2yQG5xe/cLr8lGtbs1VfxRc=
+Dkim-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; s=jvxsykglqiaiibkijmhy37vqxh4mzqr6; d=amazon.com; t=1676728570; h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type; bh=G+YHuWT5XUxP2wRynFRVqIQ/uum3cQYHHGvp+AjnEgY=; b=HzX9r9KGp8fY2h/3W51H4zT5vzBNasfSdcM/tjLgrJ3uK8PnrRm0UIO/nbiN+aAJ xQT8hMA86PfrEnSPwk1Dr/3kJtiyJBX2URaVx1QtnmYKLbWEwg7C+zlCUrtp4muyCaO RaZe40CqNt5mX77wDRP24bN087q6ICEAUe6jiNFY=
+Bounces-To: 2023021813561062d07befcad54c2f802e72f2d4e0p0na-C3N8A7NLGM1XAS@bounces.amazon.com
+X-Forwarded-For: luis.e.fernandezdelavara@gmail.com luis@lefv.io
+Message-Id: <0100018664cf9163-0ba48dc5-cff5-42bf-ba57-bdcc742ca6f5-000000@email.amazonses.com>
+Feedback-Id: 1.us-east-1.ZHcGJK6s+x+i9lRHKog4RW3tECwWIf1xzTYCZyUaiec=:AmazonSES
+Received-Spf: pass (google.com: domain of 2023021813561062d07befcad54c2f802e72f2d4e0p0na-c3n8a7nlgm1xas@bounces.amazon.com designates 54.240.13.179 as permitted sender) client-ip=54.240.13.179;
+X-Rspamd-Queue-Id: 4PJqwD53T6z9vNQ0
+Date: Sat, 18 Feb 2023 13:56:10 +0000
+
+<html xmlns=3D"&lt;a href=3D'https://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" =
+/>
+  <style type=3D"text/css">
+body {
+    background-color: #ffffff;
+	margin:0;
+	font:12px/16px Arial, sans-serif;
+}
+
+a {
+	text-decoration:none;
+	color:#006699;
+	font:14px/16px Arial, sans-serif;
+}
+
+a img {
+	border:0;
+}
+
+h2 {
+	font-size:20px;
+	line-height:24px;
+	margin:0;
+	padding:0;
+	font-weight:normal;
+	color:#000 !important;
+}
+
+h3 {
+	font-size: 18px;
+	color:#cc6600;
+	margin:15px 0 0 0;
+	font-weight: normal;
+}
+
+h4 {
+	font-size:14px;
+	margin:0;
+	font-weight:normal;
+}
+
+p {
+	margin:1px 0 8px 0;
+	font:12px/16px Arial, sans-serif;
+}
+
+table {
+	border-collapse:collapse;
+}
+
+td {
+	vertical-align: top;
+	font-size: 13px;
+	line-height: 18px;
+	font-family: Arial, sans-serif
+}
+
+/* container */
+#container {
+	width:500px;
+	color:#333;
+	margin:0 auto;
+}
+
+/* content tables */
+#main, #header, #customerSuggestions, #summary, #orderDetails, #itemDetails=
+,
+#selfService, #closing, #marketingContent, #legalCopy, #multOrder, #warrant=
+y, #criticalInfo, #orderDetailsHeader {
+	width:500px;
+}
+
+
+body #warranty p {
+    width:100%;
+}
+
+/* main */
+#main .customerSuggestions {
+	background-color:#efefef;
+	padding:8px 20px 8px 20px;
+}
+
+#main .customerSuggestions a {
+	text-decoration:underline;
+	color:#006699;
+}
+
+#main .customerSuggestions span {
+	color:#cc6600;
+	font-weight:bold;
+}
+
+#main .customerSuggestionsCallOut {
+	padding: 0px 0px 0px 50px;
+}
+
+#multOrder {
+    background-color: #ffffff;
+    border-color: #f6f7f8;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-top: 2px solid #f6f7f8;
+    border-bottom: 2px solid #f6f7f8;
+    border-right: 2px solid #f6f7f8;
+    border-left: 2px solid #f6f7f8;
+}
+
+/* header */
+#header {
+	border-bottom:1px solid #eaeaea;
+    padding-top:10px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom:10px;
+}
+
+/* orderDetailsHeader */
+#orderDetailsHeader {
+    border-bottom:1px solid #eaeaea;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+#logo {
+}
+
+#title {
+    text-align: right;
+}
+
+#title p{
+	font-size:20px;
+	font-family: "arial", "sans-serif";
+}
+
+#amazonLogo{
+	width:107px;
+    height:31px;
+}
+
+/* Greeting Summary */
+#greetingSummary {
+	width:100%;
+    padding:0 0 0 0;
+    font-size:14px;
+}
+
+#greetingSummary .greeting{
+	font-size:18px;
+    line-height:30px;
+    color:#cc6600;
+}
+
+#greetingSummary a{
+    font-size:12px;
+}
+
+/* critical info */
+#criticalInfo {
+	border-top:3px solid #cbcfd4;
+	width: 95%;
+}
+
+#criticalInfo td {
+    font-size: 14px;
+}
+
+#criticalInfo .detailsContent {
+	background-color:#efefef;
+}
+
+#criticalInfo .label {
+	color:#666;
+}
+
+#criticalInfo p {
+	font:14px Arial, sans-serif;
+}
+
+#criticalInfo span {
+	font-size:14px;
+	color:#666;
+}
+
+#criticalInfo a {
+	text-decoration:none;
+	color:#006699;
+	font:14px Arial, sans-serif;
+}
+
+#criticalInfo .hbaicon {
+    padding:4px;
+    vertical-align:text-top;
+}
+
+#criticalInfo .hbainfo {
+    text-align:left;
+    padding-left:5px;
+    padding-right:0px;
+}
+
+#criticalInfo .hbamessage {
+    font:13px Arial, sans-serif;
+    color:#000000;
+    text-decoration:none;
+    line-height:125%;
+}
+
+#criticalInfo .hbahref {
+    font:12px Arial, sans-serif;
+    color:#006699;
+    text-decoration:none;
+    line-height:150%;
+}
+
+#criticalInfo .alexa-shopping-content {
+	background-color: rgb(256, 256, 256);
+	padding:0 0 0 0;
+}
+
+#criticalInfo .footer {
+	background-color: rgb(256, 256, 256);
+    padding: 10px 0px 0px 0px;
+}
+
+#criticalInfoBulk .footer p {
+    font: 11px/ 16px Arial, sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+.deferred-payments-separator {
+    border: 1px solid #cbcfd4;
+}
+
+/* buttons */
+.button {
+	text-decoration:none !important;
+	display:block;
+	height:26px;
+	display:inline-block;
+	margin:0 0 2px 0;
+}
+
+.button.small {
+	height:20px;
+}
+
+.button .expandable {
+	float:left;
+	overflow:hidden;
+}
+
+.button .text {
+	color:#000f68;
+	font-size:12px;
+	position:relative;
+	z-index:10;
+	top:-22px;
+	left:-12px;
+	text-align:center;
+}
+
+.button.secondary .text {
+	left:0;
+}
+
+.button.small .text {
+	top:-20px;
+	left:0;
+	font-size:11px;
+}
+
+/* supporting details */
+#supportingDetails {
+	font-size:11px;
+	color:#666;
+	line-height:14px;
+	margin:10px 20px;
+}
+
+#supportingDetails {
+	margin:0 18px 0 18px;
+}
+
+/* order details */
+#orderDetails h3 {
+	border-bottom:1px solid #ccc;
+	margin:0 0 3px 0;
+	padding:0 0 3px 0;
+}
+
+#orderDetails .frame {
+	padding:16px 20px 6px 20px;
+}
+
+#orderDetails .orderDate {
+	color:#666666;
+	font-size:12px;
+}
+
+#orderDetails span {
+	font-size:12px;
+	color:#666;
+}
+
+#orderDetails p {
+	margin:2px 0 9px 0;
+}
+
+/* item details */
+#itemDetails {
+	width: 95%;
+}
+
+#itemDetails .photo {
+	width:150px;
+	text-align:center;
+	padding:16px 0 10px 0;
+}
+
+#itemDetails .photo .play img {
+	margin:3px 0 0 0;
+}
+
+#itemDetails .name {
+	color:#666;
+	padding:10px 0 10px 10px;
+}
+
+#itemDetails ul {
+	margin:0;
+	padding:0;
+}
+
+#itemDetails ul li {
+	list-style-type:none;
+	line-height:14px;
+	padding:0 0 4px 0;
+}
+
+#itemDetails ul li a {
+	font-size:14px;
+}
+
+#itemDetails .name p {
+	margin:0;
+	padding:10px 0 0 0;
+	font-size:12px;
+	line-height:16px;
+}
+
+#itemDetails .name p a {
+	text-decoration:none;
+    color:#006699;
+}
+
+#itemDetails .name .share {
+	margin:3px 0 15px 0;
+}
+
+#itemDetails .name .share a {
+	margin: 4px 5px 0 0;
+	font-size:0;
+}
+
+#itemDetails .name .supportingDetails,
+#itemDetails .name .supportingDetails a {
+	margin:8px 0 0 0;
+	font-size:12px;
+}
+
+#itemDetails .price {
+	width:110px;
+	text-align:right;
+	font-size:14px;
+	padding:10px 10px 0 10px;
+	white-space:nowrap;
+}
+
+#itemDetails .price a {
+	text-decoration:none;
+    color:#006699;
+}
+
+#itemDetails .divider {
+	border-top:1px solid #eaeaea;
+	padding:0 0 16px 0;
+}
+
+#itemDetails .name table {
+        border-collapse: separate;
+}
+
+#itemDetails .nameSpace table {
+        border-collapse: separate;
+}
+
+#shippingWeight {
+	width:95%;
+}
+
+#shippingWeight td {
+	text-align:right;
+	line-height:18px;
+	padding:0 10px 0 0;
+}
+
+#shippingWeight .divider {
+	border-top:1px solid #eaeaea;
+	padding:0 0 16px 0;
+}
+
+#shippingWeight .shipmentWeightValue {
+	width:120px;
+}
+
+/* cost breakdown */
+#costBreakdown {
+	width:50%;
+}
+
+#costBreakdown td {
+    text-align:right;
+    line-height:18px;
+    padding:0 10px 0 0;
+}
+
+#costBreakdown td td {
+    padding-right: unset !important;
+}
+
+#costBreakdown .divider {
+	border-top:1px solid #eaeaea;
+	padding:0 0 16px 0;
+}
+
+#costBreakdown .end {
+	padding:0 0 16px 0;
+}
+
+#costBreakdown .price {
+	font-size:12px;
+	white-space: nowrap;
+	/*width:120px;*/
+}
+
+#costBreakdown .text {
+	font-size:12px;
+	text-align:left;
+	white-space: nowrap;
+	/*width:120px;*/
+}
+
+#costBreakdown .total {
+	font-size:14px;
+	text-align:left;
+	font-weight:bold;
+    white-space: nowrap;
+}
+
+#costBreakdown #costBreakdownRight {
+	width:100%;
+	text-align:right;
+	line-height:18px;
+	padding:0 10px 0 0;
+}
+
+#costBreakdown #costBreakdownLeft {
+	width:100%;
+	text-align:right;
+	line-height:18px;
+	padding:0 10px 0 0;
+}
+
+/* additional shipments */
+#additionalShipments {
+	font-size:11px;
+}
+
+#additionalShipments h3 {
+	margin:10px 0 0 0;
+}
+
+#additionalShipments p {
+	margin:10px 20px 0px 20px;
+}
+
+#additionalShipments .orderDate {
+	color:#666666;
+	font-size:12px;
+}
+
+#additionalShipments .details {
+	padding:10px 20px 10px 20px;
+}
+
+#additionalShipments .details .label {
+	color:#666666;
+	font-weight:bold;
+}
+
+#additionalShipments .details .edd, #additionalShipments .details .quantity=
+ {
+	font-weight:bold;
+}
+
+/* self service */
+#selfService .divider {
+	border-top:1px solid #ccc;
+	padding:0 0 16px 0;
+}
+
+/* closing */
+#closing {
+	padding:10px 20px 10px 0;
+	border-collapse:none;
+	border-bottom:1px solid #eaeaea;
+}
+
+#closing p {
+	margin:0;
+	font-size:14px;
+	padding-bottom:5px;
+}
+
+#closing .signature {
+	font-size:14px;
+	font-weight:bold;
+}
+
+#closing td {
+    padding-left: 20px;
+}
+
+/* marketing content */
+#marketingContent {
+	border-bottom:1px solid #eaeaea;
+	border-collapse:collapse;
+	padding:0;
+}
+
+#marketingContent td.recs {
+	padding:10px 0;
+}
+
+#marketingContent td.right {
+	padding:10px 15px 10px 0;
+}
+
+#marketingContent td.left {
+	padding:10px 0 10px 15px;
+}
+
+#middleCenterMC {
+	text-align:center;
+}
+
+#middleCenterMC img {
+	width:85%;
+}
+
+/* legal copy */
+#legalCopy {
+	padding-top:9px;
+	margin:0 0 0 0;
+}
+
+#legalCopy p {
+	font-size:10px;
+	color:#666;
+	line-height:16px;
+    padding:0 0 0px 0px;
+	font:10px;
+}
+
+#legalCopy a {
+	font-size:10px;
+	font:10px;
+}
+
+/* reg fee */
+#regFee td {
+	colspan: "2";
+	border-top:1px solid #ccc;
+}
+
+.buttonComponent {
+    border-collapse: separate;
+    text-decoration: none !important;
+    line-height: 47px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #CBA957;
+    border-width: 1px;
+    background: #F0C354 linear-gradient(#F7DEA2, #F0C354) repeat scroll 0% =
+0%;
+    background-color: #ffa723;
+    white-space: nowrap;
+    min-width: 222px;
+    min-height: 47px;
+}
+
+.secondaryButtonComponent {
+    border-collapse: separate;
+    text-decoration: none !important;
+    line-height: 47px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #cbcfd4;
+    border-width: 1px;
+    background-color: #F0F2F2;
+    white-space: nowrap;
+    min-width: 222px;
+    min-height: 47px;
+}
+
+.buttonComponentLink {
+    color: rgb(27, 27, 27) !important;
+    font: 16px/ 18px Arial, sans-serif !important;
+    display: table-cell;
+    margin: auto 0;
+    vertical-align: middle;
+
+    min-width: 222px;
+    height: 47px;
+}
+
+
+</style>
+  <style type=3D"text/css">
+/* Styling for Amabot top banner content */
+#topAmabotBannerWrapper {
+    padding: 0 0 0 0 !important;
+}
+
+#topAmabotBannerContentTable {
+    border-top:3px solid rgb(256, 256, 256);
+    width: 100%;
+    background-color:#efefef;
+}
+
+#topAmabotBannerContentTable td {
+     vertical-align: middle;
+     width: 100%;
+ }
+
+#topAmabotBannerContentTable #topAmabotBannerLeftImage {
+    width: 0%;
+    padding: 9px 8px 9px 15px;
+}
+
+#topAmabotBannerContentTable #topAmabotBannerTextArea {
+    padding: 9px 0 9px 0;
+    width: 100%;
+}
+
+#topAmabotBannerContentTable #topAmabotBannerHeader {
+    font: bold 14px Arial, sans-serif;
+    padding-bottom: 2px;
+    color: #333;
+}
+
+#topAmabotBannerContentTable #topAmabotBannerBodyPrefix {
+    font: 14px Arial, sans-serif;
+    padding-bottom: 2px;
+    color: #333;
+}
+
+#topAmabotBannerContentTable #topAmabotBannerHeaderClickable {
+    font: bold 14px Arial, sans-serif;
+    padding-bottom: 2px;
+    color: #069;
+}
+
+#topAmabotBannerContentTable #topAmabotBannerBody {
+    font: 14px Georgia, serif;
+    line-height: 1.2;
+    color: #333;
+}
+
+#topAmabotBannerContentTable #topAmabotBannerBodyEmphasized {
+    font: 14px Georgia, serif;
+    line-height: 1.2;
+    font-style: italic;
+    color: #333;
+}
+
+/* To fix the blue href links in gmail clients */
+.noColorAndTextDecoration a {
+    color:#000 !important;
+    text-decoration:none !important;
+}
+</style>
+  <title></title>
+ </head>
+ <body><img width=3D"1" height=3D"1" src=3D"https://www.amazon.com/gp/r.htm=
+l?C=3D1GDZONJ9HF37K&K=3D3H3KXPPGEIMDG&M=3Durn:rtn:msg:2023021813561062d07be=
+fcad54c2f802e72f2d4e0p0na&R=3D7U9WRCJKZWTJ&T=3DO&U=3Dhttps%3A%2F%2Fimages-n=
+a.ssl-images-amazon.com%2Fimages%2FG%2F01%2Fnav%2Ftransp.gif&H=3DEXWKSLN1M5=
+XSYRK1PGZUSNIG1UKA&ref_=3Dpe_386300_440135490_opens" />
+  <table id=3D"container" dir=3D"ltr">
+   <tbody>
+    <tr>
+     <td class=3D"frame"><span id=3D"
+
+					"></span><br /><br /><br /><br />
+      <table id=3D"main">
+       <tbody>
+        <tr>
+         <td id=3D"header">
+          <table cellspacing=3D"0" cellpadding=3D"0">
+           <tbody>
+            <tr>
+             <td width=3D"250" id=3D"logo"> <a href=3D"https://www.amazon.c=
+om/gp/r.html?C=3D1GDZONJ9HF37K&K=3D3H3KXPPGEIMDG&M=3Durn:rtn:msg:2023021813=
+561062d07befcad54c2f802e72f2d4e0p0na&R=3D38HTW410R9YEJ&T=3DC&U=3Dhttps%3A%2=
+F%2Fwww.amazon.com%2Fref%3Dpe_386300_440135490_TE_simp_&H=3DN9VEF2GLCIUPLSR=
+J3TS4SVMUCPCA&ref_=3Dpe_386300_440135490_TE_simp_" title=3D"Visit Amazon.co=
+m"><img id=3D"amazonLogo" alt=3D"Amazon" src=3D"https://m.media-amazon.com/=
+images/G/01/x-locale/cs/te/logo.png" /></a> </td>
+             <td width=3D"250" id=3D"title" valign=3D"top" align=3D"right" =
+padding-left=3D"10"> <p><font size=3D"4"> Order Confirmation</font></p> </t=
+d>
+            </tr>
+           </tbody>
+          </table> </td>
+        </tr>
+        <tr>
+         <td id=3D"greetingSummary"> <p> </p>
+          <div class=3D"greeting">
+           Hello Luis,
+          </div><br /> Thank you for shopping with us. We=E2=80=99ll send a=
+ confirmation when your items ship. <p></p> </td>
+        </tr>
+        <tr>
+         <td style=3D"padding:5px 0 0 0;" id=3D"greetingSummary"> <span sty=
+le=3D"font-size:14px;">Your purchase has been divided into <b>2</b> orders.=
+</span><br /> </td>
+        </tr>
+        <tr>
+         <td style=3D"padding:10px 0 0 0;"> <p style=3D"font:18px Arial, sa=
+ns-serif; color: rgb(204, 102, 0); border-bottom:1px solid #eaeaea;"> Order=
+ 1 of 2 </p> <p style=3D"font:14px Arial, sans-serif; color:#666;">Order <a=
+ href=3D"https://www.amazon.com/gp/r.html?C=3D1GDZONJ9HF37K&K=3D3H3KXPPGEIM=
+DG&M=3Durn:rtn:msg:2023021813561062d07befcad54c2f802e72f2d4e0p0na&R=3D3V8RT=
+MF36K97Q&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Forder-details%=
+3ForderId%3D113-9662146-6891403%26ref_%3Dpe_386300_440135490_TE_simp_od&H=
+=3DMADYAKVS9KLILZGN5UV6EUGD6IYA&ref_=3Dpe_386300_440135490_TE_simp_od">#113=
+-9662146-6891403</a></p> </td>
+        </tr>
+        <tr>
+         <td style=3D"padding-left:32px;"> <b>Shipment 1 of 2</b> <br /> </=
+td>
+        </tr>
+        <tr>
+         <td>
+          <table style=3D"width:100%;" id=3D"criticalInfo">
+           <tbody>
+            <tr class=3D"detailsContent">
+             <td style=3D"padding: 11px 40px 20px 18px;"> <p> <span>Arrivin=
+g:</span> <br /> <b> <font style=3D"color:#009900;"> Monday, February 20 </=
+font> <br />Key Delivery </b> </p> <br />
+              <table class=3D"buttonComponent" bgcolor=3D"#ffa723" width=3D=
+"222">
+               <tbody>
+                <tr>
+                 <td style=3D"width:100%; vertical-align:middle;" align=3D"=
+center" valign=3D"middle" width=3D"100%" height=3D"47"> <a class=3D"buttonC=
+omponentLink" href=3D"https://www.amazon.com/gp/r.html?C=3D1GDZONJ9HF37K&K=
+=3D3H3KXPPGEIMDG&M=3Durn:rtn:msg:2023021813561062d07befcad54c2f802e72f2d4e0=
+p0na&R=3D3TAOUJU72VSXS&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2F=
+order-details%3ForderId%3D113-9662146-6891403%26ref_%3Dpe_386300_440135490_=
+TE_simp_od&H=3DHX7I15ZUWXQOAPLMAAUR8WTXIVUA&ref_=3Dpe_386300_440135490_TE_s=
+imp_od">View or manage order</a> </td>
+                </tr>
+               </tbody>
+              </table> </td>
+             <td style=3D"padding:11px 0px 20px 18px;"> <p> <span>Ship to:<=
+/span> <br /> <b> Luis <br /> ALEXANDRIA, VA </b> <br /> </p>
+              <table cellspacing=3D"0" cellpadding=3D"0">
+               <tbody>
+                <tr>
+                 <td style=3D"padding: 0 0 0 0;"> <img align=3D"left" heigh=
+t=3D"1" src=3D"http://g-ec2.images-amazon.com/images/G/01/x-locale/cs/te/Ma=
+gicPixel._V319790361_.png" width=3D"200" /> </td>
+                </tr>
+               </tbody>
+              </table> </td>
+            </tr>
+            <tr>
+             <td colspan=3D"2" class=3D"footer"> <p style=3D"font: 11px/ 16=
+px Arial, sans-serif; color: rgb(51, 51, 51);"> </p> </td>
+            </tr>
+           </tbody>
+          </table> </td>
+        </tr>
+        <tr>
+         <td style=3D"padding-left:32px;"> <b>Shipment 2 of 2</b> <br /> </=
+td>
+        </tr>
+        <tr>
+         <td>
+          <table style=3D"width:100%;" id=3D"criticalInfo">
+           <tbody>
+            <tr class=3D"detailsContent">
+             <td style=3D"padding: 11px 40px 20px 18px;"> <p> <span>Arrivin=
+g:</span> <br /> <b> <font style=3D"color:#009900;"> tomorrow, February 19 =
+</font> <br />Key Delivery </b> </p> <br />
+              <table class=3D"buttonComponent" bgcolor=3D"#ffa723" width=3D=
+"222">
+               <tbody>
+                <tr>
+                 <td style=3D"width:100%; vertical-align:middle;" align=3D"=
+center" valign=3D"middle" width=3D"100%" height=3D"47"> <a class=3D"buttonC=
+omponentLink" href=3D"https://www.amazon.com/gp/r.html?C=3D1GDZONJ9HF37K&K=
+=3D3H3KXPPGEIMDG&M=3Durn:rtn:msg:2023021813561062d07befcad54c2f802e72f2d4e0=
+p0na&R=3DPDBF5NOB5JEG&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Fo=
+rder-details%3ForderId%3D113-9662146-6891403%26ref_%3Dpe_386300_440135490_T=
+E_simp_od&H=3DJBDMBMFDXLOW9JJM9HJQEYRPA2SA&ref_=3Dpe_386300_440135490_TE_si=
+mp_od">View or manage order</a> </td>
+                </tr>
+               </tbody>
+              </table> </td>
+             <td style=3D"padding:11px 0px 20px 18px;"> <p> <span>Ship to:<=
+/span> <br /> <b> Luis <br /> ALEXANDRIA, VA </b> <br /> </p>
+              <table cellspacing=3D"0" cellpadding=3D"0">
+               <tbody>
+                <tr>
+                 <td style=3D"padding: 0 0 0 0;"> <img align=3D"left" heigh=
+t=3D"1" src=3D"http://g-ec2.images-amazon.com/images/G/01/x-locale/cs/te/Ma=
+gicPixel._V319790361_.png" width=3D"200" /> </td>
+                </tr>
+               </tbody>
+              </table> </td>
+            </tr>
+            <tr>
+             <td colspan=3D"2" class=3D"footer"> <p style=3D"font: 11px/ 16=
+px Arial, sans-serif; color: rgb(51, 51, 51);"> </p> </td>
+            </tr>
+           </tbody>
+          </table> </td>
+        </tr>
+        <tr>
+         <td>
+          <table id=3D"costBreakdown">
+           <tbody>
+            <tr>
+             <td>
+              <table id=3D"costBreakdownLeft">
+               <tbody>
+                <tr>
+                 <td class=3D"total"> Order Total: </td>
+                </tr>
+               </tbody>
+              </table> </td>
+             <td>
+              <table id=3D"costBreakdownRight">
+               <tbody>
+                <tr>
+                 <td class=3D"price"> <b>$74.87</b> </td>
+                </tr>
+               </tbody>
+              </table> </td>
+            </tr>
+           </tbody>
+          </table> </td>
+        </tr>
+        <tr>
+         <td style=3D"padding:10px 0 0 0;"> <p style=3D"font:18px Arial, sa=
+ns-serif; color: rgb(204, 102, 0); border-bottom:1px solid #eaeaea;"> Order=
+ 2 of 2 </p> <p style=3D"font:14px Arial, sans-serif; color:#666;">Order <a=
+ href=3D"https://www.amazon.com/gp/r.html?C=3D1GDZONJ9HF37K&K=3D3H3KXPPGEIM=
+DG&M=3Durn:rtn:msg:2023021813561062d07befcad54c2f802e72f2d4e0p0na&R=3D1ROAM=
+AU6MQ051&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Forder-details%=
+3ForderId%3D113-3484380-3654644%26ref_%3Dpe_386300_440135490_TE_simp_od&H=
+=3DZLV0TWOBOYJDHRDPEFKQDEHA2LUA&ref_=3Dpe_386300_440135490_TE_simp_od">#113=
+-3484380-3654644</a></p> </td>
+        </tr>
+        <tr>
+         <td>
+          <table style=3D"width:100%;" id=3D"criticalInfo">
+           <tbody>
+            <tr class=3D"detailsContent">
+             <td style=3D"padding: 11px 40px 20px 18px;"> <p> <span>Arrivin=
+g:</span> <br /> <b> <font style=3D"color:#009900;"> tomorrow, February 19 =
+</font> </b> </p> <br />
+              <table class=3D"buttonComponent" bgcolor=3D"#ffa723" width=3D=
+"222">
+               <tbody>
+                <tr>
+                 <td style=3D"width:100%; vertical-align:middle;" align=3D"=
+center" valign=3D"middle" width=3D"100%" height=3D"47"> <a class=3D"buttonC=
+omponentLink" href=3D"https://www.amazon.com/gp/r.html?C=3D1GDZONJ9HF37K&K=
+=3D3H3KXPPGEIMDG&M=3Durn:rtn:msg:2023021813561062d07befcad54c2f802e72f2d4e0=
+p0na&R=3D22WUQ6Q3YV4I8&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2F=
+order-details%3ForderId%3D113-3484380-3654644%26ref_%3Dpe_386300_440135490_=
+TE_simp_od&H=3DLJIJE1KQKA60ZYVZNDMAFAMT3KYA&ref_=3Dpe_386300_440135490_TE_s=
+imp_od">View or manage order</a> </td>
+                </tr>
+               </tbody>
+              </table> </td>
+             <td style=3D"padding:11px 0px 20px 18px;"> <p> <span>Ship to:<=
+/span> <br /> <b> Luis <br /> ALEXANDRIA, VA </b> <br /> </p>
+              <table id=3D"costBreakdown">
+               <tbody>
+                <tr>
+                 <td>
+                  <table id=3D"costBreakdownLeft">
+                   <tbody>
+                    <tr>
+                     <td class=3D"total"> Order Total: </td>
+                    </tr>
+                   </tbody>
+                  </table> </td>
+                 <td>
+                  <table id=3D"costBreakdownRight">
+                   <tbody>
+                    <tr>
+                     <td class=3D"price"> <b>$10.59</b> </td>
+                    </tr>
+                   </tbody>
+                  </table> </td>
+                </tr>
+               </tbody>
+              </table>
+              <table cellspacing=3D"0" cellpadding=3D"0">
+               <tbody>
+                <tr>
+                 <td style=3D"padding: 0 0 0 0;"> <img align=3D"left" heigh=
+t=3D"1" src=3D"http://g-ec2.images-amazon.com/images/G/01/x-locale/cs/te/Ma=
+gicPixel._V319790361_.png" width=3D"200" /> </td>
+                </tr>
+               </tbody>
+              </table> </td>
+            </tr>
+            <tr>
+             <td colspan=3D"2" class=3D"footer"> <p style=3D"font: 11px/ 16=
+px Arial, sans-serif; color: rgb(51, 51, 51);"> </p> </td>
+            </tr>
+           </tbody>
+          </table> </td>
+        </tr>
+       </tbody>
+      </table> </td>
+    </tr>
+   </tbody>
+  </table>
+  <table id=3D"container" dir=3D"ltr">
+   <tbody>
+    <tr>
+     <td id=3D"closing"> <p style=3D"font: 16px/ 16px Arial, sans-serif !im=
+portant;"> We hope to see you again soon. <br /><br /> <span class=3D"signa=
+ture">Amazon.com</span> </p> </td>
+    </tr>
+    <tr>
+     <td id=3D"marketingContent">
+      <!--rbd-->
+      <div class=3D"celwidget pd_rd_w-znCGZ content-id-amzn1.sym.53d0c0e9-9=
+517-4f9c-803c-fb566815daae pf_rd_p-53d0c0e9-9517-4f9c-803c-fb566815daae pf_=
+rd_r-D6AB7WY20BY7JFZYTEH0 pd_rd_wg-QmM68 pd_rd_r-e5311b3b-f746-417e-8f94-8c=
+29dbc15ad3 c-f" cel_widget_id=3D"p13n-asin-list-plain_email-order-confirmat=
+ion_0" data-csa-op-log-render=3D"" data-csa-c-content-id=3D"amzn1.sym.53d0c=
+0e9-9517-4f9c-803c-fb566815daae" data-csa-c-slot-id=3D"email-order-confirma=
+tion-1" data-csa-c-type=3D"widget" data-csa-c-painter=3D"p13n-asin-list-pla=
+in-cards">
+       <script>if(window.mix_csa){window.mix_csa('[cel_widget_id=3D"p13n-as=
+in-list-plain_email-order-confirmation_0"]', '#CardInstancemsELiLaN16L6gxGH=
+si_4dg')('mark', 'bb')}</script>
+       <script>if(window.uet){window.uet('bb','p13n-asin-list-plain_email-o=
+rder-confirmation_0',{wb: 1})}</script>
+       <style>._p13n-asin-list-plain_truncationStyles_p13n-sc-css-line-clam=
+p-1__1Fn1y{-webkit-line-clamp:1;-webkit-box-orient:vertical;display:-webkit=
+-box;overflow:hidden}._p13n-asin-list-plain_truncationStyles_p13n-sc-css-li=
+ne-clamp-2__EWgCb{-webkit-line-clamp:2;-webkit-box-orient:vertical;display:=
+-webkit-box;overflow:hidden}._p13n-asin-list-plain_truncationStyles_p13n-sc=
+-css-line-clamp-3__g3dy1{-webkit-line-clamp:3;-webkit-box-orient:vertical;d=
+isplay:-webkit-box;overflow:hidden}._p13n-asin-list-plain_truncationStyles_=
+p13n-sc-css-line-clamp-4__2q2cc{-webkit-line-clamp:4;-webkit-box-orient:ver=
+tical;display:-webkit-box;overflow:hidden}._p13n-asin-list-plain_truncation=
+Styles_p13n-sc-css-line-clamp-5__2l-dX{-webkit-line-clamp:5;-webkit-box-ori=
+ent:vertical;display:-webkit-box;overflow:hidden}._p13n-asin-list-plain_tru=
+ncationStyles_p13n-sc-css-line-clamp-6__28daG{-webkit-line-clamp:6;-webkit-=
+box-orient:vertical;display:-webkit-box;overflow:hidden}._p13n-asin-list-pl=
+ain_truncationStyles_p13n-sc-css-line-clamp-7__1k_Mc{-webkit-line-clamp:7;-=
+webkit-box-orient:vertical;display:-webkit-box;overflow:hidden}._p13n-asin-=
+list-plain_truncationStyles_p13n-sc-css-line-clamp-8__1yvsR{-webkit-line-cl=
+amp:8;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden}._p13=
+n-asin-list-plain_truncationStyles_p13n-sc-css-line-clamp-9__3Pofd{-webkit-=
+line-clamp:9;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidde=
+n}._p13n-asin-list-plain_truncationStyles_p13n-sc-css-line-clamp-10__mY8_7{=
+-webkit-line-clamp:10;-webkit-box-orient:vertical;display:-webkit-box;overf=
+low:hidden}
+._p13n-asin-list-plain_pillContainerStyle_p13nscPills__1KzwZ{margin-bottom:=
+20px;margin-left:0;overflow:auto;white-space:nowrap}._p13n-asin-list-plain_=
+pillContainerStyle_p13nscPills__1KzwZ::-webkit-scrollbar{background:transpa=
+rent;width:0}._p13n-asin-list-plain_pillContainerStyle_p13nscPills__1KzwZ l=
+i{-webkit-box-pack:center;-ms-flex-pack:center;background-color:#f0f0f0;bor=
+der:1px solid #f0f0f0;border-radius:8px;box-shadow:0 1px 2px 0 rgba(15,17,1=
+7,.2);color:#111;cursor:pointer;display:-webkit-inline-box;display:-ms-inli=
+ne-flexbox;display:inline-flex;font-weight:500;justify-content:center;list-=
+style-type:none;margin:1px 8px 2px 1px;min-width:44px;padding:8px;text-alig=
+n:center;white-space:normal}._p13n-asin-list-plain_pillContainerStyle_p13ns=
+cPills__1KzwZ li button{background:none;border:none}._p13n-asin-list-plain_=
+pillContainerStyle_p13nscPills__1KzwZ li.p13n-selected-pill{background-colo=
+r:#e7f4f5;border-color:#c7e4e8;color:#007185}._p13n-asin-list-plain_pillCon=
+tainerStyle_p13nscPills__1KzwZ li:hover.p13n-selected-pill{background-color=
+:#daf1f3;border-color:#c7e4e8;color:#007185}._p13n-asin-list-plain_pillCont=
+ainerStyle_p13nscPills__1KzwZ li:hover{background-color:#eee;border-color:#=
+eee}._p13n-asin-list-plain_pillContainerStyle_p13nscPills__1KzwZ ._p13n-asi=
+n-list-plain_pillContainerStyle_unselected__q8wvT{background-color:#f4f4f4}=
+._p13n-asin-list-plain_pillContainerStyle_spinnerContainer__Llfcc{min-heigh=
+t:100px;width:100%}._p13n-asin-list-plain_pillContainerStyle_spinnerContain=
+er__Llfcc ._p13n-asin-list-plain_pillContainerStyle_p13nScSpinner__3lJFM{ma=
+rgin:20px auto auto}._p13n-asin-list-plain_pillContainerStyle_refinementPil=
+lCss__1fYG0{max-width:200px}
+._p13n-asin-list-plain_subtitle_subtitle__2kEiH{line-height:10px}
+._p13n-asin-list-plain_sponsoredLabel_sponsoredLabel__RxXGt{color:#555;font=
+-size:11px;line-height:23px;margin-bottom:4px}
+._p13n-asin-list-plain_panelStyle_panel-text__3TtlT{width:220px}._p13n-asin=
+-list-plain_panelStyle_panel-container__3ZNzh{float:left;width:238px}._p13n=
+-asin-list-plain_panelStyle_panel-subsection__19oyW{padding-left:15px;paddi=
+ng-right:18px}._p13n-asin-list-plain_panelStyle_panel-logo-container__ucYMM=
+{height:33px;margin-bottom:5px;width:220px}._p13n-asin-list-plain_panelStyl=
+e_panel-button__GP7zd{width:auto}
+._p13n-asin-list-plain_style_grid-cell__zFYyO{-webkit-box-pack:center;-ms-f=
+lex-pack:center;background-color:#fff;cursor:pointer;display:-webkit-box;di=
+splay:-ms-flexbox;display:flex;justify-content:center;margin:10px;position:=
+relative}.p13n-grid-overlay{overflow:hidden}._p13n-asin-list-plain_style_gr=
+id-row__3VsqC{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex=
+-wrap:wrap;flex-wrap:wrap;margin-bottom:22px;margin-left:25px;min-width:900=
+px}._p13n-asin-list-plain_style_grid-column__UjCjt{-ms-flex-preferred-size:=
+210px;border-bottom:1px solid #d5dbdb;border-top:1px solid #d5dbdb;border-c=
+olor:#d5dbdb;border-style:solid;border-width:.5px 1px;flex-basis:210px;marg=
+in-bottom:-1px;margin-top:0;max-width:300px;min-width:210px}._p13n-asin-lis=
+t-plain_style_grid-column__UjCjt,._p13n-asin-list-plain_style_grid-detail-c=
+olumn__2AJfX{margin-left:-1px!important;margin-right:0!important}._p13n-asi=
+n-list-plain_style_grid-detail-column__2AJfX{border-bottom:1px solid #d5dbd=
+b;border-top:1px solid #d5dbdb;border-color:#d5dbdb;border-style:solid;bord=
+er-width:.5px 1px;margin-bottom:-1px;margin-top:0;width:100%}._p13n-asin-li=
+st-plain_style_card__2VZFf,._p13n-asin-list-plain_style_expandedGridCell__1=
+5bML{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-flow=
+:column;flex-flow:column;height:100%;margin-bottom:0;margin-top:0;padding:1=
+0px;position:relative;text-align:center}._p13n-asin-list-plain_style_expand=
+edGridCell__15bML{cursor:pointer}._p13n-asin-list-plain_style_gridExpansion=
+__2aNlg{-webkit-box-pack:center;-ms-flex-pack:center;-ms-flex-preferred-siz=
+e:210px;-webkit-box-flex:1;-ms-flex-positive:1;background-color:#fff;displa=
+y:-webkit-box;display:-ms-flexbox;display:flex;flex-basis:210px;flex-grow:1=
+;justify-content:center;margin:10px}._p13n-asin-list-plain_style_overlayTit=
+le__E6uXy{position:absolute;top:35%}._p13n-asin-list-plain_style_notInteres=
+tedMessage__2bIn5{position:absolute;top:50%}._p13n-asin-list-plain_style_im=
+age__rSmhM{opacity:.1}._p13n-asin-list-plain_style_feedbackRow__23bqz{margi=
+n-right:0!important}
+._p13n-asin-list-plain_style_column__2x05O{grid-column:auto/span 1;margin-r=
+ight:0!important}._p13n-asin-list-plain_style_grid-row__3daT_{display:grid;=
+grid-template-columns:repeat(auto-fit,50%)}@media only screen and (min-widt=
+h:260px){._p13n-asin-list-plain_style_grid-row-double__3p1Gt[style]{display=
+:grid;grid-template-columns:repeat(2,minmax(0,1fr))!important}}._p13n-asin-=
+list-plain_style_card__3H7qC{-webkit-box-orient:vertical;-webkit-box-direct=
+ion:normal;-ms-flex-flow:column;flex-flow:column;height:100%;margin-bottom:=
+0;margin-top:0;outline:.5px solid #d5dbdb;outline-width:.5px;padding:10px;p=
+osition:relative}._p13n-asin-list-plain_style_centerCardAlign__TGv51{text-a=
+lign:center}._p13n-asin-list-plain_style_expandedColumn__1-66H{-webkit-box-=
+orient:vertical;-webkit-box-direction:normal;-webkit-box-align:center;-ms-f=
+lex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox=
+;display:flex;-ms-flex-flow:column;flex-flow:column;grid-column:auto/span 2=
+;height:100%;margin-right:0!important;outline:.5px solid #d5dbdb;outline-wi=
+dth:.5px}._p13n-asin-list-plain_style_overlayTitle__2XUqy{position:absolute=
+;top:35%}._p13n-asin-list-plain_style_notInterestedMessage__2-bO3{position:=
+absolute;top:50%}._p13n-asin-list-plain_style_image__2eEq7{opacity:.1}._p13=
+n-asin-list-plain_style_feedbackRow__17KjU{margin-right:0!important}
+._p13n-asin-list-plain_canariesFeedbackModalStyle_p13n-flex-container-heade=
+r-kebab__12qKs{-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-a=
+lign:center;-ms-flex-align:center;align-items:center;display:-webkit-box;di=
+splay:-ms-flexbox;display:flex;justify-content:space-between}
+._p13n-asin-list-plain_style_asin-title__2KJ6_{font-size:14px;font-weight:b=
+older;margin-left:20px;margin-top:10px;text-align:left}._p13n-asin-list-pla=
+in_style_asin-row__3PozI{display:block}._p13n-asin-list-plain_style_asin-de=
+tail-row__T7Jm0{margin-bottom:-12px}._p13n-asin-list-plain_style_image__11f=
+2t{height:90px;width:90px}._p13n-asin-list-plain_style_feedback-switch__2zE=
+08{cursor:pointer;display:inline-block;height:50px;margin-top:5px;vertical-=
+align:top;width:50px}
+._p13n-asin-list-plain_style_card__2yY06{width:95%}._p13n-asin-list-plain_s=
+tyle_image-and-offer__XQEhq{display:-webkit-box;display:-ms-flexbox;display=
+:flex;margin-bottom:0;margin-top:10px}._p13n-asin-list-plain_style_review-r=
+ow__1d5Qn{padding-right:10px;width:100%}._p13n-asin-list-plain_style_row__1=
+eL-2{width:100%}._p13n-asin-list-plain_style_icon__3kTmk{background-positio=
+n:-310px -5px;height:1.6rem;width:1.6rem}
+._p13n-asin-list-plain_style_scrollable-card__2fUxq{text-align:left;width:9=
+5%}._p13n-asin-list-plain_style_close-icon-row__1UiN7{height:5px;min-width:=
+600px;padding-right:10px;text-align:right;width:100%}[dir=3Drtl] ._p13n-asi=
+n-list-plain_style_close-icon-row__1UiN7{height:5px;min-width:600px;text-al=
+ign:left;width:100%}._p13n-asin-list-plain_style_close-icon-column__33S0b{h=
+eight:inherit}._p13n-asin-list-plain_style_detail-column__3HoqU{text-align:=
+left}[dir=3Drtl] ._p13n-asin-list-plain_style_detail-column__3HoqU{text-ali=
+gn:right}._p13n-asin-list-plain_style_scrollable-row__bJNDZ{width:100%}._p1=
+3n-asin-list-plain_style_icon___PtFG{background-position:-310px -5px;cursor=
+:pointer;height:1.6rem;width:1.6rem}._p13n-asin-list-plain_style_feedbackTe=
+xt__1z8PE{cursor:pointer}._p13n-asin-list-plain_style_nonOverlapping-card__=
+3Xb1r{width:95%}._p13n-asin-list-plain_style_nonOverlapping-row__2Q-t7{-ms-=
+flex-pack:distribute;display:-webkit-inline-box;display:-ms-inline-flexbox;=
+display:inline-flex;justify-content:space-around;max-width:800px;min-width:=
+600px;text-align:left;width:100%}
+._p13n-asin-list-plain_maskStyle_maskStyling__1IlBq{background-color:#000;h=
+eight:100%;left:0;opacity:.04;position:absolute;top:0;width:100%}._p13n-asi=
+n-list-plain_maskStyle_positionRelativeCss__ZwMqj{padding:6px;position:rela=
+tive}._p13n-asin-list-plain_maskStyle_noop__3Xbw5{-webkit-perspective:none;=
+perspective:none}
+._p13n-asin-list-plain_heroFaceout_heroBanner__1Y4Dy{min-height:60px}._p13n=
+-asin-list-plain_heroFaceout_heroLabel__3b1XQ{display:block}._p13n-asin-lis=
+t-plain_heroFaceout_setLabel__1T92X{display:block;margin-top:-2px}._p13n-as=
+in-list-plain_heroFaceout_baseAsinLabel__3LESS{display:block}
+.p13n-faceout-static-left-padding .a-col-right[style]{padding-left:10px!imp=
+ortant}
+._p13n-asin-list-plain_almStore_almStore__n5J0M{margin-top:2px;max-height:1=
+4px}
+._p13n-asin-list-plain_prime_p13n-prime-badge__GVM4h{position:relative;top:=
+2px}
+._p13n-asin-list-plain_style_read-for-free-button-form__3lKBG{margin-bottom=
+:0}._p13n-asin-list-plain_style_read-for-free-button__d9No-{width:100%}._p1=
+3n-asin-list-plain_style_read-now-button__36pTB{background:-webkit-linear-g=
+radient(#cae69e,#7dad2a);background:linear-gradient(#cae69e,#7dad2a);width:=
+100%}._p13n-asin-list-plain_style_read-now-button__36pTB:hover{background:-=
+webkit-linear-gradient(#c8e59a,#77a428);background:linear-gradient(#c8e59a,=
+#77a428)}
+input[type=3Dnumber]::-webkit-inner-spin-button,input[type=3Dnumber]::-webk=
+it-outer-spin-button{-webkit-appearance:none;margin:0}input[type=3Dnumber]{=
+-moz-appearance:textfield}
+._p13n-asin-list-plain_youPay_p13n-sc-youpay__2mwp6{word-wrap:normal;overfl=
+ow-x:hidden}._p13n-asin-list-plain_youPay_p13n-sc-youpay-wrapper__3MfNG{pos=
+ition:relative}
+._p13n-asin-list-plain_amazonsChoiceStyles_p13n-ac-text-primary__2h8zx,._p1=
+3n-asin-list-plain_amazonsChoiceStyles_p13n-ac-text-secondary__17RUV{font-f=
+amily:Amazon Ember,Arial!important;font-size:12px!important;line-height:22p=
+x}._p13n-asin-list-plain_amazonsChoiceStyles_p13n-ac-text-primary__2h8zx{co=
+lor:#fff;margin-left:8px;margin-right:3px}[dir=3Drtl] ._p13n-asin-list-plai=
+n_amazonsChoiceStyles_p13n-ac-text-primary__2h8zx{margin-left:3px;margin-ri=
+ght:8px}._p13n-asin-list-plain_amazonsChoiceStyles_p13n-ac-text-secondary__=
+17RUV{color:#f69931;margin-right:8px}[dir=3Drtl] ._p13n-asin-list-plain_ama=
+zonsChoiceStyles_p13n-ac-text-secondary__17RUV{margin-left:8px;margin-right=
+:0}._p13n-asin-list-plain_amazonsChoiceStyles_p13n-ac-body__3XXUM{backgroun=
+d-color:#232f3e;border-color:#232f3e;display:-webkit-box;display:-ms-flexbo=
+x;display:flex;float:left;height:22px;min-width:80px}[dir=3Drtl] ._p13n-asi=
+n-list-plain_amazonsChoiceStyles_p13n-ac-body__3XXUM{float:right}._p13n-asi=
+n-list-plain_amazonsChoiceStyles_p13n-ac-triangle__qo4WF{border-right:10px =
+solid transparent;border-top:22px solid;color:#232f3e;float:left;height:0;w=
+idth:0}[dir=3Drtl] ._p13n-asin-list-plain_amazonsChoiceStyles_p13n-ac-trian=
+gle__qo4WF{border-left:10px solid transparent;border-right:0;float:right}
+._p13n-asin-list-plain_bestsellerStyles_p13n-best-seller-badge__1-yh1{backg=
+round-color:#c45500!important;font-size:12px;padding-bottom:2px;padding-top=
+:2px}[dir=3Drtl] ._p13n-asin-list-plain_bestsellerStyles_p13n-best-seller-b=
+adge-container__2pqK7{float:right}._p13n-asin-list-plain_bestsellerStyles_p=
+13n-best-seller-badge-container__2pqK7{display:inline-block;position:relati=
+ve}._p13n-asin-list-plain_bestsellerStyles_p13n-best-seller-badge__1-yh1:be=
+fore{border-bottom-color:#c45500!important}._p13n-asin-list-plain_bestselle=
+rStyles_p13n-best-seller-badge__1-yh1:after{border-top-color:#c45500!import=
+ant}._p13n-asin-list-plain_bestsellerStyles_p13n-sc-bestseller-badge-body__=
+3nkHf{background-color:#c45500;float:left;line-height:18px;padding-left:6px=
+;padding-right:3px}._p13n-asin-list-plain_bestsellerStyles_p13n-sc-bestsell=
+er-badge-text__3apKt{color:#fff;line-height:18px}._p13n-asin-list-plain_bes=
+tsellerStyles_p13n-sc-bestseller-badge-triangle__2Z3cK{border-right:9px sol=
+id transparent;border-top:18px solid;color:#c45500;float:left;height:0;widt=
+h:0}
+._p13n-asin-list-plain_price_p13n-sc-price__3mJ9Z{word-wrap:normal;overflow=
+-x:hidden}._p13n-asin-list-plain_price_p13n-sc-price-animation-wrapper__3Pz=
+N2{position:relative}._p13n-asin-list-plain_price_p13n-sc-savings-percent__=
+20USI{color:#cc0c39;font-weight:300}
+._p13n-asin-list-plain_frequentlyReorderedStyles_p13n-fr-text__3ysaH{color:=
+#fff;font-size:12px;line-height:18px;margin-left:4px;margin-right:3px;paddi=
+ng-top:1px}[dir=3Drtl] ._p13n-asin-list-plain_frequentlyReorderedStyles_p13=
+n-fr-text__3ysaH{margin-left:3px;margin-right:8px}._p13n-asin-list-plain_fr=
+equentlyReorderedStyles_p13n-fr-body__2Gxe4{display:-webkit-box;display:-ms=
+-flexbox;display:flex;float:left;height:20px;line-height:18px;min-width:60p=
+x}[dir=3Drtl] ._p13n-asin-list-plain_frequentlyReorderedStyles_p13n-fr-body=
+__2Gxe4{float:right}._p13n-asin-list-plain_frequentlyReorderedStyles_p13n-f=
+r-body-charcoal__2gQPa{background-color:#303333;border-color:#303333}._p13n=
+-asin-list-plain_frequentlyReorderedStyles_p13n-fr-body-stone__2C7aU{backgr=
+ound-color:#6f7373;border-color:#6f7373}._p13n-asin-list-plain_frequentlyRe=
+orderedStyles_p13n-fr-triangle__3PmcP{border-right:10px solid transparent;b=
+order-top:20px solid;float:left;height:0;width:0}[dir=3Drtl] ._p13n-asin-li=
+st-plain_frequentlyReorderedStyles_p13n-fr-triangle__3PmcP{border-left:10px=
+ solid transparent;border-right:0;float:right}._p13n-asin-list-plain_freque=
+ntlyReorderedStyles_p13n-fr-triangle-charcoal__17tLm{color:#303333}._p13n-a=
+sin-list-plain_frequentlyReorderedStyles_p13n-fr-triangle-stone__Voco2{colo=
+r:#6f7373}
+._p13n-asin-list-plain_giftGuideStyles_p13n-gg-rectangle__33WUq{-webkit-box=
+-pack:center;-ms-flex-pack:center;-webkit-box-align:center;-ms-flex-align:c=
+enter;align-items:center;background-color:#555;border-color:#555;color:#fff=
+;display:-webkit-box;display:-ms-flexbox;display:flex;float:left;justify-co=
+ntent:center;min-width:36px;padding-left:8px;padding-right:3px}._p13n-asin-=
+list-plain_giftGuideStyles_p13n-gg-triangle__2O1ZH{border-right:10px solid =
+transparent;color:#555;float:left;height:0;width:0}._p13n-asin-list-plain_g=
+iftGuideStyles_p13n-gg-badge-height-desktop__2gU_A{height:20px;line-height:=
+20px}._p13n-asin-list-plain_giftGuideStyles_p13n-gg-badge-height-mobile__1v=
+yht{height:18px;line-height:18px}._p13n-asin-list-plain_giftGuideStyles_p13=
+n-gg-triangle-height-desktop__2oeq6{border-top:20px solid}._p13n-asin-list-=
+plain_giftGuideStyles_p13n-gg-triangle-height-mobile__1iCtm{border-top:18px=
+ solid}._p13n-asin-list-plain_giftGuideStyles_p13n-gg-display-mobile__ZG6U7=
+{display:inline-block}
+._p13n-asin-list-plain_climatePledgeFriendlyBadgeStyles_p13n-sc-cpf-badge__=
+dMVLV{color:#168342!important;text-decoration:none!important}._p13n-asin-li=
+st-plain_climatePledgeFriendlyBadgeStyles_p13n-sc-cpf-badge__dMVLV i{margin=
+-top:0;vertical-align:middle}._p13n-asin-list-plain_climatePledgeFriendlyBa=
+dgeStyles_p13n-sc-cpf-cert-row__3PW-5{-webkit-box-align:center;-ms-flex-ali=
+gn:center;-webkit-box-orient:horizontal;-webkit-box-direction:normal;align-=
+items:center;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-=
+direction:row;flex-direction:row}._p13n-asin-list-plain_climatePledgeFriend=
+lyBadgeStyles_p13n-sc-cpf-cert-logo__2T8hY{margin-right:18px;min-width:45px=
+}._p13n-asin-list-plain_climatePledgeFriendlyBadgeStyles_p13n-sc-cpf-cert-c=
+olumn__1r84G{-webkit-box-orient:vertical;-webkit-box-direction:normal;displ=
+ay:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-direction:column;f=
+lex-direction:column}._p13n-asin-list-plain_climatePledgeFriendlyBadgeStyle=
+s_p13n-sc-cpf-cert-grid__2Z5J-{-webkit-box-orient:horizontal;-webkit-box-di=
+rection:normal;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-fle=
+x-direction:row;flex-direction:row}._p13n-asin-list-plain_climatePledgeFrie=
+ndlyBadgeStyles_p13n-sc-cpf-link__3r-aG{text-decoration:underline!important=
+}._p13n-asin-list-plain_climatePledgeFriendlyBadgeStyles_p13n-sc-cpf-bottom=
+-sheet__R9HFz{padding:21px 15px}
+._p13n-asin-list-plain_savingsDealBadge_savingsBadgeWrapper__3DNjt{-webkit-=
+box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-b=
+ox;display:-ms-flexbox;display:flex;font-size:12px;margin-bottom:4px;margin=
+-top:3px}._p13n-asin-list-plain_savingsDealBadge_savingsBadgeLabel__2pUXu{b=
+order-radius:2px;line-height:16px;margin-right:6px;padding:4px 6px;position=
+:relative}._p13n-asin-list-plain_savingsDealBadge_savingsBadgeMessage__2JUt=
+l{-webkit-box-flex:1;-ms-flex:1 1;flex:1 1;font-weight:700;line-height:12px=
+;position:relative}
+._p13n-asin-list-plain_dealInfo_p13nDealOfTheDay__cVlwZ{background:#b12704;=
+color:#fff;float:right;padding:2px 4px;position:relative}._p13n-asin-list-p=
+lain_dealInfo_dealsCardDealTimer__2oYBO{display:inline-block}._p13n-asin-li=
+st-plain_dealInfo_dealsCardPercentClaimed__1GTDI{display:inline-block;paddi=
+ng-top:3px}
+._p13n-asin-list-plain_dealBadge_p13nDealOfTheDayBadge__2Nn7x{background:#b=
+12704;color:#fff;padding:2px 4px}
+._p13n-asin-list-plain_curationStyles_curation__13VGx{margin-bottom:0;overf=
+low:hidden;text-overflow:ellipsis;white-space:nowrap}._p13n-asin-list-plain=
+_curationStyles_curation__13VGx ._p13n-asin-list-plain_curationStyles_icon_=
+_3_dKr{width:20px}
+._p13n-asin-list-plain_sponsoredLabel_sponsoredLabel__2UvSK{color:#555;font=
+-size:11px}
+._p13n-asin-list-plain_discountsBadge_p13nBusinessDiscountsWrapper__2rPZr{m=
+argin-bottom:3px;margin-top:3px}._p13n-asin-list-plain_discountsBadge_p13nB=
+usinessDiscountsBadge__3Z5kg{background:#7fccec;padding:3px 6px}
+._p13n-asin-list-plain_promotionalBadge_p13nBusinessPromotionalBadgeWrapper=
+__1P8Dk{color:#fff;margin-bottom:3px;margin-top:3px}._p13n-asin-list-plain_=
+promotionalBadge_p13nBusinessPromotionalBadge__1xUcd{background:#025491;col=
+or:#fff;padding:4px 6px}
+._p13n-asin-list-plain_couponStyles_p13n-coupon-badge__3d5NR{background:#7f=
+da69;color:#111;display:inline-block;padding:0 6px;position:relative}
+._p13n-asin-list-plain_delightPricingStyles_p13n-delight-pricing-badge__26S=
+9Q{background:#b12704;color:#fff;display:inline-block;padding:2px 10px;posi=
+tion:relative}
+.p13n-report-flag-hide{cursor:none;display:none}.p13n-report-flag{backgroun=
+d-image:url(https://m.media-amazon.com/images/S/sash/vh8ofoqOd7XyRsk.png);b=
+ackground-repeat:no-repeat;background-size:15px 16px;cursor:pointer;height:=
+16px;position:absolute;right:20px;top:35px;width:15px}.p13n-report-flag:hov=
+er{background-image:url(https://m.media-amazon.com/images/S/sash/WXxFP-k55X=
+6KCh2.png)}.p13n-report-problem-modal-root{padding:14px 18px}
+._p13n-asin-list-plain_energy-efficiency_energy-efficiency-container__3JNRZ=
+{text-align:left}._p13n-asin-list-plain_energy-efficiency_energy-efficiency=
+-container__3JNRZ ._p13n-asin-list-plain_energy-efficiency_energy-efficienc=
+y-badge-standard__1DZQE{cursor:pointer;display:inline-block;height:24px}._p=
+13n-asin-list-plain_energy-efficiency_energy-efficiency-container__3JNRZ ._=
+p13n-asin-list-plain_energy-efficiency_energy-efficiency-badge-standard__1D=
+ZQE ._p13n-asin-list-plain_energy-efficiency_energy-efficiency-badge-shape_=
+_3eEPs{display:inline-block;height:24px}._p13n-asin-list-plain_energy-effic=
+iency_energy-efficiency-container__3JNRZ ._p13n-asin-list-plain_energy-effi=
+ciency_energy-efficiency-badge-standard__1DZQE ._p13n-asin-list-plain_energ=
+y-efficiency_energy-efficiency-badge-rating__3ZjLJ{fill:#fff;font-size:20.4=
+px;vertical-align:middle}._p13n-asin-list-plain_energy-efficiency_energy-ef=
+ficiency-container__3JNRZ ._p13n-asin-list-plain_energy-efficiency_energy-e=
+fficiency-badge-standard__1DZQE ._p13n-asin-list-plain_energy-efficiency_en=
+ergy-efficiency-badge-rating-sign__njBfM{fill:#fff;font-size:14.4px;vertica=
+l-align:middle}._p13n-asin-list-plain_energy-efficiency_energy-efficiency-c=
+ontainer__3JNRZ ._p13n-asin-list-plain_energy-efficiency_energy-efficiency-=
+badge-standard__1DZQE._p13n-asin-list-plain_energy-efficiency_energy-effici=
+ency-badge-eu2021-standard__K55Xc ._p13n-asin-list-plain_energy-efficiency_=
+energy-efficiency-badge-rating__3ZjLJ{left:14.4px;text-shadow:-.5px -.5px 0=
+ #000,.5px -.5px 0 #000,-.5px .5px 0 #000,.5px .5px 0 #000}._p13n-asin-list=
+-plain_energy-efficiency_energy-efficiency-container__3JNRZ ._p13n-asin-lis=
+t-plain_energy-efficiency_energy-efficiency-badge-data-sheet-label-containe=
+r__1CQmy{display:inline-block;padding-left:4.8px;padding-top:0;position:abs=
+olute;vertical-align:middle}._p13n-asin-list-plain_energy-efficiency_energy=
+-efficiency-container__3JNRZ ._p13n-asin-list-plain_energy-efficiency_energ=
+y-efficiency-badge-data-sheet-label-container__1CQmy ._p13n-asin-list-plain=
+_energy-efficiency_energy-efficiency-badge-data-sheet-label__2oTm8{cursor:p=
+ointer;word-break:break-word}
+._p13n-asin-list-plain_feedbackModalStyle_p13n-popover-button-divider__1Jt3=
+6{margin:6px 0}._p13n-asin-list-plain_feedbackModalStyle_p13n-feedback-popo=
+ver-button__2rWBn{background:url(https://m.media-amazon.com/images/G/01/x-l=
+ocale/personalization/core-recs/canaries/kebabgrey_18.png) no-repeat 0 0;ba=
+ckground-size:18px;display:block;height:18px;text-decoration:none;width:18p=
+x}._p13n-asin-list-plain_feedbackModalStyle_p13n-feedback-popover-button__2=
+rWBn:hover{background-position:0 -18px}._p13n-asin-list-plain_feedbackModal=
+Style_p13n-feedback-modal-height__1uBiC{height:450px}._p13n-asin-list-plain=
+_feedbackModalStyle_p13n-desktop-feedback-kebab-wrapper__jo5L2{margin:0 3px=
+ 15px 10px}._p13n-asin-list-plain_feedbackModalStyle_p13n-desktop-feedback-=
+modal-center-utils__3n1l4{height:35px;margin-top:10px;text-align:center}._p=
+13n-asin-list-plain_feedbackModalStyle_p13n-desktop-feedback-modal-changeov=
+er__MVHoj{display:none}
+.p13n-edit-your-recs-button{margin:17px 10px 0}.p13n-flex-container-edit-re=
+cs-bottom-sheet{-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-=
+align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;d=
+isplay:-ms-flexbox;display:flex;justify-content:space-between}._p13n-asin-l=
+ist-plain_feedbackBottomSheet_p13n-feedback-bottom-sheet-button-height__2ij=
+Ud{height:115px}._p13n-asin-list-plain_feedbackBottomSheet_p13n-feedback-bo=
+ttom-sheet-center-utils__1Tmrs{height:35px;margin-top:10px;text-align:cente=
+r}._p13n-asin-list-plain_feedbackBottomSheet_p13n-feedback-bottom-sheet-but=
+ton__22VvU{background:url(https://m.media-amazon.com/images/G/01/x-locale/p=
+ersonalization/core-recs/canaries/kebabgrey_18.png) no-repeat 0 0;backgroun=
+d-size:18px;display:block;height:18px;text-decoration:none;width:18px}._p13=
+n-asin-list-plain_feedbackBottomSheet_p13n-feedback-kebab-wrapper__1_ntN{-m=
+s-flex-negative:0;flex-shrink:0;margin:0 3px 15px 10px}._p13n-asin-list-pla=
+in_feedbackBottomSheet_p13n-feedback-bottom-sheet-changeover__2dLyP{display=
+:none}
+._p13n-asin-list-plain_style_welcome__2Dav7{background:-webkit-linear-gradi=
+ent(#01a4b5,#008296,#383e3e);background:linear-gradient(#01a4b5,#008296,#38=
+3e3e);color:#fff;padding:40px;text-align:center}._p13n-asin-list-plain_styl=
+e_welcome__2Dav7 h1{font-size:4em}._p13n-asin-list-plain_style_welcome__2Da=
+v7 h2{font-size:2.5em}._p13n-asin-list-plain_style_example__286SK{padding:4=
+0px}</style>
+       <!--CardsClient-->
+       <table style=3D"width:100%" id=3D"CardInstancemsELiLaN16L6gxGHsi_4dg=
+" data-card-metrics-id=3D"p13n-asin-list-plain_email-order-confirmation_0">
+        <tbody>
+         <tr>
+          <td>
+           <table width=3D"100%" bgcolor=3D"#FFFFFF" style=3D"vertical-alig=
+n:central;background:white">
+            <tbody>
+             <tr>
+              <td style=3D"font:18px Arial,sans-serif;text-decoration:none;=
+color:#cc6600;padding:10px">Frequently bought together with items in your o=
+rder</td>
+             </tr>
+            </tbody>
+           </table></td>
+         </tr>
+         <tr>
+          <td>
+           <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" style=3D"vertical-align:central;background:white">
+            <tbody>
+             <tr>
+              <td width=3D"48%" bgcolor=3D"#ffffff" style=3D"vertical-align=
+:middle">
+               <table>
+                <tbody>
+                 <tr>
+                  <td align=3D"center" style=3D"min-width:80px;padding:12px=
+ 5px 10px 5px;vertical-align:middle"><a href=3D"https://www.amazon.com/gp/r=
+.html?C=3D1GDZONJ9HF37K&K=3D3H3KXPPGEIMDG&M=3Durn:rtn:msg:2023021813561062d=
+07befcad54c2f802e72f2d4e0p0na&R=3D3H0OIG54VJW1V&T=3DC&U=3Dhttps%3A%2F%2Fwww=
+.amazon.com%2FFolding-Travel-Toilets-Non-Slip-Suction%2Fdp%2FB07MTRHDXZ%2Fr=
+ef%3Dpe_386300_440135490_bx_sccl_1%2F147-3125018-6267055%2Fref%3Dbx%3F_enco=
+ding%3DUTF8%26pd_rd_i%3DB07MTRHDXZ%26psc%3D1%26pd_rd_w%3DznCGZ%26content-id=
+%3Damzn1.sym.53d0c0e9-9517-4f9c-803c-fb566815daae%26pf_rd_p%3D53d0c0e9-9517=
+-4f9c-803c-fb566815daae%26pf_rd_r%3DD6AB7WY20BY7JFZYTEH0%26pd_rd_wg%3DQmM68=
+%26pd_rd_r%3De5311b3b-f746-417e-8f94-8c29dbc15ad3&H=3DUSO9QYLQBSQIZP0UDEFXM=
+AX3MUGA&ref_=3Dpe_386300_440135490_bx_sccl_1"><img style=3D"margin:0 8px 0 =
+8px" src=3D"https://m.media-amazon.com/images/I/51GFQM262tL._AC_SX80_SY80_S=
+S80_.jpg" alt=3D"Folding Travel Potty Seat for Boys and Girls, Fits Round &=
+amp; Oval Toilets, Non-Slip Suction Cups, Includes Free Travel Bag - Jo" wi=
+dth=3D"80" height=3D"80" /></a></td>
+                  <td style=3D"padding:12px 5px 10px 5px;vertical-align:mid=
+dle">
+                   <table>
+                    <tbody>
+                     <tr>
+                      <td><a href=3D"https://www.amazon.com/gp/r.html?C=3D1=
+GDZONJ9HF37K&K=3D3H3KXPPGEIMDG&M=3Durn:rtn:msg:2023021813561062d07befcad54c=
+2f802e72f2d4e0p0na&R=3D2LC8WZKGV2V3S&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.com=
+%2FFolding-Travel-Toilets-Non-Slip-Suction%2Fdp%2FB07MTRHDXZ%2Fref%3Dpe_386=
+300_440135490_bx_sccl_1%2F147-3125018-6267055%2Fref%3Dbx%3F_encoding%3DUTF8=
+%26pd_rd_i%3DB07MTRHDXZ%26psc%3D1%26pd_rd_w%3DznCGZ%26content-id%3Damzn1.sy=
+m.53d0c0e9-9517-4f9c-803c-fb566815daae%26pf_rd_p%3D53d0c0e9-9517-4f9c-803c-=
+fb566815daae%26pf_rd_r%3DD6AB7WY20BY7JFZYTEH0%26pd_rd_wg%3DQmM68%26pd_rd_r%=
+3De5311b3b-f746-417e-8f94-8c29dbc15ad3&H=3DGNCOC85QDHLJM2CF1A0OV1AU0IUA&ref=
+_=3Dpe_386300_440135490_bx_sccl_1" style=3D"font:13px Arial,sans-serif;text=
+-decoration:none;color:#666666">Folding Travel Potty Seat for Boys...</a></=
+td>
+                     </tr>
+                     <tr>
+                      <td><a href=3D"https://www.amazon.com/gp/r.html?C=3D1=
+GDZONJ9HF37K&K=3D3H3KXPPGEIMDG&M=3Durn:rtn:msg:2023021813561062d07befcad54c=
+2f802e72f2d4e0p0na&R=3D1NW0O614UQF7K&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.com=
+%2FFolding-Travel-Toilets-Non-Slip-Suction%2Fdp%2FB07MTRHDXZ%2Fref%3Dpe_386=
+300_440135490_bx_sccl_1%2F147-3125018-6267055%2Fref%3Dbx%3F_encoding%3DUTF8=
+%26pd_rd_i%3DB07MTRHDXZ%26psc%3D1%26pd_rd_w%3DznCGZ%26content-id%3Damzn1.sy=
+m.53d0c0e9-9517-4f9c-803c-fb566815daae%26pf_rd_p%3D53d0c0e9-9517-4f9c-803c-=
+fb566815daae%26pf_rd_r%3DD6AB7WY20BY7JFZYTEH0%26pd_rd_wg%3DQmM68%26pd_rd_r%=
+3De5311b3b-f746-417e-8f94-8c29dbc15ad3&H=3DOV6NLJQQG624ND9VCU4X0X4TGYKA&ref=
+_=3Dpe_386300_440135490_bx_sccl_1" style=3D"text-decoration:none"><span sty=
+le=3D"font:13px Arial,sans-serif;text-decoration:none;color:#666666">$14.99=
+</span><span style=3D"vertical-align:-3px"><img style=3D"margin:0px 5px" sr=
+c=3D"https://m.media-amazon.com/images/G/01/StreamDEX/prime_badge_small.png=
+" border=3D"0" alt=3D"Prime shipping available" /></span></a></td>
+                     </tr>
+                    </tbody>
+                   </table></td>
+                 </tr>
+                </tbody>
+               </table></td>
+              <td width=3D"48%" bgcolor=3D"#ffffff" style=3D"vertical-align=
+:middle">
+               <table>
+                <tbody>
+                 <tr>
+                  <td align=3D"center" style=3D"min-width:80px;padding:12px=
+ 5px 10px 5px;vertical-align:middle"><a href=3D"https://www.amazon.com/gp/r=
+.html?C=3D1GDZONJ9HF37K&K=3D3H3KXPPGEIMDG&M=3Durn:rtn:msg:2023021813561062d=
+07befcad54c2f802e72f2d4e0p0na&R=3DTK3VFQ3PCMAB&T=3DC&U=3Dhttps%3A%2F%2Fwww.=
+amazon.com%2FPotty-Engaging-Illustrations-Rhyming-Instructions-Excited%2Fdp=
+%2F1926444507%2Fref%3Dpe_386300_440135490_bx_sccl_2%2F147-3125018-6267055%2=
+Fref%3Dbx%3F_encoding%3DUTF8%26pd_rd_i%3D1926444507%26psc%3D1%26pd_rd_w%3Dz=
+nCGZ%26content-id%3Damzn1.sym.53d0c0e9-9517-4f9c-803c-fb566815daae%26pf_rd_=
+p%3D53d0c0e9-9517-4f9c-803c-fb566815daae%26pf_rd_r%3DD6AB7WY20BY7JFZYTEH0%2=
+6pd_rd_wg%3DQmM68%26pd_rd_r%3De5311b3b-f746-417e-8f94-8c29dbc15ad3&H=3DAC5V=
+FICVO1FWUI3L7Z1ZNE8MTBEA&ref_=3Dpe_386300_440135490_bx_sccl_2"><img style=
+=3D"margin:0 8px 0 8px" src=3D"https://m.media-amazon.com/images/I/81MBBTLQ=
+0BL._AC_SX80_SY80_SS80_.jpg" alt=3D"Dino Potty-Engaging Illustrations and F=
+un, Step-by-Step Rhyming Instructions get Little Ones Excited to Use the Po=
+tty on thei" width=3D"80" height=3D"80" /></a></td>
+                  <td style=3D"padding:12px 5px 10px 5px;vertical-align:mid=
+dle">
+                   <table>
+                    <tbody>
+                     <tr>
+                      <td><a href=3D"https://www.amazon.com/gp/r.html?C=3D1=
+GDZONJ9HF37K&K=3D3H3KXPPGEIMDG&M=3Durn:rtn:msg:2023021813561062d07befcad54c=
+2f802e72f2d4e0p0na&R=3DTS3YJV1R3CUU&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.com%=
+2FPotty-Engaging-Illustrations-Rhyming-Instructions-Excited%2Fdp%2F19264445=
+07%2Fref%3Dpe_386300_440135490_bx_sccl_2%2F147-3125018-6267055%2Fref%3Dbx%3=
+F_encoding%3DUTF8%26pd_rd_i%3D1926444507%26psc%3D1%26pd_rd_w%3DznCGZ%26cont=
+ent-id%3Damzn1.sym.53d0c0e9-9517-4f9c-803c-fb566815daae%26pf_rd_p%3D53d0c0e=
+9-9517-4f9c-803c-fb566815daae%26pf_rd_r%3DD6AB7WY20BY7JFZYTEH0%26pd_rd_wg%3=
+DQmM68%26pd_rd_r%3De5311b3b-f746-417e-8f94-8c29dbc15ad3&H=3DG3WKNEQU6OZP4QO=
+AP0XGOB6KCOSA&ref_=3Dpe_386300_440135490_bx_sccl_2" style=3D"font:13px Aria=
+l,sans-serif;text-decoration:none;color:#666666">Dino Potty-Engaging Illust=
+rations and...</a></td>
+                     </tr>
+                     <tr>
+                      <td><a href=3D"https://www.amazon.com/gp/r.html?C=3D1=
+GDZONJ9HF37K&K=3D3H3KXPPGEIMDG&M=3Durn:rtn:msg:2023021813561062d07befcad54c=
+2f802e72f2d4e0p0na&R=3D3R1BE9FT4MGSZ&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.com=
+%2FPotty-Engaging-Illustrations-Rhyming-Instructions-Excited%2Fdp%2F1926444=
+507%2Fref%3Dpe_386300_440135490_bx_sccl_2%2F147-3125018-6267055%2Fref%3Dbx%=
+3F_encoding%3DUTF8%26pd_rd_i%3D1926444507%26psc%3D1%26pd_rd_w%3DznCGZ%26con=
+tent-id%3Damzn1.sym.53d0c0e9-9517-4f9c-803c-fb566815daae%26pf_rd_p%3D53d0c0=
+e9-9517-4f9c-803c-fb566815daae%26pf_rd_r%3DD6AB7WY20BY7JFZYTEH0%26pd_rd_wg%=
+3DQmM68%26pd_rd_r%3De5311b3b-f746-417e-8f94-8c29dbc15ad3&H=3DQB9TS8BQHDBZXV=
+Z8IK42PHFUAP8A&ref_=3Dpe_386300_440135490_bx_sccl_2" style=3D"text-decorati=
+on:none"><span style=3D"font:13px Arial,sans-serif;text-decoration:none;col=
+or:#666666">$7.19</span><span style=3D"vertical-align:-3px"><img style=3D"m=
+argin:0px 5px" src=3D"https://m.media-amazon.com/images/G/01/StreamDEX/prim=
+e_badge_small.png" border=3D"0" alt=3D"Prime shipping available" /></span><=
+/a></td>
+                     </tr>
+                    </tbody>
+                   </table></td>
+                 </tr>
+                </tbody>
+               </table></td>
+             </tr>
+            </tbody>
+           </table></td>
+         </tr>
+        </tbody>
+       </table>
+       <script>if(window.mix_csa){window.mix_csa('[cel_widget_id=3D"p13n-as=
+in-list-plain_email-order-confirmation_0"]', '#CardInstancemsELiLaN16L6gxGH=
+si_4dg')('mark', 'be')}</script>
+       <script>if(window.uet){window.uet('be','p13n-asin-list-plain_email-o=
+rder-confirmation_0',{wb: 1})}</script>
+       <script>if(window.mixTimeout){window.mixTimeout('p13n-asin-list-plai=
+n', 'CardInstancemsELiLaN16L6gxGHsi_4dg', 90000)};
+P.when('mix:@amzn/mix.client-runtime', 'mix:p13n-asin-list-plain__RudJ2_as'=
+).execute(function (runtime, cardModule) {runtime.registerCardFactory('Card=
+InstancemsELiLaN16L6gxGHsi_4dg', cardModule).then(function(){if(window.mix_=
+csa){window.mix_csa('[cel_widget_id=3D"p13n-asin-list-plain_email-order-con=
+firmation_0"]', '#CardInstancemsELiLaN16L6gxGHsi_4dg')('mark', 'functional'=
+)}if(window.uex){window.uex('ld','p13n-asin-list-plain_email-order-confirma=
+tion_0',{wb: 1})}});});
+</script>
+       <script>P.load.js('https://images-na.ssl-images-amazon.com/images/I/=
+01NlpP60zWL.js?xcp');
+</script>
+      </div> </td>
+    </tr>
+    <tr>
+     <td id=3D"legalCopy"> <p> The payment for your invoice is processed by=
+ Amazon Payments, Inc. P.O. Box 81226 Seattle, Washington 98108-1226. If yo=
+u need more information, please contact (866) 216-1075 </p> <p> By placing =
+your order, you agree to Amazon.com=E2=80=99s <a href=3D"https://www.amazon=
+.com/gp/r.html?C=3D1GDZONJ9HF37K&K=3D3H3KXPPGEIMDG&M=3Durn:rtn:msg:20230218=
+13561062d07befcad54c2f802e72f2d4e0p0na&R=3D2VK6G522KN3WN&T=3DC&U=3Dhttps%3A=
+%2F%2Fwww.amazon.com%2Fgp%2Fhelp%2Fcustomer%2Fdisplay.html%2Fref%3Dpe_38630=
+0_440135490_TE_simp_p%3Fie%3DUTF8%26nodeId%3D468496&H=3DJN0DWJWD3ER7V2W3YBI=
+YWHYOPPWA&ref_=3Dpe_386300_440135490_TE_simp_p">Privacy Notice</a> and <a h=
+ref=3D"https://www.amazon.com/gp/r.html?C=3D1GDZONJ9HF37K&K=3D3H3KXPPGEIMDG=
+&M=3Durn:rtn:msg:2023021813561062d07befcad54c2f802e72f2d4e0p0na&R=3D3GMQ3WV=
+MASVU3&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.com%2Fgp%2Fhelp%2Fcustomer%2Fdisp=
+lay.html%2Fref%3Dpe_386300_440135490_TE_simp_p%3Fie%3DUTF8%26nodeId%3D50808=
+8&H=3DOCWFAE9W1JVAFCGIAFCA1BR84KSA&ref_=3Dpe_386300_440135490_TE_simp_p"> C=
+onditions of Use</a>. Unless otherwise noted, items sold by Amazon.com are =
+subject to sales tax in select states in accordance with the applicable law=
+s of that state. If your order contains one or more items from a seller oth=
+er than Amazon.com, it may be subject to state and local sales tax, dependi=
+ng upon the seller's business policies and the location of their operations=
+. Learn more about <a href=3D"https://www.amazon.com/gp/r.html?C=3D1GDZONJ9=
+HF37K&K=3D3H3KXPPGEIMDG&M=3Durn:rtn:msg:2023021813561062d07befcad54c2f802e7=
+2f2d4e0p0na&R=3D3CCL20YJ4RABO&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.com%2Fgp%2=
+Fhelp%2Fcustomer%2Fdisplay.html%2Fref%3Dpe_386300_440135490_hp_bc_nav%3Fie%=
+3DUTF8%26nodeId%3D202029700&H=3DJXPUQADZ9BAFX3G6VQP05GGLTBEA&ref_=3Dpe_3863=
+00_440135490_hp_bc_nav">tax and seller information</a>. </p> <p></p> <p>Thi=
+s email was sent from a notification-only address that cannot accept incomi=
+ng email. Please do not reply to this message.</p> </td>
+    </tr>
+   </tbody>
+  </table>
+ <img width=3D"1" height=3D"1" src=3D"https://www.amazon.com/gp/r.html?C=3D=
+1GDZONJ9HF37K&K=3D3H3KXPPGEIMDG&M=3Durn:rtn:msg:2023021813561062d07befcad54=
+c2f802e72f2d4e0p0na&R=3D2EUB2QTTDIL2U&T=3DE&U=3Dhttps%3A%2F%2Fimages-na.ssl=
+-images-amazon.com%2Fimages%2FG%2F01%2Fnav%2Ftransp.gif&H=3DLLM167GPRYA0OV3=
+MTU9W8TKNRIOA&ref_=3Dpe_386300_440135490_open" /></body>
+</html>
