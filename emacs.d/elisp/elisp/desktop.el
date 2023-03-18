@@ -1,0 +1,1 @@
+/home/lefv/.dotfiles/emacs.d/elisp/desktop.el

@@ -1,0 +1,1 @@
+("~/.zprezto/" "~/.nvm/" "~/.dotfiles/" "~/.alacritty-shell/" "~/.SpaceVim/")
