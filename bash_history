@@ -123,3 +123,8 @@ sudo dnf install zsh
 chsh
 zsh
 exit
+ls
+clear
+ls
+pwd
+exit

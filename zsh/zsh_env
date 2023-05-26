@@ -1,5 +1,7 @@
 export DAML='/home/lefv/Documents/uiuc/2022/cs-498'
 export DOT=/home/lefv/.dotfiles
+export _UIUC='/home/lefv/Documents/uiuc'
+export XDG_CONFIG_HOME='~/.config'
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 path+=/home/lefv/.cargo/bin
 path+=('/home/lefv/.local/bin')
