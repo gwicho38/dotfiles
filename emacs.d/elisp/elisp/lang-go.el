@@ -1,1 +1,0 @@
-/home/lefv/.dotfiles/emacs.d/elisp/lang-go.el
