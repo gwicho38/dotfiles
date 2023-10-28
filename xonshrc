@@ -1,0 +1,12 @@
+# XONSH WEBCONFIG START
+$PROMPT = '{BOLD_INTENSE_RED}➜ {CYAN}{cwd_base} {gitstatus}{RESET} '
+# XONSH WEBCONFIG END
+
+xontrib load xog
+xontrib load bashims
+xontrib load fish_completer
+xontrib load coreutils
+xontrib load sh
+xontrib load abbrevs
+xontrib load vox
+source ~/.config/xonsh/xfunctions.py
