@@ -48,26 +48,6 @@
                 "lineBreakInsert"
             ],
             "silent": true
-        },
-        {
-            "before": [
-                "<space>"
-            ],
-            "commands": [
-                "vspacecode.space"
-            ]
-        },
-        {
-            "before": [
-                ","
-            ],
-            "commands": [
-                "vspacecode.space",
-                {
-                    "command": "whichkey.triggerKey",
-                    "args": "m"
-                }
-            ]
         }
     ],
     "vim.leader": "<space>",
@@ -79,42 +59,7 @@
         "vscodevim.vim": 1
     },
     "workbench.iconTheme": "vscode-icons",
-    "vim.visualModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<space>"
-            ],
-            "commands": [
-                "vspacecode.space"
-            ]
-        },
-        {
-            "before": [
-                ","
-            ],
-            "commands": [
-                "vspacecode.space",
-                {
-                    "command": "whichkey.triggerKey",
-                    "args": "m"
-                }
-            ]
-        },
-        {
-            "before": [
-                ">"
-            ],
-            "commands": [
-                "editor.action.indentLines"
-            ]
-        },
-        {
-            "before": [
-                "<"
-            ],
-            "commands": [
-                "editor.action.outdentLines"
-            ]
-        }
-    ]
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.experimentalInlineEdit.backgroundColoring": true,
+    "spacecode.checkVimConfig": false
 }
