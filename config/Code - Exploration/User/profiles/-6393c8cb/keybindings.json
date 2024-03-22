@@ -198,5 +198,15 @@
 	{
 		"key": "ctrl+shift+alt+meta+k u",
 		"command": "workbench.action.openSettings2"
+	},
+	{
+		"key": "ctrl+shift+alt+meta+f",
+		"command": "editor.action.formatDocument",
+		"when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+	},
+	{
+		"key": "ctrl+shift+i",
+		"command": "-editor.action.formatDocument",
+		"when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
 	}
 ]
