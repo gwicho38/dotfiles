@@ -142,5 +142,61 @@
 		"key": "ctrl+l",
 		"command": "file-browser.stepIn",
 		"when": "inFileBrowser"
+    },
+	{
+        "key": "ctrl+shift+alt+meta+/",
+        "command": "workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "ctrl+k ctrl+s",
+        "command": "-workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "ctrl+shift+alt+meta+[",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+shift+alt+meta+]",
+        "command": "workbench.action.toggleAuxiliaryBar"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "-workbench.action.toggleAuxiliaryBar"
+	},
+	{
+		"key": "ctrl+shift+alt+meta+.",
+		"command": "vspacecode.configureKeybindings"
+	},
+	{
+		"key": "ctrl+shift+alt+meta+m",
+		"command": "whichkey.show"
+	},
+	{
+		"key": "ctrl+shift+alt+meta+g",
+		"command": "whichkey.undoKey"
+	},
+	{
+		"key": "ctrl+shift+alt+meta+u",
+		"command": "whichkey.repeatRecent"
+	},
+	{
+		"key": "ctrl+shift+alt+meta+z",
+		"command": "whichkey.repeatMostRecent"
+	},
+	{
+		"key": "ctrl+shift+alt+meta+space",
+		"command": "workbench.action.showCommands"
+	},
+	{
+		"key": "ctrl+shift+alt+meta+,",
+		"command": "workbench.action.openRawDefaultSettings"
+	},
+	{
+		"key": "ctrl+shift+alt+meta+k u",
+		"command": "workbench.action.openSettings2"
 	}
 ]
