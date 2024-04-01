@@ -14,7 +14,6 @@
 source ~/.zsh/zsh_env
 source ~/.zsh/zsh_functions
 source ~/.zsh/zsh_aliases
-source ~/.zsh/zsh_path
 
 ###
 # END: LEFV CONFIG 
