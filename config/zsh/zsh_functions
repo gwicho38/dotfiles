@@ -1257,3 +1257,117 @@ function dotauto-trigger() {
   "$dotfiles_dir/.dotfile-watcher.sh"
 }
 
+# ==============================================================================
+# Remote Server Management (Ollama & Docker)
+# ==============================================================================
+
+# Start Ollama on remote server
+function ollama-remote-start() {
+  local host="${REMOTE_USER}@${REMOTE_HOST}"
+
+  echo "🚀 Starting Ollama on $REMOTE_HOST..."
+  ssh "$host" "sudo systemctl start ollama" || ssh "$host" "ollama serve > /dev/null 2>&1 &"
+
+  echo "✅ Ollama started on remote server"
+  echo "📡 Use: ollama-remote-use to connect"
+}
+
+# Stop Ollama on remote server
+function ollama-remote-stop() {
+  local host="${REMOTE_USER}@${REMOTE_HOST}"
+
+  echo "🛑 Stopping Ollama on $REMOTE_HOST..."
+  ssh "$host" "sudo systemctl stop ollama" || ssh "$host" "pkill -f 'ollama serve'"
+
+  echo "✅ Ollama stopped on remote server"
+}
+
+# Check Ollama status on remote server
+function ollama-remote-status() {
+  local host="${REMOTE_USER}@${REMOTE_HOST}"
+
+  echo "📊 Checking Ollama status on $REMOTE_HOST..."
+  ssh "$host" "systemctl status ollama" || ssh "$host" "pgrep -f 'ollama serve' && echo 'Ollama is running' || echo 'Ollama is not running'"
+}
+
+# Switch to remote Ollama
+function ollama-remote-use() {
+  export OLLAMA_API_BASE="http://${REMOTE_HOST}:11434"
+  echo "✅ Ollama API switched to remote: $OLLAMA_API_BASE"
+  echo "   Run 'ollama list' to verify connection"
+}
+
+# Switch to local Ollama
+function ollama-local-use() {
+  export OLLAMA_API_BASE="http://localhost:11434"
+  echo "✅ Ollama API switched to local: $OLLAMA_API_BASE"
+}
+
+# Show current Ollama endpoint
+function ollama-which() {
+  echo "📡 Current Ollama endpoint: $OLLAMA_API_BASE"
+  if [[ "$OLLAMA_API_BASE" == *"$REMOTE_HOST"* ]]; then
+    echo "   (Remote server)"
+  else
+    echo "   (Local server)"
+  fi
+}
+
+# ==============================================================================
+# Docker Remote Host Management
+# ==============================================================================
+
+# Switch to remote Docker daemon
+function docker-remote-use() {
+  export DOCKER_HOST="ssh://${REMOTE_USER}@${REMOTE_HOST}"
+  echo "✅ Docker switched to remote: $DOCKER_HOST"
+  echo "   Testing connection..."
+  docker info 2>/dev/null | grep "Server Version" || echo "⚠️  Connection failed"
+}
+
+# Switch to local Docker daemon
+function docker-local-use() {
+  unset DOCKER_HOST
+  echo "✅ Docker switched to local daemon"
+  echo "   Testing connection..."
+  docker info 2>/dev/null | grep "Server Version" || echo "⚠️  Connection failed"
+}
+
+# Show current Docker host
+function docker-which() {
+  if [[ -n "$DOCKER_HOST" ]]; then
+    echo "📡 Current Docker host: $DOCKER_HOST"
+    echo "   (Remote server)"
+  else
+    echo "📡 Current Docker host: local daemon"
+    echo "   (Local unix socket)"
+  fi
+  echo ""
+  echo "Server info:"
+  docker info 2>/dev/null | grep -E "(Server Version|Operating System|OSType)" || echo "⚠️  Docker not available"
+}
+
+# SSH into remote server
+function remote-ssh() {
+  ssh "${REMOTE_USER}@${REMOTE_HOST}"
+}
+
+# Show remote server info
+function remote-info() {
+  local host="${REMOTE_USER}@${REMOTE_HOST}"
+
+  echo "🖥️  Remote Server Information"
+  echo "================================"
+  echo "Host: $REMOTE_HOST"
+  echo "User: $REMOTE_USER"
+  echo ""
+  echo "System Info:"
+  ssh "$host" "uname -a"
+  echo ""
+  echo "Ollama Status:"
+  ssh "$host" "pgrep -f 'ollama' > /dev/null && echo '✅ Running' || echo '❌ Not running'"
+  echo ""
+  echo "Docker Status:"
+  ssh "$host" "docker ps > /dev/null 2>&1 && echo '✅ Running' || echo '❌ Not running'"
+}
+

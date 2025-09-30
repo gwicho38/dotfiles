@@ -6,4 +6,10 @@
 # export PATH=$HOME/development/flutter/bin:$PATH
 export PATH=$HOME/.claude/local/:$PATH
 export LEFV_VAULT=$HOME/repos/lefv-vault/
+
+# Remote server configuration
+export REMOTE_HOST="192.168.8.239"
+export REMOTE_USER="lefvpc"
+
+# Ollama configuration (default to localhost)
 export OLLAMA_API_BASE=http://localhost:11434 

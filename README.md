@@ -113,6 +113,55 @@ Convenient shortcuts for common project commands:
 ### Generic
 - `m <target>` - Run any Makefile target in current directory
 
+## Remote Server Management
+
+Commands for managing Ollama and Docker on remote server (192.168.8.239).
+
+### Ollama Remote Control
+
+```bash
+# Start Ollama on remote server
+ollama-remote-start
+
+# Stop Ollama on remote server
+ollama-remote-stop
+
+# Check Ollama status
+ollama-remote-status
+
+# Switch to remote Ollama API
+ollama-remote-use
+
+# Switch back to local Ollama
+ollama-local-use
+
+# Check current Ollama endpoint
+ollama-which
+```
+
+### Docker Remote Control
+
+```bash
+# Switch to remote Docker daemon
+docker-remote-use
+
+# Switch back to local Docker
+docker-local-use
+
+# Check current Docker host
+docker-which
+```
+
+### General Remote Access
+
+```bash
+# SSH into remote server
+remote-ssh
+
+# Show remote server info (system, ollama, docker status)
+remote-info
+```
+
 ## RCM Configuration
 
 Dotfiles are symlinked from `~/repos/dotfiles` to `~` using RCM.
