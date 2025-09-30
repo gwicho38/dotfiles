@@ -1,7 +1,4 @@
-DOTFILES_DIR="$HOME/repos/dotfiles/"
-# EXCLUDES="README.md LICENSE"
-# TAGS="work personal"
-# SYMLINK_DIRS=".vim .config"
-# HOOK_DIRS="$DOTFILES_DIR/hooks"
-# COPY_ALWAYS=".gitconfig-local"
+DOTFILES_DIRS="$HOME/repos/dotfiles"
+EXCLUDES="README.md LICENSE .git .gitignore .DS_Store"
+SYMLINK_DIRS="config"
 

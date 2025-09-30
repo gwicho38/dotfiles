@@ -1,3 +1,9 @@
-export LSH="$HOME/repos/lsh/"
-export FZF_DEFAULT_OPTS="--height 80% --border --inline-info --preview 'bat --color=always {}' --preview-window '~3'"
-export LVAULT='/Users/lefv/repos/lefv-vault'
+# export LSH="$HOME/repos/lsh/"
+# export FZF_DEFAULT_OPTS="--height 80% --border --inline-info --preview 'bat --color=always {}' --preview-window '~3'"
+# export LVAULT='/Users/lefv/repos/lefv-vault'
+# export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
+# export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+# export PATH=$HOME/development/flutter/bin:$PATH
+export PATH=$HOME/.claude/local/:$PATH
+export LEFV_VAULT=$HOME/repos/lefv-vault/
+export OLLAMA_API_BASE=http://localhost:11434 

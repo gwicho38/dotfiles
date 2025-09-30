@@ -1,40 +1,27 @@
-window:
-  option_as_alt: OnlyLeft
-
-shell:
-  program: /bin/tmux
-
-  # Font configuration (changes require restart)
+env:
+  # TERM variable
+  #
+  # This value is used to set the `$TERM` environment variable for
+  # each instance of Alacritty. If it is not present, alacritty will
+  # check the local terminfo database and use `alacritty` if it is
+  # available, otherwise `xterm-256color` is used.
+  TERM: "xterm-256color"
 font:
-  # Normal (roman) font face
   normal:
-    family: 3270NerdFont
-    style: Regular
+    family: 3270 Nerd Font
+  size: 14
 
-  # Bold font face
-  bold:
-    family: HackNerdFont
-    style: Bold
+# Cursor configuration
+cursor:
+  style: block # Sets the style of the cursor. Options are: Block, Underline, or Beam.
+  unfocused_hollow: false  # Determines whether the cursor is hollow when the window is unfocused. Options are: true or false.
 
-  # Italic font face
-  italic:
-    family: HackNerdFont
-    style: Italic
-
-  # Bold italic font face
-  bold_italic:
-    family: Hack Nerd Font
-    style: Bold Italic
-
-  # Point size
-  size: 10.0
-
-# Colors (Gruvbox dark)
 colors:
   # Default colors
   primary:
     # hard contrast: background = '#1d2021'
-    background: '#282828'
+    # background: '#282828'
+    background: '#1d2021'
     # soft contrast: background = '#32302f'
     foreground: '#ebdbb2'
 
@@ -59,5 +46,3 @@ colors:
     magenta: '#d3869b'
     cyan:    '#8ec07c'
     white:   '#ebdbb2'
-
-

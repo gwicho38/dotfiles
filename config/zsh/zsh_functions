@@ -38,7 +38,6 @@ function sortalias() {
 }
 
 function sortenv() {
-# TODO - check effect on nested if statements  
   sort ~/.config/zsh/zsh_env --unique --output ~/.config/zsh/zsh_env;
 }
 
@@ -68,10 +67,9 @@ function viewdoc () {
 }
 
 function trim () {
-  #test=$*
-  #echo "${test//}"
-  FOO_NO_WHITESPACE="$(echo -e "${test}" | tr -d '[:space:]')"
-  echo $FOO_NO_WHITESPACE
+  local text="$*"
+  local trimmed="$(echo -e "${text}" | tr -d '[:space:]')"
+  echo $trimmed
 }
 
 function cenv () {
@@ -107,3 +105,1155 @@ function lgetminute() {
 function eenv() {
   nvim ~/.config/zsh/zsh_env
 }
+
+function cli() {
+  uv --project ~/repos/mcli run mcli ${@}
+}
+
+function compress_pdfs_lossless() {
+  find . -name "*.pdf" -type f -exec bash -c '
+    for file; do
+        filename="${file%.pdf}"
+        qpdf --optimize-images --compress-streams=y "$file" "${filename}_compressed.pdf"
+        echo "Processed: $file"
+    done
+' _ {} +
+}
+
+function compress_pdfs_lossy() {
+  find . -name "*.pdf" -type f -exec bash -c '
+    for file; do
+        filename="${file%.pdf}"
+        gs -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile="${filename}_compressed.pdf" "$file"
+        echo "Processed: $file"
+    done
+' _ {} +
+}
+
+function compress_images_lossy() {
+find . \( -name "*.jpg" -o -name "*.jpeg" \) -type f -exec bash -c '
+    for file; do
+        filename="${file%.*}"
+        extension="${file##*.}"
+        convert "$file" -quality 60 -strip "${filename}_compressed.${extension}"
+        echo "Processed: $file"
+    done
+' _ {} +
+}
+
+function compress_docs_lossy() {
+find . \( -name "*.doc" -o -name "*.docx" \) -not -name "*_compressed.*" -type f -exec bash -c '
+    for file; do
+        basename=$(basename "$file")
+        filename="${basename%.*}"
+        extension="${basename##*.}"
+        
+        # Create output in current directory with sanitized filename
+        safe_filename=$(echo "$filename" | tr "/" "_")
+        output_file="${safe_filename}_compressed.docx"
+        
+        if [[ "$extension" == "doc" ]]; then
+            soffice --headless --convert-to docx --outdir . "$file"
+            temp_docx="${filename}.docx"
+            if [ -f "$temp_docx" ]; then
+                mv "$temp_docx" "$output_file"
+                echo "Converted .doc: $file -> $output_file"
+            fi
+        elif [[ "$extension" == "docx" ]]; then
+            temp_dir=$(mktemp -d)
+            unzip -q "$file" -d "$temp_dir"
+            (cd "$temp_dir" && zip -r -9 "../$output_file" .)
+            rm -rf "$temp_dir"
+            echo "Recompressed .docx: $file -> $output_file"
+        fi
+    done
+' _ {} +
+}
+
+function ldate() {
+  if [ -z "$1" ]; then
+    echo "Usage: ldate <date>"
+    return 1
+  fi
+  date -d "$1" +"%Y-%m-%d %H:%M:%S"
+}
+
+# safe_link /home/lefvpc/ai-models ./workspace/models
+# safe_link /home/lefvpc/checkpoints ./workspace/checkpoints
+safe_link() {
+
+    local source="$1"
+    local target="$2"
+    
+    if [ ! -e "$target" ]; then
+        ln -s "$source" "$target"
+        echo "Created symlink: $target -> $source"
+    else
+        echo "Target already exists: $target"
+    fi
+}
+
+safe_link_recursive() {
+    local source_dir="$1"
+    local target_dir="$2"
+    local max_depth="${3:-10}"  # Optional depth limit
+    
+    if [ ! -d "$source_dir" ]; then
+        echo "Error: Source directory '$source_dir' does not exist"
+        return 1
+    fi
+    
+    # Create target directory if it doesn't exist
+    mkdir -p "$target_dir"
+    
+    # Find all files recursively and link them
+    find "$source_dir" -maxdepth "$max_depth" -type f | while read -r source_file; do
+        # Calculate relative path from source_dir
+        rel_path="${source_file#$source_dir/}"
+        target_file="$target_dir/$rel_path"
+        target_parent="$(dirname "$target_file")"
+        
+        # Create parent directory if needed
+        mkdir -p "$target_parent"
+        
+        # Link only if target doesn't exist
+        if [ ! -e "$target_file" ]; then
+            ln -s "$source_file" "$target_file"
+            echo "✓ Linked: $target_file -> $source_file"
+        else
+            echo "⚠ Skipped: $target_file (already exists)"
+        fi
+    done
+}
+
+
+function ls() {
+  lsd ${@}
+}
+
+function emcli(){
+  nvim ~/repos/mcli/
+}
+
+function envim() {
+  nvim ~/.config/nvim/
+}
+###-begin-npm-completion-###
+#
+# npm command completion script
+#
+# Installation: npm completion >> ~/.bashrc  (or ~/.zshrc)
+# Or, maybe: npm completion > /usr/local/etc/bash_completion.d/npm
+#
+
+if type complete &>/dev/null; then
+  _npm_completion () {
+    local words cword
+    if type _get_comp_words_by_ref &>/dev/null; then
+      _get_comp_words_by_ref -n = -n @ -n : -w words -i cword
+    else
+      cword="$COMP_CWORD"
+      words=("${COMP_WORDS[@]}")
+    fi
+
+    local si="$IFS"
+    if ! IFS=$'\n' COMPREPLY=($(COMP_CWORD="$cword" \
+                           COMP_LINE="$COMP_LINE" \
+                           COMP_POINT="$COMP_POINT" \
+                           npm completion -- "${words[@]}" \
+                           2>/dev/null)); then
+      local ret=$?
+      IFS="$si"
+      return $ret
+    fi
+    IFS="$si"
+    if type __ltrim_colon_completions &>/dev/null; then
+      __ltrim_colon_completions "${words[cword]}"
+    fi
+  }
+  complete -o default -F _npm_completion npm
+elif type compdef &>/dev/null; then
+  _npm_completion() {
+    local si=$IFS
+    compadd -- $(COMP_CWORD=$((CURRENT-1)) \
+                 COMP_LINE=$BUFFER \
+                 COMP_POINT=0 \
+                 npm completion -- "${words[@]}" \
+                 2>/dev/null)
+    IFS=$si
+  }
+  compdef _npm_completion npm
+elif type compctl &>/dev/null; then
+  _npm_completion () {
+    local cword line point words si
+    read -Ac words
+    read -cn cword
+    let cword-=1
+    read -l line
+    read -ln point
+    si="$IFS"
+    if ! IFS=$'\n' reply=($(COMP_CWORD="$cword" \
+                       COMP_LINE="$line" \
+                       COMP_POINT="$point" \
+                       npm completion -- "${words[@]}" \
+                       2>/dev/null)); then
+
+      local ret=$?
+      IFS="$si"
+      return $ret
+    fi
+    IFS="$si"
+  }
+  compctl -K _npm_completion npm
+fi
+###-end-npm-completion-###
+
+function justificatifs() {
+  local dest_dir="$HOME/repos/lefv-vault/justificatifs/"
+  local default_types=("*.pdf" "*.tar" "*.zip" "*.tar.gz")
+  
+  case "$1" in
+    -h|--help)
+      echo "Usage: justificatifs [options] [files...]"
+      echo "Options:"
+      echo "  -t, --type EXT    Move files with extension EXT"
+      echo "  -d, --default     Move default file types (pdf, tar, zip, tar.gz)"
+      echo "  No args           Same as --default"
+      echo "  files...          Move specified files"
+      return 0
+      ;;
+    -t|--type)
+      if [ -z "$2" ]; then
+        echo "Error: -t requires a file extension"
+        return 1
+      fi
+      local ext="$2"
+      [[ "$ext" != .* ]] && ext=".$ext"
+      find . -maxdepth 1 -name "*$ext" -exec mv {} "$dest_dir" \;
+      ;;
+    -d|--default|"")
+      # Move default file types
+      for pattern in "${default_types[@]}"; do
+        find . -maxdepth 1 -name "$pattern" -exec mv {} "$dest_dir" \; 2>/dev/null
+      done
+      ;;
+    *)
+      # Move specified files
+      mv "$@" "$dest_dir"
+      ;;
+  esac
+}
+
+
+function models() {
+  local dest_dir="$HOME/Cloud-Drive/models/"
+  local default_types=("*.safetensors" "*.gguf")
+  
+  case "$1" in
+    -h|--help)
+      echo "Usage: models [options] [files...]"
+      echo "Options:"
+      echo "  -t, --type EXT    Move files with extension EXT"
+      echo "  -d, --default     Move default file types (safetensors, gguf)"
+      echo "  No args           Same as --default"
+      echo "  files...          Move specified files"
+      return 0
+      ;;
+    -t|--type)
+      if [ -z "$2" ]; then
+        echo "Error: -t requires a file extension"
+        return 1
+      fi
+      local ext="$2"
+      [[ "$ext" != .* ]] && ext=".$ext"
+      find . -maxdepth 1 -name "*$ext" -exec mv {} "$dest_dir" \;
+      ;;
+    -d|--default|"")
+      # Move default file types
+      for pattern in "${default_types[@]}"; do
+        find . -maxdepth 1 -name "$pattern" -exec mv {} "$dest_dir" \; 2>/dev/null
+      done
+      ;;
+    *)
+      # Move specified files
+      mv "$@" "$dest_dir"
+      ;;
+  esac
+}
+
+
+function videos() {
+  local dest_dir="$HOME/Movies/lefv/"
+  local default_types=("*.mp4" "*.avi")
+  
+  case "$1" in
+    -h|--help)
+      echo "Usage: videos [options] [files...]"
+      echo "Options:"
+      echo "  -t, --type EXT    Move files with extension EXT"
+      echo "  -d, --default     Move default file types (mp4, avi)"
+      echo "  No args           Same as --default"
+      echo "  files...          Move specified files"
+      return 0
+      ;;
+    -t|--type)
+      if [ -z "$2" ]; then
+        echo "Error: -t requires a file extension"
+        return 1
+      fi
+      local ext="$2"
+      [[ "$ext" != .* ]] && ext=".$ext"
+      find . -maxdepth 1 -name "*$ext" -exec mv {} "$dest_dir" \;
+      ;;
+    -d|--default|"")
+      # Move default file types
+      for pattern in "${default_types[@]}"; do
+        find . -maxdepth 1 -name "$pattern" -exec mv {} "$dest_dir" \; 2>/dev/null
+      done
+      ;;
+    *)
+      # Move specified files
+      mv "$@" "$dest_dir"
+      ;;
+  esac
+}
+
+function music() {
+  local dest_dir="$HOME/Music/lefv/"
+  local default_types=("*.mp3" "*.flac" "*.aac")
+  
+  case "$1" in
+    -h|--help)
+      echo "Usage: music [options] [files...]"
+      echo "Options:"
+      echo "  -t, --type EXT    Move files with extension EXT"
+      echo "  -d, --default     Move default file types (mp3, flac, aac)"
+      echo "  No args           Same as --default"
+      echo "  files...          Move specified files"
+      return 0
+      ;;
+    -t|--type)
+      if [ -z "$2" ]; then
+        echo "Error: -t requires a file extension"
+        return 1
+      fi
+      local ext="$2"
+      [[ "$ext" != .* ]] && ext=".$ext"
+      find . -maxdepth 1 -name "*$ext" -exec mv {} "$dest_dir" \;
+      ;;
+    -d|--default|"")
+      # Move default file types
+      for pattern in "${default_types[@]}"; do
+        find . -maxdepth 1 -name "$pattern" -exec mv {} "$dest_dir" \; 2>/dev/null
+      done
+      ;;
+    *)
+      # Move specified files
+      mv "$@" "$dest_dir"
+      ;;
+  esac
+}
+
+
+function pictures() {
+  local dest_dir="$HOME/Pictures/lefv/"
+  local default_types=("*.png" "*.jpeg" "*.jpg")
+  
+  case "$1" in
+    -h|--help)
+      echo "Usage: pictures [options] [files...]"
+      echo "Options:"
+      echo "  -t, --type EXT    Move files with extension EXT"
+      echo "  -d, --default     Move default file types (png, jpeg, jpg)"
+      echo "  No args           Same as --default"
+      echo "  files...          Move specified files"
+      return 0
+      ;;
+    -t|--type)
+      if [ -z "$2" ]; then
+        echo "Error: -t requires a file extension"
+        return 1
+      fi
+      local ext="$2"
+      [[ "$ext" != .* ]] && ext=".$ext"
+      find . -maxdepth 1 -name "*$ext" -exec mv {} "$dest_dir" \;
+      ;;
+    -d|--default|"")
+      # Move default file types
+      for pattern in "${default_types[@]}"; do
+        find . -maxdepth 1 -name "$pattern" -exec mv {} "$dest_dir" \; 2>/dev/null
+      done
+      ;;
+    *)
+      # Move specified files
+      mv "$@" "$dest_dir"
+      ;;
+  esac
+}
+
+function binaries() {
+  local dest_dir="$HOME/bin/"
+  local default_types=("*.dmg" "*.bin" "*.exe" "*.whl")
+  
+  case "$1" in
+    -h|--help)
+      echo "Usage: binaries [options] [files...]"
+      echo "Options:"
+      echo "  -t, --type EXT    Move files with extension EXT"
+      echo "  -d, --default     Move default file types (dmg, bin, exe, whl)"
+      echo "  No args           Same as --default"
+      echo "  files...          Move specified files"
+      return 0
+      ;;
+    -t|--type)
+      if [ -z "$2" ]; then
+        echo "Error: -t requires a file extension"
+        return 1
+      fi
+      local ext="$2"
+      [[ "$ext" != .* ]] && ext=".$ext"
+      find . -maxdepth 1 -name "*$ext" -exec mv {} "$dest_dir" \;
+      ;;
+    -d|--default|"")
+      # Move default file types
+      for pattern in "${default_types[@]}"; do
+        find . -maxdepth 1 -name "$pattern" -exec mv {} "$dest_dir" \; 2>/dev/null
+      done
+      ;;
+    *)
+      # Move specified files
+      mv "$@" "$dest_dir"
+      ;;
+  esac
+}
+
+function streams() {
+  local dest_dir="$HOME/Documents/lefv-vault/archive/"
+  local default_types=("*.rss")
+  
+  case "$1" in
+    -h|--help)
+      echo "Usage: streams [options] [files...]"
+      echo "Options:"
+      echo "  -t, --type EXT    Move files with extension EXT"
+      echo "  -d, --default     Move default file types (rss)"
+      echo "  No args           Same as --default"
+      echo "  files...          Move specified files"
+      return 0
+      ;;
+    -t|--type)
+      if [ -z "$2" ]; then
+        echo "Error: -t requires a file extension"
+        return 1
+      fi
+      local ext="$2"
+      [[ "$ext" != .* ]] && ext=".$ext"
+      find . -maxdepth 1 -name "*$ext" -exec mv {} "$dest_dir" \;
+      ;;
+    -d|--default|"")
+      # Move default file types
+      for pattern in "${default_types[@]}"; do
+        find . -maxdepth 1 -name "$pattern" -exec mv {} "$dest_dir" \; 2>/dev/null
+      done
+      ;;
+    *)
+      # Move specified files
+      mv "$@" "$dest_dir"
+      ;;
+  esac
+}
+
+function claude() {
+  ~/.claude/local/claude ${@}
+}
+
+function lsearch() {
+
+  # Default directories
+DEFAULT_DIRS=(
+  "$HOME/repos/lefv-vault"
+)
+
+# Check for search string
+if [ -z "$1" ]; then
+  echo "Usage: $0 \"search term\" [optional list of directories...]"
+  exit 1
+fi
+
+SEARCH_TERM="$1"
+shift
+
+# Use remaining arguments as directories, else fallback to defaults
+if [ "$#" -gt 0 ]; then
+  SEARCH_DIRS=("$@")
+else
+  SEARCH_DIRS=("${DEFAULT_DIRS[@]}")
+fi
+
+# Filter only existing directories
+VALID_DIRS=()
+for d in "${SEARCH_DIRS[@]}"; do
+  if [ -d "$d" ]; then
+    VALID_DIRS+=("$d")
+  fi
+done
+
+if [ "${#VALID_DIRS[@]}" -eq 0 ]; then
+  echo "No valid directories found to search."
+  exit 1
+fi
+
+# Run ripgrep with ±3 lines of context and pipe to fzf
+rg --color=always -C 3 "$SEARCH_TERM" "${VALID_DIRS[@]}" | fzf --ansi --multi
+
+}
+
+function send_to_comfy_ui() {
+  sudo scp ${@} lefvpc@192.168.1.28:/home/lefvpc/
+}
+
+function evault() {
+  nvim $LEFV_VAULT;
+}
+
+function kill_at_port() {
+  (lsof -ti:$1 | xargs kill -9 2>/dev/null || true)
+}
+
+function make_native() {
+  nativefier "${1}" --name "${2}"
+}
+
+function mv_to_apps() {
+  mv ${1} ${2}
+}
+
+function lorange () {
+  local dest_dir="$HOME/Downloads/"
+  local default_types=("*.dmg" "*.bin" "*.exe" "*.whl" "*.png" "*.mov" "*.jpeg" "*.jpg" "*.mp4")
+
+  case "$1" in
+    -h|--help)
+      echo "Usage: lorange [options] [files...]"
+      echo "Options:"
+      echo "  -t, --type EXT    Move files with extension EXT"
+      echo "  -d, --default     Move default file types (dmg, bin, exe, whl, png, mov, jpeg, jpg, mp4)"
+      echo "  No args           Same as --default"
+      echo "  files...          Move specified files"
+      return 0
+      ;;
+    -t|--type)
+      if [ -z "$2" ]; then
+        echo "Error: -t requires a file extension"
+        return 1
+      fi
+      local ext="$2"
+      [[ "$ext" != .* ]] && ext=".$ext"
+      find . -maxdepth 1 -name "*$ext" -exec mv {} "$dest_dir" \;
+      ;;
+    -d|--default|"")
+      # Move default file types
+      for pattern in "${default_types[@]}"; do
+        find . -maxdepth 1 -name "$pattern" -exec mv {} "$dest_dir" \; 2>/dev/null
+      done
+      ;;
+    *)
+      # Move specified files
+      mv "$@" "$dest_dir"
+      ;;
+  esac
+
+}
+
+
+function donedrive() {
+  cd $HOME/Documents/OneDrive/
+}
+
+  function imcli() {
+      local MCLI_DIST="$HOME/repos/mcli/dist"
+
+      # Check if dist directory exists
+      if [[ ! -d "$MCLI_DIST" ]]; then
+          echo "❌ Error: $MCLI_DIST not found"
+          return 1
+      fi
+
+      # Find the latest wheel file (preferred) or tar.gz as fallback
+      local latest_wheel=$(ls -t "$MCLI_DIST"/*.whl 2>/dev/null | head -1)
+      local latest_tarball=$(ls -t "$MCLI_DIST"/*.tar.gz 2>/dev/null | head -1)
+
+      local install_file=""
+
+      if [[ -n "$latest_wheel" ]]; then
+          install_file="$latest_wheel"
+          echo "📦 Installing latest wheel: $(basename "$latest_wheel")"
+      elif [[ -n "$latest_tarball" ]]; then
+          install_file="$latest_tarball"
+          echo "📦 Installing latest tarball: $(basename "$latest_tarball")"
+      else
+          echo "❌ Error: No mcli build files found in $MCLI_DIST"
+          return 1
+      fi
+
+      # Install with uv
+      echo "🔄 Running: uv pip install '$install_file'"
+      uv pip install "$install_file" --force-reinstall
+
+      if [[ $? -eq 0 ]]; then
+          echo "✅ mcli installed successfully!"
+          echo "📍 Installed: $(basename "$install_file")"
+      else
+          echo "❌ Installation failed"
+          return 1
+      fi
+  }
+
+  function bmcli() {
+      local MCLI_DIR="$HOME/repos/mcli"
+      local MCLI_DIST="$MCLI_DIR/dist"
+
+      # Check if mcli directory exists
+      if [[ ! -d "$MCLI_DIR" ]]; then
+          echo "❌ Error: $MCLI_DIR not found"
+          return 1
+      fi
+
+      echo "🏗️ Building mcli project..."
+      cd "$MCLI_DIR"
+
+      # Build the project using uv
+      echo "🔄 Running: uv build"
+      uv build
+
+      if [[ $? -ne 0 ]]; then
+          echo "❌ Build failed"
+          return 1
+      fi
+
+      echo "✅ mcli build completed successfully!"
+
+      # Now install the latest built package
+      echo "📦 Installing latest build..."
+      
+      # Find the latest wheel file (preferred) or tar.gz as fallback
+      local latest_wheel=$(ls -t "$MCLI_DIST"/*.whl 2>/dev/null | head -1)
+      local latest_tarball=$(ls -t "$MCLI_DIST"/*.tar.gz 2>/dev/null | head -1)
+
+      local install_file=""
+
+      if [[ -n "$latest_wheel" ]]; then
+          install_file="$latest_wheel"
+          echo "📦 Installing latest wheel: $(basename "$latest_wheel")"
+      elif [[ -n "$latest_tarball" ]]; then
+          install_file="$latest_tarball"
+          echo "📦 Installing latest tarball: $(basename "$latest_tarball")"
+      else
+          echo "❌ Error: No mcli build files found in $MCLI_DIST"
+          return 1
+      fi
+
+      # Install with uv
+      echo "🔄 Running: uv pip install '$install_file'"
+      uv pip install "$install_file" --force-reinstall
+
+      if [[ $? -eq 0 ]]; then
+          echo "✅ mcli installed successfully!"
+          echo "📍 Installed: $(basename "$install_file")"
+          echo "🎯 Your global mcli command should now match the repo version"
+      else
+          echo "❌ Installation failed"
+          return 1
+      fi
+  }
+
+
+function cleanup_dev_space() {
+    echo "🧹 Development Space Cleanup Utility"
+    echo "===================================="
+    echo ""
+
+    # Show current disk usage
+    echo "📊 Current disk usage:"
+    df -h / | tail -1
+    echo ""
+
+    # Ask for confirmation
+    echo "⚠️  This will remove:"
+    echo "  • Xcode Archives"
+    echo "  • Xcode DerivedData"
+    echo "  • iOS Simulator data"
+    echo "  • Library/Android SDK"
+    echo "  • Flutter SDK (~/development/flutter)"
+    echo "  • Codacy cache"
+    echo "  • Puppeteer cache"
+    echo "  • Browser caches (Brave, Mozilla, Decentraland)"
+    echo "  • Development tool caches (trivy, vscode-cpptools)"
+    echo "  • npm/pnpm caches"
+    echo ""
+
+    read "confirm?Continue with cleanup? (y/N): "
+    if [[ ! "$confirm" =~ ^[Yy]$ ]]; then
+        echo "❌ Cleanup cancelled"
+        return 1
+    fi
+
+    echo ""
+    echo "🗑️  Starting cleanup..."
+    echo ""
+
+    # Xcode cleanup
+    if [ -d ~/Library/Developer/Xcode/Archives ]; then
+        echo "  Removing Xcode Archives..."
+        rm -rf ~/Library/Developer/Xcode/Archives
+    fi
+
+    if [ -d ~/Library/Developer/Xcode/DerivedData ]; then
+        echo "  Removing Xcode DerivedData..."
+        rm -rf ~/Library/Developer/Xcode/DerivedData/*
+    fi
+
+    # iOS Simulator cleanup
+    if command -v xcrun &> /dev/null; then
+        echo "  Cleaning iOS Simulators..."
+        xcrun simctl delete unavailable 2>/dev/null
+        xcrun simctl erase all 2>/dev/null
+    fi
+
+    # Android SDK cleanup
+    if [ -d ~/Library/Android ]; then
+        echo "  Removing Library/Android SDK..."
+        rm -rf ~/Library/Android
+    fi
+
+    # Flutter SDK cleanup
+    if [ -d ~/development/flutter ]; then
+        echo "  Removing Flutter SDK..."
+        rm -rf ~/development/flutter
+    fi
+
+    # Cache cleanups
+    if [ -d ~/.cache/codacy ]; then
+        echo "  Removing Codacy cache..."
+        rm -rf ~/.cache/codacy
+    fi
+
+    if [ -d ~/.cache/puppeteer ]; then
+        echo "  Removing Puppeteer cache..."
+        rm -rf ~/.cache/puppeteer
+    fi
+
+    # Browser caches
+    if [ -d ~/Library/Caches/BraveSoftware ]; then
+        echo "  Removing Brave cache..."
+        rm -rf ~/Library/Caches/BraveSoftware/*
+    fi
+
+    if [ -d ~/Library/Caches/Mozilla ]; then
+        echo "  Removing Mozilla cache..."
+        rm -rf ~/Library/Caches/Mozilla/*
+    fi
+
+    if [ -d ~/Library/Caches/com.Decentraland.Explorer ]; then
+        echo "  Removing Decentraland cache..."
+        rm -rf ~/Library/Caches/com.Decentraland.Explorer/*
+    fi
+
+    # Development tool caches
+    if [ -d ~/Library/Caches/trivy ]; then
+        echo "  Removing Trivy cache..."
+        rm -rf ~/Library/Caches/trivy
+    fi
+
+    if [ -d ~/Library/Caches/vscode-cpptools ]; then
+        echo "  Removing VS Code C++ tools cache..."
+        rm -rf ~/Library/Caches/vscode-cpptools/*
+    fi
+
+    # npm/pnpm caches
+    if [ -d ~/.npm ]; then
+        echo "  Cleaning npm cache..."
+        npm cache clean --force 2>/dev/null
+    fi
+
+    if [ -d ~/Library/pnpm/store ]; then
+        echo "  Cleaning pnpm store..."
+        pnpm store prune 2>/dev/null
+    fi
+
+    # pip cache
+    if command -v pip &> /dev/null; then
+        echo "  Cleaning pip cache..."
+        pip cache purge 2>/dev/null
+    fi
+
+    # Homebrew cleanup
+    if command -v brew &> /dev/null; then
+        echo "  Running Homebrew cleanup..."
+        brew cleanup 2>/dev/null
+    fi
+
+    echo ""
+    echo "✅ Cleanup complete!"
+    echo ""
+    echo "📊 Final disk usage:"
+    df -h / | tail -1
+    echo ""
+}
+
+# ==============================================================================
+# Makefile Wrapper Functions
+# ==============================================================================
+
+# --- Conduit (Elixir Phoenix) ---
+function conduit-server() {
+    cd ~/repos/conduit && make server
+}
+
+function conduit-test() {
+    cd ~/repos/conduit && make test
+}
+
+function conduit-logs() {
+    cd ~/repos/conduit && make logs
+}
+
+function conduit-db-reset() {
+    cd ~/repos/conduit && make db-reset
+}
+
+# --- MCLI (Python CLI) ---
+function mcli-setup() {
+    cd ~/repos/mcli && make setup
+}
+
+function mcli-build() {
+    cd ~/repos/mcli && make build
+}
+
+function mcli-test() {
+    cd ~/repos/mcli && make test
+}
+
+function mcli-clean() {
+    cd ~/repos/mcli && make clean
+}
+
+function mcli-wheel() {
+    cd ~/repos/mcli && make wheel
+}
+
+function mcli-install() {
+    cd ~/repos/mcli && make install
+}
+
+# --- LSH (Node.js CLI) ---
+function lsh-build() {
+    cd ~/repos/lsh && make build
+}
+
+function lsh-test() {
+    cd ~/repos/lsh && make test
+}
+
+function lsh-clean() {
+    cd ~/repos/lsh && make clean
+}
+
+function lsh-install-system() {
+    cd ~/repos/lsh && make install-system
+}
+
+function lsh-daemon-start() {
+    cd ~/repos/lsh && make daemon-start
+}
+
+function lsh-daemon-stop() {
+    cd ~/repos/lsh && make daemon-stop
+}
+
+# --- SaiyanQuest (Python Game) ---
+function sq-run() {
+    cd ~/repos/SaiyanQuest && make run
+}
+
+function sq-test() {
+    cd ~/repos/SaiyanQuest && make test
+}
+
+function sq-build() {
+    cd ~/repos/SaiyanQuest && make build
+}
+
+function sq-setup() {
+    cd ~/repos/SaiyanQuest && make setup
+}
+
+function sq-clean() {
+    cd ~/repos/SaiyanQuest && make clean
+}
+
+# --- Outlet (Flutter Mobile) ---
+function outlet-dev() {
+    cd ~/repos/Outlet && make dev
+}
+
+function outlet-dev-web() {
+    cd ~/repos/Outlet && make dev-web
+}
+
+function outlet-dev-ios() {
+    cd ~/repos/Outlet && make dev-ios
+}
+
+function outlet-build-android() {
+    cd ~/repos/Outlet && make build-android
+}
+
+function outlet-build-web() {
+    cd ~/repos/Outlet && make build-web
+}
+
+function outlet-test() {
+    cd ~/repos/Outlet && make test
+}
+
+function outlet-clean() {
+    cd ~/repos/Outlet && make clean
+}
+
+# --- MyAI (Node.js AI) ---
+function myai-dev() {
+    cd ~/repos/myAi && make dev
+}
+
+function myai-build() {
+    cd ~/repos/myAi && make build
+}
+
+function myai-test() {
+    cd ~/repos/myAi && make test
+}
+
+function myai-clean() {
+    cd ~/repos/myAi && make clean
+}
+
+# --- Luminus RPG (Node.js Game) ---
+function luminus-dev() {
+    cd ~/repos/luminus-rpg && make dev
+}
+
+function luminus-build() {
+    cd ~/repos/luminus-rpg && make build-web
+}
+
+function luminus-build-desktop() {
+    cd ~/repos/luminus-rpg && make build-desktop
+}
+
+function luminus-clean() {
+    cd ~/repos/luminus-rpg && make clean
+}
+
+# --- Vault (Zettelkasten) ---
+function vault-sync() {
+    cd ~/repos/lefv-vault && make sync
+}
+
+function vault-check() {
+    cd ~/repos/lefv-vault && make check
+}
+
+function vault-maintenance() {
+    cd ~/repos/lefv-vault && make maintenance
+}
+
+# --- Generic Make Wrapper ---
+function m() {
+    if [ -f "Makefile" ] || [ -f "makefile" ]; then
+        make "$@"
+    else
+        echo "No Makefile found in current directory"
+        return 1
+    fi
+}
+
+# ==============================================================================
+# Dotfile Management Functions
+# ==============================================================================
+
+# Edit dotfiles in the repo
+function edot() {
+  nvim ~/repos/dotfiles/
+}
+
+# Sync dotfiles from home to repo
+function dotsync() {
+  local dotfiles_dir="$HOME/repos/dotfiles"
+
+  echo "📦 Syncing dotfiles to $dotfiles_dir..."
+
+  # Sync zsh configs
+  cp ~/.zshrc "$dotfiles_dir/zshrc"
+  cp ~/.config/zsh/zsh_functions "$dotfiles_dir/config/zsh/zsh_functions"
+  cp ~/.config/zsh/zsh_aliases "$dotfiles_dir/config/zsh/zsh_aliases"
+  cp ~/.config/zsh/zsh_env "$dotfiles_dir/config/zsh/zsh_env"
+
+  echo "✅ Dotfiles synced!"
+}
+
+# Commit and push dotfiles
+function dotcommit() {
+  local dotfiles_dir="$HOME/repos/dotfiles"
+  local commit_msg="${1:-Update dotfiles}"
+
+  cd "$dotfiles_dir" || return 1
+
+  echo "📝 Committing dotfiles..."
+  git add -A
+  git status --short
+
+  if git diff --staged --quiet; then
+    echo "✅ No changes to commit"
+    return 0
+  fi
+
+  git commit -m "$commit_msg"
+
+  echo "🚀 Pushing to remote..."
+  git push
+
+  echo "✅ Dotfiles committed and pushed!"
+}
+
+# Full dotfile update workflow: sync + commit + push
+function dotupdate() {
+  dotsync && dotcommit "${1:-Update dotfiles}"
+}
+
+# Pull latest dotfiles from remote
+function dotpull() {
+  local dotfiles_dir="$HOME/repos/dotfiles"
+
+  cd "$dotfiles_dir" || return 1
+
+  echo "📥 Pulling latest dotfiles..."
+  git pull
+
+  echo "🔄 Re-linking dotfiles with rcup..."
+  rcup -v
+
+  echo "✅ Dotfiles updated!"
+}
+
+# Show dotfile repo status
+function dotstatus() {
+  local dotfiles_dir="$HOME/repos/dotfiles"
+
+  cd "$dotfiles_dir" || return 1
+
+  echo "📊 Dotfiles repository status:"
+  echo "================================"
+  git status
+}
+
+# List all rcm-managed symlinks
+function dotlist() {
+  echo "🔗 RCM-managed dotfiles:"
+  echo "========================"
+  lsrc
+}
+
+# Quick dotfile diff
+function dotdiff() {
+  local dotfiles_dir="$HOME/repos/dotfiles"
+
+  cd "$dotfiles_dir" || return 1
+
+  echo "📋 Dotfile changes:"
+  echo "==================="
+  git diff
+}
+
+# Enable automatic dotfile tracking
+function dotauto-enable() {
+  local dotfiles_dir="$HOME/repos/dotfiles"
+  local watch_script="$dotfiles_dir/.dotfile-watcher.sh"
+
+  cat > "$watch_script" << 'EOF'
+#!/bin/bash
+# Automatic dotfile sync and commit script
+
+DOTFILES_DIR="$HOME/repos/dotfiles"
+WATCH_FILES=(
+  "$HOME/.zshrc"
+  "$HOME/.config/zsh/zsh_functions"
+  "$HOME/.config/zsh/zsh_aliases"
+  "$HOME/.config/zsh/zsh_env"
+)
+
+# Create checksums file if it doesn't exist
+CHECKSUM_FILE="$DOTFILES_DIR/.dotfile-checksums"
+touch "$CHECKSUM_FILE"
+
+# Function to calculate checksums
+calculate_checksums() {
+  for file in "${WATCH_FILES[@]}"; do
+    if [ -f "$file" ]; then
+      md5sum "$file" 2>/dev/null || md5 -q "$file" 2>/dev/null
+    fi
+  done
+}
+
+# Get current checksums
+CURRENT_CHECKSUMS=$(calculate_checksums)
+STORED_CHECKSUMS=$(cat "$CHECKSUM_FILE")
+
+# If checksums differ, sync and commit
+if [ "$CURRENT_CHECKSUMS" != "$STORED_CHECKSUMS" ]; then
+  cd "$DOTFILES_DIR" || exit 1
+
+  # Sync files
+  cp ~/.zshrc "$DOTFILES_DIR/zshrc"
+  cp ~/.config/zsh/zsh_functions "$DOTFILES_DIR/config/zsh/zsh_functions"
+  cp ~/.config/zsh/zsh_aliases "$DOTFILES_DIR/config/zsh/zsh_aliases"
+  cp ~/.config/zsh/zsh_env "$DOTFILES_DIR/config/zsh/zsh_env"
+
+  # Check if there are changes
+  if ! git diff --quiet; then
+    git add -A
+    git commit -m "Auto-update dotfiles $(date +%Y-%m-%d\ %H:%M:%S)" --quiet
+    git push --quiet &
+    echo "$(date +%H:%M:%S) ✅ Dotfiles auto-committed" >> "$DOTFILES_DIR/.dotfile-auto.log"
+  fi
+
+  # Update stored checksums
+  echo "$CURRENT_CHECKSUMS" > "$CHECKSUM_FILE"
+fi
+EOF
+
+  chmod +x "$watch_script"
+
+  # Add to crontab to run every 30 minutes
+  (crontab -l 2>/dev/null | grep -v "dotfile-watcher"; echo "*/30 * * * * $watch_script") | crontab -
+
+  echo "✅ Automatic dotfile tracking enabled!"
+  echo "   Dotfiles will be auto-committed every 30 minutes if changed"
+  echo "   Logs: $dotfiles_dir/.dotfile-auto.log"
+  echo ""
+  echo "To disable: dotauto-disable"
+}
+
+# Disable automatic dotfile tracking
+function dotauto-disable() {
+  crontab -l 2>/dev/null | grep -v "dotfile-watcher" | crontab -
+  echo "✅ Automatic dotfile tracking disabled!"
+}
+
+# Manual trigger of auto-sync (useful for testing)
+function dotauto-trigger() {
+  local dotfiles_dir="$HOME/repos/dotfiles"
+  "$dotfiles_dir/.dotfile-watcher.sh"
+}
+

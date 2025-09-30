@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Shell history (too large/sensitive)
+zsh_history
+bash_history
+zhistory
+
+# Session files
+zsh_sessions/
+
+# Temporary files
+*.swp
+*.bak
+*~
+
+# Sensitive data
+.npmrc
+.pypirc
+*_history
+
+# Dotfile automation
+.dotfile-checksums
+.dotfile-auto.log
+.dotfile-watcher.sh
+
+# Claude Code local settings
+.claude/settings.local.json
